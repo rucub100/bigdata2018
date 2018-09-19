@@ -16,6 +16,8 @@ import org.apache.http.client.methods.CloseableHttpResponse;
 import org.apache.http.client.methods.HttpGet;
 import org.apache.http.impl.client.HttpClients;
 
+import com.google.gson.Gson;
+
 /**
  * @author Ruslan Curbanov, ruslan.curbanov@uni-duesseldorf.de, Sep 18, 2018
  *
@@ -30,7 +32,11 @@ public class Collector {
 		}
 		
 		Collector collector = new Collector(appids.get(0));
-		collector.collect();
+		//collector.collect();
+		
+		String json = "{\"coord\":{\"lon\":-0.13,\"lat\":51.51},\"weather\":[{\"id\":500,\"main\":\"Rain\",\"description\":\"light rain\",\"icon\":\"10d\"}],\"base\":\"stations\",\"main\":{\"temp\":19.18,\"pressure\":1012,\"humidity\":72,\"temp_min\":18,\"temp_max\":20},\"visibility\":10000,\"wind\":{\"speed\":9.3,\"deg\":210,\"gust\":15.4},\"clouds\":{\"all\":75},\"dt\":1537350600,\"sys\":{\"type\":1,\"id\":5091,\"message\":0.0141,\"country\":\"GB\",\"sunrise\":1537335735,\"sunset\":1537380306},\"id\":2643743,\"name\":\"London\",\"cod\":200}\n";
+		Gson gson = new Gson();
+		CurrentWeather cw = gson.fromJson(json, CurrentWeather.class);
 	}
 	
 	private OpenWeatherMapAPI api;
@@ -43,7 +49,7 @@ public class Collector {
 	}
 	
 	public void collect() {
-		HttpGet httpGet = new HttpGet(api.getCurrentWeatherEndpointByCityName("Düsseldorf", "de"));
+		HttpGet httpGet = new HttpGet(api.getCurrentWeatherEndpointByCityName("London", "uk"));
 		try {
 			CloseableHttpResponse response1 = (CloseableHttpResponse) httpClient.execute(httpGet);
 			InputStreamReader isr = new InputStreamReader(response1.getEntity().getContent());
