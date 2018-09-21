@@ -18,7 +18,11 @@
 
 package de.hhu.rucub100.bigdata2018;
 
+import org.apache.flink.api.java.DataSet;
 import org.apache.flink.api.java.ExecutionEnvironment;
+
+import de.hhu.rucub100.bigdata2018.source.data.CurrentWeather;
+import de.hhu.rucub100.bigdata2018.utils.DataUtils;
 
 /**
  * Skeleton for a Flink Batch Job.
@@ -35,6 +39,10 @@ public class BatchJob {
 	public static void main(String[] args) throws Exception {
 		// set up the batch execution environment
 		final ExecutionEnvironment env = ExecutionEnvironment.getExecutionEnvironment();
+		
+		DataSet<CurrentWeather> current = env.fromCollection(DataUtils.getCurrentWeatherData());
+		
+		current.print();
 		
 		/*
 		 * Here, you can start creating your execution plan for Flink.
@@ -61,6 +69,6 @@ public class BatchJob {
 		 */
 
 		// execute program
-		env.execute("Flink Batch Java API Skeleton");
+		// env.execute("Flink Batch Java API Skeleton");
 	}
 }
