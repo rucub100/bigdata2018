@@ -12,6 +12,13 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
 
+import org.apache.http.HttpEntity;
+import org.apache.http.client.HttpClient;
+import org.apache.http.client.methods.CloseableHttpResponse;
+import org.apache.http.client.methods.HttpGet;
+import org.apache.http.impl.client.HttpClients;
+import org.apache.http.util.EntityUtils;
+
 /**
  * 
  * @author Ruslan Curbanov, ruslan.curbanov@uni-duesseldorf.de, Sep 18, 2018
@@ -126,9 +133,9 @@ public final class OpenWeatherMapAPI {
 		return buildQuery(query, buildMap);
 	}
 	
-	private static String assembleQueryByCityID(String cityId) {
+	private static String assembleQueryByCityID(int cityId) {
 		Map<String, String> buildMap = new HashMap<String, String>();
-		buildMap.put(PLACEHOLDER_CITY_ID, cityId);
+		buildMap.put(PLACEHOLDER_CITY_ID, String.valueOf(cityId));
 		
 		String query = assembleQueryTemplate(QueryType.BY_CITY_ID);
 		return buildQuery(query, buildMap);
@@ -184,11 +191,13 @@ public final class OpenWeatherMapAPI {
 	private Mode mode;
 	private Units units;
 	private final String appid;
+	private final HttpClient httpClient;
 	
 	public OpenWeatherMapAPI(String appid) {
 		this.mode = Mode.JSON;
 		this.units = Units.DEFAULT;
 		this.appid = appid;
+		this.httpClient = HttpClients.createDefault();
 	}
 	
 	public Mode getMode() {
@@ -213,7 +222,7 @@ public final class OpenWeatherMapAPI {
 				mode, units, appid);
 	}
 	
-	public String getCurrentWeatherEndpointByCityID(String cityId) {
+	public String getCurrentWeatherEndpointByCityID(int cityId) {
 		return assembleCurrentWeatherEndpoint(
 				assembleQueryByCityID(cityId), 
 				mode, units, appid);
@@ -237,7 +246,7 @@ public final class OpenWeatherMapAPI {
 				mode, units, appid);
 	}
 	
-	public String getForecastEndpointByCityID(String cityId) {
+	public String getForecastEndpointByCityID(int cityId) {
 		return assembleForecastEndpoint(
 				assembleQueryByCityID(cityId), 
 				mode, units, appid);
@@ -253,5 +262,66 @@ public final class OpenWeatherMapAPI {
 		return assembleForecastEndpoint(
 				assembleQueryByZipCode(zipCode, countryCode), 
 				mode, units, appid);
+	}
+	
+	public String getCurrentWeatherByCityName(String cityName, String countryCode) {
+		String endpoint = getCurrentWeatherEndpointByCityName(cityName, countryCode);
+		return executeHttpGet(endpoint);
+	}
+	
+	public String getCurrentWeatherByCityID(int cityId) {
+		String endpoint = getCurrentWeatherEndpointByCityID(cityId);
+		return executeHttpGet(endpoint);
+	}
+	
+	public String getCurrentWeatherByGeoCoords(float lat, float lon) {
+		String endpoint = getCurrentWeatherEndpointByGeoCoords(lat, lon);
+		return executeHttpGet(endpoint);
+	}
+	
+	public String getCurrentWeatherByZipCode(String zipCode, String countryCode) {
+		String endpoint = getCurrentWeatherEndpointByZipCode(zipCode, countryCode);
+		return executeHttpGet(endpoint);
+	}
+	
+	public String getForecastByCityName(String cityName, String countryCode) {
+		String endpoint = getForecastEndpointByCityName(cityName, countryCode);
+		return executeHttpGet(endpoint);
+	}
+	
+	public String getForecastByCityID(int cityId) {
+		String endpoint = getForecastEndpointByCityID(cityId);
+		return executeHttpGet(endpoint);
+	}
+	
+	public String getForecastByGeoCoords(float lat, float lon) {
+		String endpoint = getForecastEndpointByGeoCoords(lat, lon);
+		return executeHttpGet(endpoint);
+	}
+	
+	public String getForecastByZipCode(String zipCode, String countryCode) {
+		String endpoint = getForecastEndpointByZipCode(zipCode, countryCode);
+		return executeHttpGet(endpoint);
+	}
+	
+	private String executeHttpGet(String endpoint) {
+		HttpGet httpGet = new HttpGet(endpoint);
+		String content = null;
+		
+		try {
+			CloseableHttpResponse response = (CloseableHttpResponse) httpClient.execute(httpGet);
+			
+			try {
+				HttpEntity entity = response.getEntity();
+				content = EntityUtils.toString(entity);
+				EntityUtils.consume(entity);
+			} finally {
+				response.close();
+			}
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+
+		return content;
 	}
 }
