@@ -1,10 +1,8 @@
-|--------|
-| Europe |
-|--------|
+{ "countries":
+[
 
-Albania
-=======
-
+{"name": "Albania",
+"list": [
 {
     "id": 3183875,
     "name": "Tirana",
@@ -41,10 +39,11 @@ Albania
       "lat": 41.112499
     }
 }
+]
+},
 
-Austria
-=======
-
+{"name": "Austria",
+"list": [
 {
     "id": 2761369,
     "name": "Vienna",
@@ -99,10 +98,11 @@ Austria
       "lat": 46.638729
     }
 }
+]
+},
 
-Belarus
-=======
-
+{"name": "Belarus",
+"list": [
 {
     "id": 625144,
     "name": "Minsk",
@@ -157,10 +157,11 @@ Belarus
       "lat": 52.099998
     }
 }
+]
+},
 
-Belgium
-=======
-
+{"name": "Belgium",
+"list": [
 {
     "id": 2803139,
     "name": "Antwerpen",
@@ -206,10 +207,11 @@ Belgium
       "lat": 50.851151
     }
 }
+]
+},
 
-Bosnia
-======
-
+{"name": "Bosnia",
+"list": [
 {
     "id": 3191281,
     "name": "Sarajevo",
@@ -246,10 +248,11 @@ Bosnia
       "lat": 44.201389
     }
 }
+]
+},
 
-Bulgaria
-========
-
+{"name": "Bulgaria",
+"list": [
 {
     "id": 727011,
     "name": "Sofia",
@@ -286,10 +289,11 @@ Bulgaria
       "lat": 42.506062
     }
 }
+]
+},
 
-Croatia
-=======
-
+{"name": "Croatia",
+"list": [
 {
     "id": 3186886,
     "name": "Zagreb",
@@ -317,10 +321,11 @@ Croatia
       "lat": 45.34306
     }
 }
+]
+},
 
-Czech
-=====
-
+{"name": "Czech",
+"list": [
 {
     "id": 3067696,
     "name": "Prague",
@@ -357,10 +362,11 @@ Czech
       "lat": 49.747471
     }
 }
+]
+},
 
-Denmark
-=======
-
+{"name": "Denmark",
+"list": [
 {
     "id": 2618425,
     "name": "Copenhagen",
@@ -397,10 +403,11 @@ Denmark
       "lat": 57.048
     }
 }
+]
+},
 
-Estonia
-=======
-
+{"name": "Estonia",
+"list": [
 {
     "id": 588409,
     "name": "Tallinn",
@@ -437,10 +444,11 @@ Estonia
       "lat": 58.38588
     }
 }
+]
+},
 
-Finland
-=======
-
+{"name": "Finland",
+"list": [
 {
     "id": 658224,
     "name": "Helsinki",
@@ -495,10 +503,11 @@ Finland
       "lat": 60.451481
     }
 }
+]
+},
 
-France
-======
-
+{"name": "France",
+"list": [
 {
     "id": 2988507,
     "name": "Paris",
@@ -580,10 +589,11 @@ France
       "lat": 44.833328
     }
 }
+]
+},
 
-Germany
-=======
-
+{"name": "Germany",
+"list": [
 {
     "id": 2950159,
     "name": "Berlin",
@@ -764,10 +774,11 @@ Germany
       "lat": 51.96236
     }
 }
+]
+},
 
-Greece
-======
-
+{"name": "Greece",
+"list": [
 {
     "id": 264371,
     "name": "Athens",
@@ -804,10 +815,11 @@ Greece
       "lat": 35.24445
     }
 }
+]
+},
 
-Hungary
-=======
-
+{"name": "Hungary",
+"list": [
 {
     "id": 3054643,
     "name": "Budapest",
@@ -844,10 +856,11 @@ Hungary
       "lat": 48.099998
     }
 }
+]
+},
 
-Ireland
-=======
-
+{"name": "Ireland",
+"list": [
 {
     "id": 7778677,
     "name": "Dublin City",
@@ -884,10 +897,11 @@ Ireland
       "lat": 53.333328
     }
 }
+]
+},
 
-Italy
-=====
-
+{"name": "Italy",
+"list": [
 {
     "id": 3169070,
     "name": "Roma",
@@ -924,10 +938,11 @@ Italy
       "lat": 45.049999
     }
 }
+]
+},
 
-Latvia
-======
-
+{"name": "Latvia",
+"list": [
 {
     "id": 456172,
     "name": "Riga",
@@ -937,10 +952,11 @@ Latvia
       "lat": 56.950001
     }
 }
+]
+},
 
-Lithuania
-=========
-
+{"name": "Lithuania",
+"list": [
 {
     "id": 593116,
     "name": "Vilnius",
@@ -968,10 +984,11 @@ Lithuania
       "lat": 55.71722
     }
 }
+]
+},
 
-Luxembourg
-==========
-
+{"name": "Luxembourg",
+"list": [
 {
     "id": 2960316,
     "name": "Luxembourg",
@@ -981,10 +998,11 @@ Luxembourg
       "lat": 49.611671
     }
 }
+]
+},
 
-Macedonia
-=========
-
+{"name": "Macedonia",
+"list": [
 {
     "id": 785842,
     "name": "Skopje",
@@ -1003,10 +1021,11 @@ Macedonia
       "lat": 41.031109
     }
 }
+]
+},
 
-Malta
-=====
-
+{"name": "Malta",
+"list": [
 {
     "id": 2562305,
     "name": "Valletta",
@@ -1016,10 +1035,11 @@ Malta
       "lat": 35.899719
     }
 }
+]
+},
 
-Moldova
-=======
-
+{"name": "Moldova",
+"list": [
 {
     "id": 618426,
     "name": "Chisinau",
@@ -1047,10 +1067,11 @@ Moldova
       "lat": 47.761669
     }
 }
+]
+},
 
-Montenegro
-==========
-
+{"name": "Montenegro",
+"list": [
 {
     "id": 3193044,
     "name": "Podgorica",
@@ -1060,10 +1081,11 @@ Montenegro
       "lat": 42.441109
     }
 }
+]
+},
 
-Netherlands
-===========
-
+{"name": "Netherlands",
+"list": [
 {
     "id": 2759794,
     "name": "Amsterdam",
@@ -1091,10 +1113,11 @@ Netherlands
       "lat": 52.090832
     }
 }
+]
+},
 
-Norway
-======
-
+{"name": "Norway",
+"list": [
 {
     "id": 6453366,
     "name": "Oslo",
@@ -1122,10 +1145,11 @@ Norway
       "lat": 58.96941
     }
 }
+]
+},
 
-Poland
-======
-
+{"name": "Poland",
+"list": [
 {
     "id": 756135,
     "name": "Warsaw",
@@ -1162,10 +1186,11 @@ Poland
       "lat": 51.099998
     }
 }
+]
+},
 
-Portugal
-========
-
+{"name": "Portugal",
+"list": [
 {
     "id": 6458923,
     "name": "Lisbon",
@@ -1202,10 +1227,11 @@ Portugal
       "lat": 38.755711
     }
 }
+]
+},
 
-Romania
-=======
-
+{"name": "Romania",
+"list": [
 {
     "id": 683506,
     "name": "Bucharest",
@@ -1242,10 +1268,11 @@ Romania
       "lat": 47.166672
     }
 }
+]
+},
 
-Russia
-======
-
+{"name": "Russia",
+"list": [
 {
     "id": 524901,
     "name": "Moscow",
@@ -1309,10 +1336,11 @@ Russia
       "lat": 45.03278
     }
 }
+]
+},
 
-Serbia
-======
-
+{"name": "Serbia",
+"list": [
 {
     "id": 792680,
     "name": "Belgrade",
@@ -1340,10 +1368,11 @@ Serbia
       "lat": 43.324718
     }
 }
+]
+},
 
-Slovakia
-========
-
+{"name": "Slovakia",
+"list": [
 {
     "id": 3060972,
     "name": "Bratislava",
@@ -1362,10 +1391,11 @@ Slovakia
       "lat": 48.713951
     }
 }
+]
+},
 
-Slovenia
-========
-
+{"name": "Slovenia",
+"list": [
 {
     "id": 3197378,
     "name": "Kranj",
@@ -1393,10 +1423,11 @@ Slovenia
       "lat": 46.230919
     }
 }
+]
+},
 
-Spain
-=====
-
+{"name": "Spain",
+"list": [
 {
     "id": 6359304,
     "name": "Madrid",
@@ -1433,10 +1464,11 @@ Spain
       "lat": 37.391411
     }
 }
+]
+},
 
-Sweden
-======
-
+{"name": "Sweden",
+"list": [
 {
     "id": 2673730,
     "name": "Stockholm",
@@ -1473,10 +1505,11 @@ Sweden
       "lat": 59.858501
     }
 }
+]
+},
 
-Switzerland
-===========
-
+{"name": "Switzerland",
+"list": [
 {
     "id": 2657896,
     "name": "Zurich",
@@ -1513,10 +1546,11 @@ Switzerland
       "lat": 46.521778
     }
 }
+]
+},
 
-Ukraine
-=======
-
+{"name": "Ukraine",
+"list": [
 {
     "id": 703448,
     "name": "Kiev",
@@ -1553,10 +1587,11 @@ Ukraine
       "lat": 48.450001
     }
 }
+]
+},
 
-United Kingdom
-==============
-
+{"name": "United Kingdom",
+"list": [
 {
     "id": 2643743,
     "name": "London",
@@ -1602,4 +1637,8 @@ United Kingdom
       "lat": 55.86515
     }
 }
+]
+}
 
+]
+}
