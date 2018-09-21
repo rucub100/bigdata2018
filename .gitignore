@@ -11,6 +11,8 @@ buildNumber.properties
 .project
 .classpath
 appids.txt
+test/currentWeatherCollection.txt
+test/forecastCollection.txt
 
 # Avoid ignoring Maven wrapper jar file (.jar files are usually ignored)
 !/.mvn/wrapper/maven-wrapper.jar

@@ -51,7 +51,7 @@ public class Collector {
 					try {
 						Files.write(
 								Paths.get(outFile), 
-								(jsonWeather + ",\n").getBytes(), 
+								(jsonWeather + "\n").getBytes(), 
 								StandardOpenOption.APPEND);
 					} catch (IOException e) {
 						e.printStackTrace();
@@ -88,7 +88,7 @@ public class Collector {
 					try {
 						Files.write(
 								Paths.get(outFile), 
-								(jsonWeather + ",\n").getBytes(), 
+								(jsonWeather + "\n").getBytes(), 
 								StandardOpenOption.APPEND);
 					} catch (IOException e) {
 						e.printStackTrace();
@@ -109,8 +109,18 @@ public class Collector {
 			throw new RuntimeException("No API key found!");
 		}
 		
-		Collector collector = new Collector(appids.get(0));
-		collector.collect();
+		int mode = -1;
+		
+		if (args.length > 0) {
+			if (args[0].equals("--forecast")) {
+				mode = 0;
+			} else if (args[0].equals("--current")) {
+				mode = 1;
+			}
+			
+			Collector collector = new Collector(appids.get(0));
+			collector.collect(mode);
+		}
 	}
 	
 	private final OpenWeatherMapAPI api;
@@ -120,11 +130,18 @@ public class Collector {
 		api.setUnits(Units.METRIC);
 	}
 	
-	public void collect() {
+	public void collect(int mode) {
 		try {
 			Europe eu = loadEuropeFromFile("europe.json");
-			collectForecast(eu, api);
-//			collectCurrentWeather(eu, api);
+			switch (mode) {
+			case 0: collectForecast(eu, api);
+				break;
+			case 1: collectCurrentWeather(eu, api);
+				break;
+			default:
+				System.err.println("No collector-mode specified!");
+				break;
+			}
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
