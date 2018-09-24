@@ -22,6 +22,7 @@ import org.apache.flink.api.java.DataSet;
 import org.apache.flink.api.java.ExecutionEnvironment;
 
 import de.hhu.rucub100.bigdata2018.source.data.CurrentWeather;
+import de.hhu.rucub100.bigdata2018.transformation.AvgTemperaturePerCountry;
 import de.hhu.rucub100.bigdata2018.utils.DataUtils;
 
 /**
@@ -42,7 +43,10 @@ public class BatchJob {
 		
 		DataSet<CurrentWeather> current = env.fromCollection(DataUtils.getCurrentWeatherData());
 		
-		current.print();
+		AvgTemperaturePerCountry
+		.fromDataSet(current)
+		.apply()
+		.print();
 		
 		/*
 		 * Here, you can start creating your execution plan for Flink.

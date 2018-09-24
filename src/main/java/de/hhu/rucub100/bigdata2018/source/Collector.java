@@ -15,18 +15,13 @@ import com.google.gson.Gson;
 import de.hhu.rucub100.bigdata2018.source.data.City;
 import de.hhu.rucub100.bigdata2018.source.data.Country;
 import de.hhu.rucub100.bigdata2018.source.data.Europe;
+import de.hhu.rucub100.bigdata2018.utils.DataUtils;
 
 /**
  * @author Ruslan Curbanov, ruslan.curbanov@uni-duesseldorf.de, Sep 18, 2018
  *
  */
 public class Collector {
-	
-	private static Europe loadEuropeFromFile(String fileName) throws IOException {
-		String json = new String(Files.readAllBytes(Paths.get(fileName)));
-		Gson gson = new Gson();
-		return gson.fromJson(json, Europe.class);
-	}
 	
 	private static void collectForecast(
 			Europe europe, OpenWeatherMapAPI api) throws IOException {
@@ -132,7 +127,7 @@ public class Collector {
 	
 	public void collect(int mode) {
 		try {
-			Europe eu = loadEuropeFromFile("europe.json");
+			Europe eu = DataUtils.getEurope();
 			switch (mode) {
 			case 0: collectForecast(eu, api);
 				break;

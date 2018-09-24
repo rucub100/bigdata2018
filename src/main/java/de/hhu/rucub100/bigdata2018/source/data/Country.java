@@ -24,6 +24,10 @@ public class Country {
 		return name;
 	}
 
+	public String getCode() {
+		return (list == null || list.length == 0) ? "" : list[0].getCountry();
+	}
+	
 	/**
 	 * @return the list
 	 */
