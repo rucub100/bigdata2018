@@ -18,11 +18,14 @@
 
 package de.hhu.rucub100.bigdata2018;
 
+import java.util.List;
+
 import org.apache.flink.api.java.DataSet;
 import org.apache.flink.api.java.ExecutionEnvironment;
 
 import de.hhu.rucub100.bigdata2018.source.data.CurrentWeather;
 import de.hhu.rucub100.bigdata2018.transformation.AvgTemperaturePerCountry;
+import de.hhu.rucub100.bigdata2018.transformation.MaxTemperatureEurope;
 import de.hhu.rucub100.bigdata2018.utils.DataUtils;
 
 /**
@@ -37,42 +40,19 @@ import de.hhu.rucub100.bigdata2018.utils.DataUtils;
  */
 public class BatchJob {
 
+	private static final int PARALLELISM = 4;
+	
 	public static void main(String[] args) throws Exception {
 		// set up the batch execution environment
 		final ExecutionEnvironment env = ExecutionEnvironment.getExecutionEnvironment();
+		env.setParallelism(PARALLELISM);
 		
 		DataSet<CurrentWeather> current = env.fromCollection(DataUtils.getCurrentWeatherData());
 		
+		//MaxTemperatureEurope
 		AvgTemperaturePerCountry
 		.fromDataSet(current)
 		.apply()
 		.print();
-		
-		/*
-		 * Here, you can start creating your execution plan for Flink.
-		 *
-		 * Start with getting some data from the environment, like
-		 * 	env.readTextFile(textPath);
-		 *
-		 * then, transform the resulting DataSet<String> using operations
-		 * like
-		 * 	.filter()
-		 * 	.flatMap()
-		 * 	.join()
-		 * 	.coGroup()
-		 *
-		 * and many more.
-		 * Have a look at the programming guide for the Java API:
-		 *
-		 * http://flink.apache.org/docs/latest/apis/batch/index.html
-		 *
-		 * and the examples
-		 *
-		 * http://flink.apache.org/docs/latest/apis/batch/examples.html
-		 *
-		 */
-
-		// execute program
-		// env.execute("Flink Batch Java API Skeleton");
 	}
 }
