@@ -68,6 +68,15 @@ public class DataUtils {
 	public static List<CurrentWeather> getCurrentWeatherData() {
 		List<CurrentWeather> data = new ArrayList<CurrentWeather>();
 		getData(pathToCurrentWeatherData, CurrentWeather.class, data);
+		
+		// check data integrity
+		for (int i = 0; i < data.size(); i++) {
+			if (data.get(i).getCode() != 200) {
+				data.remove(i);
+				--i;
+			}
+		}
+		
 		return data;
 	}
 	
