@@ -18,14 +18,15 @@
 
 package de.hhu.rucub100.bigdata2018;
 
-import java.util.List;
-
 import org.apache.flink.api.java.DataSet;
 import org.apache.flink.api.java.ExecutionEnvironment;
 
 import de.hhu.rucub100.bigdata2018.source.data.CurrentWeather;
 import de.hhu.rucub100.bigdata2018.transformation.AvgTemperaturePerCountry;
+import de.hhu.rucub100.bigdata2018.transformation.ColdestCityInEurope;
+import de.hhu.rucub100.bigdata2018.transformation.MaxTemperatureDiffEurope;
 import de.hhu.rucub100.bigdata2018.transformation.MaxTemperatureEurope;
+import de.hhu.rucub100.bigdata2018.transformation.MinTemperatureDiffCountries;
 import de.hhu.rucub100.bigdata2018.utils.DataUtils;
 
 /**
@@ -49,8 +50,11 @@ public class BatchJob {
 		
 		DataSet<CurrentWeather> current = env.fromCollection(DataUtils.getCurrentWeatherData());
 		
-		//MaxTemperatureEurope
-		AvgTemperaturePerCountry
+//		MaxTemperatureEurope
+//		MaxTemperatureDiffEurope
+		ColdestCityInEurope
+//		MinTemperatureDiffCountries
+//		AvgTemperaturePerCountry
 		.fromDataSet(current)
 		.apply()
 		.print();

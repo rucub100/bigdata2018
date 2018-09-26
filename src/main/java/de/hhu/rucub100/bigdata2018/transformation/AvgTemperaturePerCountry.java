@@ -46,7 +46,8 @@ public class AvgTemperaturePerCountry extends BatchTransformationBase<CurrentWea
 								1);
 					}
 				})
-				.groupBy(0).reduce(new ReduceFunction<Tuple3<String,Float,Integer>>() {
+				.groupBy(0)
+				.reduce(new ReduceFunction<Tuple3<String,Float,Integer>>() {
 					
 					@Override
 					public Tuple3<String, Float, Integer> reduce(
