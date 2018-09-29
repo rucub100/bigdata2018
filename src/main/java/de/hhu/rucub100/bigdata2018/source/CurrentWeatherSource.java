@@ -10,6 +10,7 @@ import java.util.List;
 import java.util.zip.GZIPInputStream;
 
 import org.apache.flink.streaming.api.functions.source.SourceFunction;
+import org.apache.flink.streaming.api.watermark.Watermark;
 
 import com.google.gson.Gson;
 
@@ -105,10 +106,17 @@ public class CurrentWeatherSource implements SourceFunction<CurrentWeather> {
 		CurrentWeather current;
 		
 		while(true) {
+			long minTimestamp = Long.MAX_VALUE;
+			
 			for (Country country : europe.getCountries()) {
 				for (City city : country.getList()) {
 					current = fetchCurrentWeather(api, city, gson);
 					long timestamp = current.getDataReceivingTime() * 1000L;
+					
+					if (minTimestamp > timestamp) {
+						minTimestamp = timestamp;
+					}
+					
 					ctx.collectWithTimestamp(current, timestamp);
 					
 					// sleep with respect to serving speed
@@ -120,24 +128,38 @@ public class CurrentWeatherSource implements SourceFunction<CurrentWeather> {
 					}
 				}
 			}
+			
+			ctx.emitWatermark(new Watermark(minTimestamp));
 		}
 	}
 	
 	private void simulateStream(SourceContext<CurrentWeather> ctx) {
 		Iterator<CurrentWeather> iterator = DataUtils.getCurrentWeatherData().iterator();
 		
+		final int p = 161;
+		int s = 0;
+		
 		while (iterator.hasNext()) {
+			if (s % p == 0 && s != 0) {
+				// sleep with respect to serving speed
+				try {
+					Thread.sleep(1000 / servingSpeed);
+				} catch (InterruptedException e) {
+					// TODO Auto-generated catch block
+					e.printStackTrace();
+				}
+				
+				s = 0;
+			}
+			
 			CurrentWeather current = iterator.next();
 			long timestamp = current.getDataReceivingTime() * 1000L;
 			ctx.collectWithTimestamp(current, timestamp);
 			
-			// sleep with respect to serving speed
-			try {
-				Thread.sleep(1000 / servingSpeed);
-			} catch (InterruptedException e) {
-				// TODO Auto-generated catch block
-				e.printStackTrace();
-			}
+			s++;
+			
+			// do not accept any event >1h in past from current timestamp
+			ctx.emitWatermark(new Watermark(timestamp - 1000 * 60 * 60));
 		} 	
 	}
 }
