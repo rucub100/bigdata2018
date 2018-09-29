@@ -3,6 +3,8 @@
  */
 package de.hhu.rucub100.bigdata2018.source.data;
 
+import java.util.Date;
+
 /**
  * @author Ruslan Curbanov, ruslan.curbanov@uni-duesseldorf.de, Sep 19, 2018
  * Current weather data object.
@@ -62,6 +64,10 @@ public class CurrentWeather {
 	 */
 	public long getDataReceivingTime() {
 		return dt;
+	}
+	
+	public Date getDate() {
+		return new Date(dt * 1000L);
 	}
 	
 	/**

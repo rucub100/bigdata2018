@@ -21,11 +21,10 @@ package de.hhu.rucub100.bigdata2018;
 import org.apache.flink.streaming.api.TimeCharacteristic;
 import org.apache.flink.streaming.api.datastream.DataStream;
 import org.apache.flink.streaming.api.environment.StreamExecutionEnvironment;
-import org.apache.flink.streaming.api.windowing.assigners.WindowAssigner;
-import org.apache.flink.streaming.api.windowing.time.Time;
 
 import de.hhu.rucub100.bigdata2018.source.CurrentWeatherSource;
 import de.hhu.rucub100.bigdata2018.source.data.CurrentWeather;
+import de.hhu.rucub100.bigdata2018.transformation.ColdestCountryPer24h;
 import de.hhu.rucub100.bigdata2018.utils.DataUtils;
 
 /**
@@ -54,10 +53,13 @@ public class StreamingJob {
 		DataStream<CurrentWeather> current = env.addSource(
 				new CurrentWeatherSource(
 						DataUtils.pathToCurrentWeatherData, 
-						160, 
+						ColdestCountryPer24h.SERVING_SPEED, 
 						true));
 		
-		current.print();
+		ColdestCountryPer24h
+		.fromDataStream(current)
+		.apply()
+		.print();
 		
 		// execute program
 		env.execute("Flink Streaming Java API Skeleton");
