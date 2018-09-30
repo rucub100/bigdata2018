@@ -42,19 +42,19 @@ public class CurrentWeatherSource implements SourceFunction<CurrentWeather> {
 
 	@Override
 	public void run(SourceContext<CurrentWeather> ctx) throws Exception {
-		gzipStream = new GZIPInputStream(new FileInputStream(dataFilePath));
-		reader = new BufferedReader(new InputStreamReader(gzipStream, "UTF-8"));
-
 		if (simulation) {
+			gzipStream = new GZIPInputStream(new FileInputStream(dataFilePath));
+			reader = new BufferedReader(new InputStreamReader(gzipStream, "UTF-8"));
+			
 			simulateStream(ctx);			
+			
+			this.reader.close();
+			this.reader = null;
+			this.gzipStream.close();
+			this.gzipStream = null;
 		} else {
 			startStream(ctx);
 		}
-
-		this.reader.close();
-		this.reader = null;
-		this.gzipStream.close();
-		this.gzipStream = null;
 	}
 
 	@Override
