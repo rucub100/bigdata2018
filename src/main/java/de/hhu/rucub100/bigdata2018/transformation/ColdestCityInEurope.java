@@ -37,9 +37,9 @@ public class ColdestCityInEurope extends BatchTransformationBase<CurrentWeather,
 					@Override
 					public Tuple3<String, String, Float> map(CurrentWeather value) throws Exception {
 						return new Tuple3<String, String, Float>(
-								countryMap.get(value.getSystemInfo().getCountry()),
+								countryMap.get(value.getSys().getCountry()),
 								value.getName(), 
-								value.getMain().getTemperature());
+								value.getMain().getTemp());
 					}
 				})
 				.reduce(new ReduceFunction<Tuple3<String, String, Float>>() {

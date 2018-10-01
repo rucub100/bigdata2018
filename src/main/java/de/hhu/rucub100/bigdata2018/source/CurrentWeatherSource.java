@@ -85,7 +85,7 @@ public class CurrentWeatherSource implements SourceFunction<CurrentWeather> {
 		do {
 			json = api.getCurrentWeatherByCityID(city.getId());	
 			cw = gson.fromJson(json, CurrentWeather.class);
-		} while(cw.getCode() != 200);
+		} while(cw.getCod() != 200);
 		
 		return cw;
 	}
@@ -111,7 +111,7 @@ public class CurrentWeatherSource implements SourceFunction<CurrentWeather> {
 			for (Country country : europe.getCountries()) {
 				for (City city : country.getList()) {
 					current = fetchCurrentWeather(api, city, gson);
-					long timestamp = current.getDataReceivingTime() * 1000L;
+					long timestamp = current.getDt() * 1000L;
 					
 					if (minTimestamp > timestamp) {
 						minTimestamp = timestamp;
@@ -153,7 +153,7 @@ public class CurrentWeatherSource implements SourceFunction<CurrentWeather> {
 			}
 			
 			CurrentWeather current = iterator.next();
-			long timestamp = current.getDataReceivingTime() * 1000L;
+			long timestamp = current.getDt() * 1000L;
 			ctx.collectWithTimestamp(current, timestamp);
 			
 			s++;

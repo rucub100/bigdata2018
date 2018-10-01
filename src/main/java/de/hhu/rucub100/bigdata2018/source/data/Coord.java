@@ -7,19 +7,31 @@ package de.hhu.rucub100.bigdata2018.source.data;
  */
 public class Coord {
 	
-	private final float lat;
-	private final float lon;
+	private float lat;
+	private float lon;
 	
-	public Coord(float lat, float lon) {
-		this.lat = lat;
-		this.lon = lon;
-	}
-
+	/**
+	 * @return the lat
+	 */
 	public float getLat() {
 		return lat;
 	}
-
+	/**
+	 * @param lat the lat to set
+	 */
+	public void setLat(float lat) {
+		this.lat = lat;
+	}
+	/**
+	 * @return the lon
+	 */
 	public float getLon() {
 		return lon;
-	}		
+	}
+	/**
+	 * @param lon the lon to set
+	 */
+	public void setLon(float lon) {
+		this.lon = lon;
+	}
 }

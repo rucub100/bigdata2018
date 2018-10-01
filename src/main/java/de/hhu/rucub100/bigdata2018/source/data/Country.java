@@ -9,29 +9,31 @@ package de.hhu.rucub100.bigdata2018.source.data;
  */
 public class Country {
 	
-	private final String name;
-	private final City[] list;
+	private String name;
+	private City[] list;
 	
-	public Country(String name, City[] list) {
-		this.name = name;
-		this.list = list;
-	}
-
 	/**
 	 * @return the name
 	 */
 	public String getName() {
 		return name;
 	}
-
-	public String getCode() {
-		return (list == null || list.length == 0) ? "" : list[0].getCountry();
+	/**
+	 * @param name the name to set
+	 */
+	public void setName(String name) {
+		this.name = name;
 	}
-	
 	/**
 	 * @return the list
 	 */
 	public City[] getList() {
 		return list;
+	}
+	/**
+	 * @param list the list to set
+	 */
+	public void setList(City[] list) {
+		this.list = list;
 	}
 }

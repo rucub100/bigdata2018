@@ -7,13 +7,19 @@ package de.hhu.rucub100.bigdata2018.source.data;
  */
 public class Clouds {
 	
-	private final float all;
+	private float all;
 
-	public Clouds(float all) {
-		this.all = all;
-	}
-
+	/**
+	 * @return the all
+	 */
 	public float getAll() {
 		return all;
+	}
+
+	/**
+	 * @param all the all to set
+	 */
+	public void setAll(float all) {
+		this.all = all;
 	}
 }

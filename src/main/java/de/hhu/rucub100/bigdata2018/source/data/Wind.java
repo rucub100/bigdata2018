@@ -7,25 +7,44 @@ package de.hhu.rucub100.bigdata2018.source.data;
  */
 public class Wind {
 	
-	private final float speed;
-	private final float deg;
-	private final float gust;
+	private float speed;
+	private float deg;
+	private float gust;
 	
-	public Wind(float speed, float deg, float gust) {
-		this.speed = speed;
-		this.deg = deg;
-		this.gust = gust;
-	}
-
+	/**
+	 * @return the speed
+	 */
 	public float getSpeed() {
 		return speed;
 	}
-
-	public float getDirection() {
+	/**
+	 * @param speed the speed to set
+	 */
+	public void setSpeed(float speed) {
+		this.speed = speed;
+	}
+	/**
+	 * @return the deg
+	 */
+	public float getDeg() {
 		return deg;
 	}
-
+	/**
+	 * @param deg the deg to set
+	 */
+	public void setDeg(float deg) {
+		this.deg = deg;
+	}
+	/**
+	 * @return the gust
+	 */
 	public float getGust() {
 		return gust;
+	}
+	/**
+	 * @param gust the gust to set
+	 */
+	public void setGust(float gust) {
+		this.gust = gust;
 	}
 }

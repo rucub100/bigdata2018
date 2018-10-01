@@ -9,43 +9,56 @@ package de.hhu.rucub100.bigdata2018.source.data;
  */
 public class Forecast {
 	
-	private final int cod;
-	private final float message;
-	private final int cnt;
-	private final ForecastItem[] list;
-	
-	public Forecast(int cod, float message, int cnt, ForecastItem[] list) {
-		this.cod = cod;
-		this.message = message;
-		this.cnt = cnt;
-		this.list = list;
-	}
-
+	private int cod;
+	private float message;
+	private int cnt;
+	private ForecastItem[] list;
 	/**
 	 * @return the cod
 	 */
-	public int getCode() {
+	public int getCod() {
 		return cod;
 	}
-
+	/**
+	 * @param cod the cod to set
+	 */
+	public void setCod(int cod) {
+		this.cod = cod;
+	}
 	/**
 	 * @return the message
 	 */
 	public float getMessage() {
 		return message;
 	}
-
+	/**
+	 * @param message the message to set
+	 */
+	public void setMessage(float message) {
+		this.message = message;
+	}
 	/**
 	 * @return the cnt
 	 */
-	public int getCount() {
+	public int getCnt() {
 		return cnt;
 	}
-
+	/**
+	 * @param cnt the cnt to set
+	 */
+	public void setCnt(int cnt) {
+		this.cnt = cnt;
+	}
 	/**
 	 * @return the list
 	 */
 	public ForecastItem[] getList() {
 		return list;
+	}
+	/**
+	 * @param list the list to set
+	 */
+	public void setList(ForecastItem[] list) {
+		this.list = list;
 	}
 }

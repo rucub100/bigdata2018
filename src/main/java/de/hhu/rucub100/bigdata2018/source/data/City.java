@@ -9,31 +9,57 @@ package de.hhu.rucub100.bigdata2018.source.data;
  */
 public class City {
 	
-	private final int id;
-	private final String name;
-	private final String country;
-	private final Coord coord;
+	private int id;
+	private String name;
+	private String country;
+	private Coord coord;
 	
-	public City(int id, String name, String country, Coord coord) {
-		this.id = id;
-		this.name = name;
-		this.country = country;
-		this.coord = coord;
-	}
-
+	/**
+	 * @return the id
+	 */
 	public int getId() {
 		return id;
 	}
-
+	/**
+	 * @param id the id to set
+	 */
+	public void setId(int id) {
+		this.id = id;
+	}
+	/**
+	 * @return the name
+	 */
 	public String getName() {
 		return name;
 	}
-
+	/**
+	 * @param name the name to set
+	 */
+	public void setName(String name) {
+		this.name = name;
+	}
+	/**
+	 * @return the country
+	 */
 	public String getCountry() {
 		return country;
 	}
-
+	/**
+	 * @param country the country to set
+	 */
+	public void setCountry(String country) {
+		this.country = country;
+	}
+	/**
+	 * @return the coord
+	 */
 	public Coord getCoord() {
 		return coord;
+	}
+	/**
+	 * @param coord the coord to set
+	 */
+	public void setCoord(Coord coord) {
+		this.coord = coord;
 	}
 }

@@ -41,8 +41,8 @@ public class AvgTemperaturePerCountry extends BatchTransformationBase<CurrentWea
 					@Override
 					public Tuple3<String, Float, Integer> map(CurrentWeather value) throws Exception {
 						return new Tuple3<String, Float, Integer>(
-								countryMap.get(value.getSystemInfo().getCountry()), 
-								value.getMain().getTemperature(),
+								countryMap.get(value.getSys().getCountry()), 
+								value.getMain().getTemp(),
 								1);
 					}
 				})

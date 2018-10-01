@@ -41,8 +41,8 @@ public class HottestCountryPer24h extends StreamTransformationBase<CurrentWeathe
 					@Override
 					public Tuple4<String, Float, Integer, Date> map(CurrentWeather value) throws Exception {
 						return new Tuple4<String, Float, Integer, Date>(
-								countryMap.get(value.getSystemInfo().getCountry()), 
-								value.getMain().getTemperature(),
+								countryMap.get(value.getSys().getCountry()), 
+								value.getMain().getTemp(),
 								1,
 								value.getDate());
 					}

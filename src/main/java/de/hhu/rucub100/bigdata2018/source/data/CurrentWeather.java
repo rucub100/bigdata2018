@@ -11,58 +11,53 @@ import java.util.Date;
  */
 public class CurrentWeather {
 	
-	private final long id;
-	private final String name;
-	private final long dt;
-	private final String base;
-	private final int visibility;
-	private final int cod;
-	private final Sys sys;
-	private final Main main;
-	private final Coord coord;
-	private final Weather[] weather;
-	private final Wind wind;
-	private final Rain rain;
-	private final Clouds clouds;
-	private final Snow snow;
-	
-	public CurrentWeather(long id, String name, long dt, String base, int visibility, 
-			int cod, Sys sys, Main main, Coord coord, Weather[] weather, 
-			Wind wind, Rain rain, Clouds clouds, Snow snow) {
-		this.id = id;
-		this.name = name;
-		this.dt = dt;
-		this.base = base;
-		this.visibility = visibility;
-		this.cod = cod;
-		this.sys = sys;
-		this.main = main;
-		this.coord = coord;
-		this.weather = weather;
-		this.wind = wind;
-		this.rain = rain;
-		this.clouds = clouds;
-		this.snow = snow;
-	}
+	private long id;
+	private String name;
+	private long dt;
+	private String base;
+	private int visibility;
+	private int cod;
+	private Sys sys;
+	private Main main;
+	private Coord coord;
+	private Weather[] weather;
+	private Wind wind;
+	private Rain rain;
+	private Clouds clouds;
+	private Snow snow;
 	
 	/**
-	 * @return the city id
+	 * @return the id
 	 */
 	public long getId() {
 		return id;
 	}
 	
 	/**
-	 * @return the city name
+	 * @param id the id to set
+	 */
+	public void setId(long id) {
+		this.id = id;
+	}
+	
+	/**
+	 * @return the name
 	 */
 	public String getName() {
 		return name;
 	}
 	
 	/**
-	 * @return the data receiving time (UNIX, UTC)
+	 * @param name the name to set
 	 */
-	public long getDataReceivingTime() {
+	public void setName(String name) {
+		this.name = name;
+	}
+	
+	/**
+	 * @return the data receiving time (UNIX UTC)
+	 */
+	public long getDt() {
 		return dt;
 	}
 	
@@ -71,10 +66,24 @@ public class CurrentWeather {
 	}
 	
 	/**
-	 * @return the base (internal parameter)
+	 * @param dt the data receiving time to set
+	 */
+	public void setDt(long dt) {
+		this.dt = dt;
+	}
+	
+	/**
+	 * @return the base
 	 */
 	public String getBase() {
 		return base;
+	}
+	
+	/**
+	 * @param base the base to set
+	 */
+	public void setBase(String base) {
+		this.base = base;
 	}
 	
 	/**
@@ -85,41 +94,135 @@ public class CurrentWeather {
 	}
 	
 	/**
-	 * @return the cod (internal parameter)
+	 * @param visibility the visibility to set
 	 */
-	public int getCode() {
+	public void setVisibility(int visibility) {
+		this.visibility = visibility;
+	}
+	
+	/**
+	 * @return the code
+	 */
+	public int getCod() {
 		return cod;
 	}
-
-	public Sys getSystemInfo() {
+	
+	/**
+	 * @param cod the code to set
+	 */
+	public void setCod(int cod) {
+		this.cod = cod;
+	}
+	
+	/**
+	 * @return the system information
+	 */
+	public Sys getSys() {
 		return sys;
 	}
-
+	
+	/**
+	 * @param sys the system information to set
+	 */
+	public void setSys(Sys sys) {
+		this.sys = sys;
+	}
+	
+	/**
+	 * @return the main
+	 */
 	public Main getMain() {
 		return main;
 	}
-
+	
+	/**
+	 * @param main the main to set
+	 */
+	public void setMain(Main main) {
+		this.main = main;
+	}
+	
+	/**
+	 * @return the coord
+	 */
 	public Coord getCoord() {
 		return coord;
 	}
-
+	
+	/**
+	 * @param coord the coord to set
+	 */
+	public void setCoord(Coord coord) {
+		this.coord = coord;
+	}
+	
+	/**
+	 * @return the weather
+	 */
 	public Weather[] getWeather() {
 		return weather;
 	}
-
+	
+	/**
+	 * @param weather the weather to set
+	 */
+	public void setWeather(Weather[] weather) {
+		this.weather = weather;
+	}
+	
+	/**
+	 * @return the wind
+	 */
 	public Wind getWind() {
 		return wind;
 	}
-
+	
+	/**
+	 * @param wind the wind to set
+	 */
+	public void setWind(Wind wind) {
+		this.wind = wind;
+	}
+	
+	/**
+	 * @return the rain
+	 */
 	public Rain getRain() {
 		return rain;
 	}
-
+	
+	/**
+	 * @param rain the rain to set
+	 */
+	public void setRain(Rain rain) {
+		this.rain = rain;
+	}
+	
+	/**
+	 * @return the clouds
+	 */
 	public Clouds getClouds() {
 		return clouds;
 	}
-
+	
+	/**
+	 * @param clouds the clouds to set
+	 */
+	public void setClouds(Clouds clouds) {
+		this.clouds = clouds;
+	}
+	
+	/**
+	 * @return the snow
+	 */
 	public Snow getSnow() {
 		return snow;
+	}
+	
+	/**
+	 * @param snow the snow to set
+	 */
+	public void setSnow(Snow snow) {
+		this.snow = snow;
 	}
 }

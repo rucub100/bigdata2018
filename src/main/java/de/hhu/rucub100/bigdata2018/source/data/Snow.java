@@ -10,13 +10,19 @@ import com.google.gson.annotations.SerializedName;
 public class Snow {
 	
 	@SerializedName("3h") 
-	private final float _3h;
+	private float _3h;
 
-	public Snow(float _3h) {
-		this._3h = _3h;
-	}
-
+	/**
+	 * @return the _3h
+	 */
 	public float get_3h() {
 		return _3h;
+	}
+
+	/**
+	 * @param _3h the _3h to set
+	 */
+	public void set_3h(float _3h) {
+		this._3h = _3h;
 	}
 }

@@ -52,9 +52,9 @@ public class BatchJob {
 		
 //		MaxTemperatureEurope
 //		MaxTemperatureDiffEurope
-		ColdestCityInEurope
+//		ColdestCityInEurope
 //		MinTemperatureDiffCountries
-//		AvgTemperaturePerCountry
+		AvgTemperaturePerCountry
 		.fromDataSet(current)
 		.apply()
 		.print();

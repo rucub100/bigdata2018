@@ -46,9 +46,9 @@ public class MinTemperatureDiffCountries extends BatchTransformationBase<Current
 					@Override
 					public Tuple3<String, Float, Float> map(CurrentWeather value) throws Exception {
 						return new Tuple3<String, Float, Float>(
-								countryMap.get(value.getSystemInfo().getCountry()),
-								value.getMain().getTemperature(),
-								value.getMain().getTemperature());
+								countryMap.get(value.getSys().getCountry()),
+								value.getMain().getTemp(),
+								value.getMain().getTemp());
 					}
 				})
 				.groupBy(0)

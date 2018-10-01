@@ -24,6 +24,7 @@ import org.apache.flink.streaming.api.environment.StreamExecutionEnvironment;
 
 import de.hhu.rucub100.bigdata2018.source.CurrentWeatherSource;
 import de.hhu.rucub100.bigdata2018.source.data.CurrentWeather;
+import de.hhu.rucub100.bigdata2018.transformation.ColdWind;
 import de.hhu.rucub100.bigdata2018.transformation.ColdestCountryPer24h;
 import de.hhu.rucub100.bigdata2018.transformation.HottestCountryPer24h;
 import de.hhu.rucub100.bigdata2018.utils.DataUtils;
@@ -54,12 +55,13 @@ public class StreamingJob {
 		DataStream<CurrentWeather> current = env.addSource(
 				new CurrentWeatherSource(
 						DataUtils.pathToCurrentWeatherData, 
-						HottestCountryPer24h.SERVING_SPEED, 
+						ColdWind.SERVING_SPEED, 
 						true));
 		
 //		ColdestCountryPer24h
-		HottestCountryPer24h
-		.fromDataStream(current)
+//		HottestCountryPer24h
+		ColdWind.fromDataStream(current, 10.0f, 10.0f)
+//		.fromDataStream(current)
 		.apply()
 		.print();
 		

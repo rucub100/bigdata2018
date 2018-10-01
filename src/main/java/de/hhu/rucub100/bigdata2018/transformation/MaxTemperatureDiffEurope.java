@@ -37,8 +37,8 @@ public class MaxTemperatureDiffEurope extends BatchTransformationBase<CurrentWea
 					@Override
 					public Tuple2<Float, Float> map(CurrentWeather value) throws Exception {
 						return new Tuple2<Float, Float>(
-								value.getMain().getTemperature(),
-								value.getMain().getTemperature());
+								value.getMain().getTemp(),
+								value.getMain().getTemp());
 					}
 				})
 				.reduce(new ReduceFunction<Tuple2<Float, Float>>() {

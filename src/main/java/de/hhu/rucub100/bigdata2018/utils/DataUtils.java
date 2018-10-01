@@ -71,7 +71,7 @@ public class DataUtils {
 		
 		// check data integrity
 		for (int i = 0; i < data.size(); i++) {
-			if (data.get(i).getCode() != 200) {
+			if (data.get(i).getCod() != 200) {
 				data.remove(i);
 				--i;
 			}
@@ -104,7 +104,7 @@ public class DataUtils {
 		
 		final Europe eu = getEurope();
 		for (Country country: eu.getCountries()) {
-			countryMap.put(country.getCode(), country.getName());
+			countryMap.put(country.getList()[0].getCountry(), country.getName());
 		}
 		
 		return countryMap;
