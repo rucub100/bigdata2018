@@ -15,5 +15,10 @@ TODO: Introduction/Abstract
 - batch processing
 - stream processing
 - prediction mode
-## Start
-TODO
+## Overview
+### Data collection
+### Online Analysis (stream processing)
+### Offline Analysis (batch processing)
+### Comparison
+### Options for making predictions
+### Visualization
