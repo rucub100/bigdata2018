@@ -29,6 +29,7 @@ import de.hhu.rucub100.bigdata2018.transformation.ColdWind;
 import de.hhu.rucub100.bigdata2018.transformation.ColdestCountryPer24h;
 import de.hhu.rucub100.bigdata2018.transformation.HotAndDry;
 import de.hhu.rucub100.bigdata2018.transformation.HottestCountryPer24h;
+import de.hhu.rucub100.bigdata2018.transformation.NeighborsDiff;
 import de.hhu.rucub100.bigdata2018.transformation.WeatherAlert;
 import de.hhu.rucub100.bigdata2018.utils.DataUtils;
 
@@ -58,7 +59,7 @@ public class StreamingJob {
 		DataStream<CurrentWeather> current = env.addSource(
 				new CurrentWeatherSource(
 						DataUtils.pathToCurrentWeatherData, 
-						WeatherAlert.SERVING_SPEED, 
+						NeighborsDiff.SERVING_SPEED, 
 						true));
 		
 		// README: servingSpeed in CurrentWeatherSource is specific to the stream job, e.g. AvgCountryTempPer24h.SERVING_SPEED
@@ -68,7 +69,8 @@ public class StreamingJob {
 //		ColdWind.fromDataStream(current, 10.0f, 10.0f)
 //		HotAndDry.fromDataStream(current, 28.0f, 40.0f)
 //		AvgCountryTempPer24h
-		WeatherAlert
+//		WeatherAlert
+		NeighborsDiff
 		.fromDataStream(current)
 		.apply()
 		.print();

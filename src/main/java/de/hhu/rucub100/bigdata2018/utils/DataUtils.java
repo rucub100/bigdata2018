@@ -10,11 +10,13 @@ import java.io.InputStreamReader;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.HashMap;
+import java.util.HashSet;
 import java.util.List;
 import java.util.Map;
+import java.util.Set;
 import java.util.zip.GZIPInputStream;
-
-import org.apache.commons.collections.map.HashedMap;
 
 import com.google.gson.Gson;
 
@@ -22,6 +24,7 @@ import de.hhu.rucub100.bigdata2018.source.data.Country;
 import de.hhu.rucub100.bigdata2018.source.data.CurrentWeather;
 import de.hhu.rucub100.bigdata2018.source.data.Europe;
 import de.hhu.rucub100.bigdata2018.source.data.Forecast;
+import de.hhu.rucub100.bigdata2018.source.data.Neighbors;
 
 /**
  * @author Ruslan Curbanov, ruslan.curbanov@uni-duesseldorf.de, Sep 21, 2018
@@ -99,8 +102,30 @@ public class DataUtils {
 		return _EUROPE;
 	}
 	
+	public static List<Neighbors> getNeighbors() {
+		Set<Neighbors> neighbors = new HashSet<Neighbors>();
+		
+		Europe eu = getEurope();
+		
+		for (Country c1 : eu.getCountries()) {
+			for (Country c2 : eu.getCountries()) {
+				if (!Arrays.asList(c1.getNeighbors()).contains(c2.getName())) {
+					continue;
+				}
+				
+				Neighbors n = new Neighbors();
+				n.setConutry1(c1);
+				n.setConutry2(c2);
+				
+				neighbors.add(n);
+			}
+		}
+		
+		return new ArrayList<Neighbors>(neighbors);
+	}
+	
 	public static Map<String, String> getCountryMap() {
-		Map<String, String> countryMap = new HashedMap();
+		Map<String, String> countryMap = new HashMap<String, String>();
 		
 		final Europe eu = getEurope();
 		for (Country country: eu.getCountries()) {

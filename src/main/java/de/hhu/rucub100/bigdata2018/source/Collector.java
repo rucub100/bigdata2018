@@ -10,8 +10,6 @@ import java.nio.file.Paths;
 import java.nio.file.StandardOpenOption;
 import java.util.List;
 
-import com.google.gson.Gson;
-
 import de.hhu.rucub100.bigdata2018.source.data.City;
 import de.hhu.rucub100.bigdata2018.source.data.Country;
 import de.hhu.rucub100.bigdata2018.source.data.Europe;

@@ -10,6 +10,21 @@ package de.hhu.rucub100.bigdata2018.source.data;
 public class Country {
 	
 	private String name;
+	private String[] neighbors;
+	
+	/**
+	 * @return the neighbors
+	 */
+	public String[] getNeighbors() {
+		return neighbors;
+	}
+	
+	/**
+	 * @param neighbors the neighbors to set
+	 */
+	public void setNeighbors(String[] neighbors) {
+		this.neighbors = neighbors;
+	}
 	private City[] list;
 	
 	/**

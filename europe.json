@@ -2,6 +2,12 @@
 	"countries": [
 		{
 			"name": "Albania",
+			"neighbors": [
+				"Greece",
+				"Serbia",
+				"Macedonia",
+				"Montenegro"
+			],
 			"list": [
 				{
 					"id": 3183875,
@@ -43,6 +49,15 @@
 		},
 		{
 			"name": "Austria",
+			"neighbors": [
+				"Germany",
+				"Czech",
+				"Slovakia",
+				"Hungary",
+				"Slovenia",
+				"Italy",
+				"Switzerland"
+			],
 			"list": [
 				{
 					"id": 2761369,
@@ -102,6 +117,13 @@
 		},
 		{
 			"name": "Belarus",
+			"neighbors": [
+				"Russia",
+				"Latvia",
+				"Lithuania",
+				"Poland",
+				"Ukraine"
+			],
 			"list": [
 				{
 					"id": 625144,
@@ -161,6 +183,13 @@
 		},
 		{
 			"name": "Belgium",
+			"neighbors": [
+				"France",
+				"Netherlands",
+				"Germany",
+				"Luxembourg",
+				"United Kingdom"
+			],
 			"list": [
 				{
 					"id": 2803139,
@@ -211,6 +240,11 @@
 		},
 		{
 			"name": "Bosnia",
+			"neighbors": [
+				"Serbia",
+				"Montenegro",
+				"Croatia"
+			],
 			"list": [
 				{
 					"id": 3191281,
@@ -252,6 +286,12 @@
 		},
 		{
 			"name": "Bulgaria",
+			"neighbors": [
+				"Greece",
+				"Macedonia",
+				"Serbia",
+				"Romania"
+			],
 			"list": [
 				{
 					"id": 727011,
@@ -293,6 +333,13 @@
 		},
 		{
 			"name": "Croatia",
+			"neighbors": [
+				"Slovenia",
+				"Serbia",
+				"Bosnia",
+				"Hungary",
+				"Italy"
+			],
 			"list": [
 				{
 					"id": 3186886,
@@ -325,6 +372,12 @@
 		},
 		{
 			"name": "Czech",
+			"neighbors": [
+				"Slovakia",
+				"Austria",
+				"Germany",
+				"Poland"
+			],
 			"list": [
 				{
 					"id": 3067696,
@@ -366,6 +419,11 @@
 		},
 		{
 			"name": "Denmark",
+			"neighbors": [
+				"Germany",
+				"Sweden",
+				"Norway"
+			],
 			"list": [
 				{
 					"id": 2618425,
@@ -407,6 +465,11 @@
 		},
 		{
 			"name": "Estonia",
+			"neighbors": [
+				"Latvia",
+				"Finland",
+				"Russia"
+			],
 			"list": [
 				{
 					"id": 588409,
@@ -448,6 +511,11 @@
 		},
 		{
 			"name": "Finland",
+			"neighbors": [
+				"Russia",
+				"Sweden",
+				"Estonia"
+			],
 			"list": [
 				{
 					"id": 658224,
@@ -507,6 +575,14 @@
 		},
 		{
 			"name": "France",
+			"neighbors": [
+				"Spain",
+				"Luxembourg",
+				"Belgium",
+				"Germany",
+				"Italy",
+				"Switzerland"
+			],
 			"list": [
 				{
 					"id": 2988507,
@@ -593,6 +669,17 @@
 		},
 		{
 			"name": "Germany",
+			"neighbors": [
+				"Austria",
+				"Poland",
+				"Belgium",
+				"Netherlands",
+				"Luxembourg",
+				"Denmark",
+				"Czech",
+				"Switzerland",
+				"France"
+			],
 			"list": [
 				{
 					"id": 2950159,
@@ -778,6 +865,11 @@
 		},
 		{
 			"name": "Greece",
+			"neighbors": [
+				"Albania",
+				"Macedonia",
+				"Bulgaria"
+			],
 			"list": [
 				{
 					"id": 264371,
@@ -819,6 +911,15 @@
 		},
 		{
 			"name": "Hungary",
+			"neighbors": [
+				"Austria",
+				"Slovakia",
+				"Ukraine",
+				"Romania",
+				"Serbia",
+				"Slovenia",
+				"Croatia"
+			],
 			"list": [
 				{
 					"id": 3054643,
@@ -860,6 +961,9 @@
 		},
 		{
 			"name": "Ireland",
+			"neighbors": [
+				"United Kingdom"
+			],
 			"list": [
 				{
 					"id": 7778677,
@@ -901,6 +1005,13 @@
 		},
 		{
 			"name": "Italy",
+			"neighbors": [
+				"France",
+				"Austria",
+				"Switzerland",
+				"Slovenia",
+				"Croatia"
+			],
 			"list": [
 				{
 					"id": 3169070,
@@ -942,6 +1053,12 @@
 		},
 		{
 			"name": "Latvia",
+			"neighbors": [
+				"Estionia",
+				"Lithuania",
+				"Belarus",
+				"Russia"
+			],
 			"list": [
 				{
 					"id": 456172,
@@ -956,6 +1073,11 @@
 		},
 		{
 			"name": "Lithuania",
+			"neighbors": [
+				"Belarus",
+				"Latvia",
+				"Poland"
+			],
 			"list": [
 				{
 					"id": 593116,
@@ -988,6 +1110,11 @@
 		},
 		{
 			"name": "Luxembourg",
+			"neighbors": [
+				"Belgium",
+				"Germany",
+				"France"
+			],
 			"list": [
 				{
 					"id": 2960316,
@@ -1002,6 +1129,12 @@
 		},
 		{
 			"name": "Macedonia",
+			"neighbors": [
+				"Albania",
+				"Serbia",
+				"Greece",
+				"Bulgaria"
+			],
 			"list": [
 				{
 					"id": 785842,
@@ -1025,6 +1158,7 @@
 		},
 		{
 			"name": "Malta",
+			"neighbors": [],
 			"list": [
 				{
 					"id": 2562305,
@@ -1039,6 +1173,10 @@
 		},
 		{
 			"name": "Moldova",
+			"neighbors": [
+				"Romania",
+				"Ukraine"
+			],
 			"list": [
 				{
 					"id": 618426,
@@ -1071,6 +1209,11 @@
 		},
 		{
 			"name": "Montenegro",
+			"neighbors": [
+				"Albania",
+				"Serbia",
+				"Bosnia"
+			],
 			"list": [
 				{
 					"id": 3193044,
@@ -1085,6 +1228,11 @@
 		},
 		{
 			"name": "Netherlands",
+			"neighbors": [
+				"Belgium",
+				"Germany",
+				"United Kingdom"
+			],
 			"list": [
 				{
 					"id": 2759794,
@@ -1117,6 +1265,10 @@
 		},
 		{
 			"name": "Norway",
+			"neighbors": [
+				"Sweden",
+				"Denmark"
+			],
 			"list": [
 				{
 					"id": 6453366,
@@ -1149,6 +1301,15 @@
 		},
 		{
 			"name": "Poland",
+			"neighbors": [
+				"Germany",
+				"Belarus",
+				"Ukraine",
+				"Czech",
+				"Slovakai",
+				"Denmark",
+				"Lithuania"
+			],
 			"list": [
 				{
 					"id": 756135,
@@ -1190,6 +1351,9 @@
 		},
 		{
 			"name": "Portugal",
+			"neighbors": [
+				"Spain"
+			],
 			"list": [
 				{
 					"id": 6458923,
@@ -1231,6 +1395,13 @@
 		},
 		{
 			"name": "Romania",
+			"neighbors": [
+				"Moldova",
+				"Ukraine",
+				"Hungary",
+				"Serbia",
+				"Bulgaria"
+			],
 			"list": [
 				{
 					"id": 683506,
@@ -1272,6 +1443,13 @@
 		},
 		{
 			"name": "Russia",
+			"neighbors": [
+				"Ukraine",
+				"Belarus",
+				"Latvia",
+				"Estonia",
+				"Finland"
+			],
 			"list": [
 				{
 					"id": 524901,
@@ -1340,6 +1518,16 @@
 		},
 		{
 			"name": "Serbia",
+			"neighbors": [
+				"Hungary",
+				"Romania",
+				"Bulgaria",
+				"Macedonia",
+				"Albania",
+				"Montenegro",
+				"Bosnia",
+				"Croatia"
+			],
 			"list": [
 				{
 					"id": 792680,
@@ -1372,6 +1560,13 @@
 		},
 		{
 			"name": "Slovakia",
+			"neighbors": [
+				"Hungary",
+				"Austria",
+				"Czech",
+				"Poland",
+				"Ukraine"
+			],
 			"list": [
 				{
 					"id": 3060972,
@@ -1395,6 +1590,12 @@
 		},
 		{
 			"name": "Slovenia",
+			"neighbors": [
+				"Italy",
+				"Austria",
+				"Hungary",
+				"Croatia"
+			],
 			"list": [
 				{
 					"id": 3197378,
@@ -1427,6 +1628,10 @@
 		},
 		{
 			"name": "Spain",
+			"neighbors": [
+				"Portugal",
+				"France"
+			],
 			"list": [
 				{
 					"id": 6359304,
@@ -1468,6 +1673,11 @@
 		},
 		{
 			"name": "Sweden",
+			"neighbors": [
+				"Denmark",
+				"Norway",
+				"Finland"
+			],
 			"list": [
 				{
 					"id": 2673730,
@@ -1509,6 +1719,12 @@
 		},
 		{
 			"name": "Switzerland",
+			"neighbors": [
+				"Italy",
+				"France",
+				"Germany",
+				"Austria"
+			],
 			"list": [
 				{
 					"id": 2657896,
@@ -1550,6 +1766,15 @@
 		},
 		{
 			"name": "Ukraine",
+			"neighbors": [
+				"Russia",
+				"Moldova",
+				"Romania",
+				"Belarus",
+				"Hungary",
+				"Slovakia",
+				"Poland"
+			],
 			"list": [
 				{
 					"id": 703448,
@@ -1591,6 +1816,9 @@
 		},
 		{
 			"name": "United Kingdom",
+			"neighbors": [
+				"Ireland"
+			],
 			"list": [
 				{
 					"id": 2643743,
