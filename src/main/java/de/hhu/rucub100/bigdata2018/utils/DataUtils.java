@@ -11,6 +11,7 @@ import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Collections;
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.List;
@@ -33,6 +34,7 @@ import de.hhu.rucub100.bigdata2018.source.data.Neighbors;
 public class DataUtils {
 	
 	private static Europe _EUROPE = null;
+	private static List<CurrentWeather> current = null;
 	
 	private static Europe loadEuropeFromFile(String fileName) throws IOException {
 		String json = new String(Files.readAllBytes(Paths.get(fileName)));
@@ -69,18 +71,30 @@ public class DataUtils {
 	public static final String pathToForecastData = "./test/forecastCollection.txt.gz";
 	
 	public static List<CurrentWeather> getCurrentWeatherData() {
-		List<CurrentWeather> data = new ArrayList<CurrentWeather>();
-		getData(pathToCurrentWeatherData, CurrentWeather.class, data);
-		
-		// check data integrity
-		for (int i = 0; i < data.size(); i++) {
-			if (data.get(i).getCod() != 200) {
-				data.remove(i);
-				--i;
-			}
+		if (current == null) {
+			current = new ArrayList<CurrentWeather>();
+			getData(pathToCurrentWeatherData, CurrentWeather.class, current);
+			
+			// check data integrity
+			for (int i = 0; i < current.size(); i++) {
+				if (current.get(i).getCod() != 200) {
+					current.remove(i);
+					--i;
+				}
+			}		
 		}
 		
-		return data;
+		return Collections.unmodifiableList(current);
+	}
+	
+	public static List<CurrentWeather> getOfflineCurrentWeather() {
+		List<CurrentWeather> cw = getCurrentWeatherData();
+		return cw.subList(0, (cw.size() / 2) - 1);
+	}
+	
+	public static List<CurrentWeather> getOnlineCurrentWeather() {
+		List<CurrentWeather> cw = getCurrentWeatherData();
+		return cw.subList(cw.size() / 2, cw.size() - 1);
 	}
 	
 	public static List<Forecast> getForecastData() {

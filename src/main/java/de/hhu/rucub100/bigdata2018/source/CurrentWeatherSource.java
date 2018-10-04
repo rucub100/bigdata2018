@@ -27,51 +27,24 @@ import de.hhu.rucub100.bigdata2018.utils.DataUtils;
  */
 public class CurrentWeatherSource implements SourceFunction<CurrentWeather> {
 
-	private final String dataFilePath;
 	private final int servingSpeed;
 	private final boolean simulation;
+	private final boolean skip;
 	
-	private transient BufferedReader reader;
-	private transient InputStream gzipStream;
-	
-	public CurrentWeatherSource(String dataFilePath, int servingSpeed, boolean simulation) {
-		this.dataFilePath = dataFilePath;
+	private transient volatile boolean cancel = false;
+
+	public CurrentWeatherSource(String dataFilePath, int servingSpeed, boolean simulation, boolean skip) {
 		this.servingSpeed = servingSpeed;
 		this.simulation = simulation;
+		this.skip = skip;
 	}
 
 	@Override
 	public void run(SourceContext<CurrentWeather> ctx) throws Exception {
 		if (simulation) {
-			gzipStream = new GZIPInputStream(new FileInputStream(dataFilePath));
-			reader = new BufferedReader(new InputStreamReader(gzipStream, "UTF-8"));
-			
 			simulateStream(ctx);			
-			
-			this.reader.close();
-			this.reader = null;
-			this.gzipStream.close();
-			this.gzipStream = null;
 		} else {
 			startStream(ctx);
-		}
-	}
-
-	@Override
-	public void cancel() {
-		try {
-			if (this.reader != null) {
-				this.reader.close();
-			}
-			
-			if (this.gzipStream != null) {
-				this.gzipStream.close();
-			}
-		} catch(IOException ioe) {
-			throw new RuntimeException("Could not cancel SourceFunction", ioe);
-		} finally {
-			this.reader = null;
-			this.gzipStream = null;
 		}
 	}
 
@@ -134,7 +107,11 @@ public class CurrentWeatherSource implements SourceFunction<CurrentWeather> {
 	}
 	
 	private void simulateStream(SourceContext<CurrentWeather> ctx) {
-		Iterator<CurrentWeather> iterator = DataUtils.getCurrentWeatherData().iterator();
+		Iterator<CurrentWeather> iterator = 
+				(skip ? 
+					DataUtils.getOnlineCurrentWeather() : 
+					DataUtils.getCurrentWeatherData())
+				.iterator();
 		
 		final int p = 161;
 		int s = 0;
@@ -147,9 +124,16 @@ public class CurrentWeatherSource implements SourceFunction<CurrentWeather> {
 				} catch (InterruptedException e) {
 					// TODO Auto-generated catch block
 					e.printStackTrace();
+					if (cancel) {
+						break;
+					}
 				}
 				
 				s = 0;
+			}
+			
+			if (cancel) {
+				break;
 			}
 			
 			CurrentWeather current = iterator.next();
@@ -161,5 +145,10 @@ public class CurrentWeatherSource implements SourceFunction<CurrentWeather> {
 			// do not accept any event >1h in past from current timestamp
 			ctx.emitWatermark(new Watermark(timestamp - 1000 * 60 * 60));
 		} 	
+	}
+
+	@Override
+	public void cancel() {
+		cancel = true;
 	}
 }

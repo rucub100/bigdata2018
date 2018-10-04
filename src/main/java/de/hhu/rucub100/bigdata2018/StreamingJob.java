@@ -60,7 +60,8 @@ public class StreamingJob {
 				new CurrentWeatherSource(
 						DataUtils.pathToCurrentWeatherData, 
 						NeighborsDiff.SERVING_SPEED, 
-						true));
+						true,
+						false));
 		
 		// README: servingSpeed in CurrentWeatherSource is specific to the stream job, e.g. AvgCountryTempPer24h.SERVING_SPEED
 		
@@ -68,9 +69,9 @@ public class StreamingJob {
 //		HottestCountryPer24h
 //		ColdWind.fromDataStream(current, 10.0f, 10.0f)
 //		HotAndDry.fromDataStream(current, 28.0f, 40.0f)
-//		AvgCountryTempPer24h
+		AvgCountryTempPer24h
 //		WeatherAlert
-		NeighborsDiff
+//		NeighborsDiff
 		.fromDataStream(current)
 		.apply()
 		.print();
