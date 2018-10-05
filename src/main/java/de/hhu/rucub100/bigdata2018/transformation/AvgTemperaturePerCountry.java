@@ -35,13 +35,12 @@ public class AvgTemperaturePerCountry extends BatchTransformationBase<CurrentWea
 	@Override
 	public DataSet<Tuple2<String, Float>> apply() throws Exception {
 		return this.data
-				.map(new MapFunction<CurrentWeather, Tuple3<String, Float, Integer>>() {
-					private final Map<String, String> countryMap = DataUtils.getCountryMap();
-					
+				.map(new MapFunction<CurrentWeather, Tuple3<String, Float, Integer>>() {				
 					@Override
 					public Tuple3<String, Float, Integer> map(CurrentWeather value) throws Exception {
+						DataUtils.setCurrentWeatherTags(value);
 						return new Tuple3<String, Float, Integer>(
-								countryMap.get(value.getSys().getCountry()), 
+								value.getCountry().getName(), 
 								value.getMain().getTemp(),
 								1);
 					}

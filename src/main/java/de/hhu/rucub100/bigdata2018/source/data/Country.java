@@ -3,14 +3,19 @@
  */
 package de.hhu.rucub100.bigdata2018.source.data;
 
+import java.io.Serializable;
+
 /**
  * @author Ruslan Curbanov, ruslan.curbanov@uni-duesseldorf.de, Sep 21, 2018
  *
  */
-public class Country {
+public class Country implements Serializable {
+	
+	private static final long serialVersionUID = 1L;
 	
 	private String name;
 	private String[] neighbors;
+	private City[] list;
 	
 	/**
 	 * @return the neighbors
@@ -25,7 +30,6 @@ public class Country {
 	public void setNeighbors(String[] neighbors) {
 		this.neighbors = neighbors;
 	}
-	private City[] list;
 	
 	/**
 	 * @return the name

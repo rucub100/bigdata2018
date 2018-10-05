@@ -32,12 +32,11 @@ public class ColdestCityInEurope extends BatchTransformationBase<CurrentWeather,
 	public DataSet<Tuple3<String, String, Float>> apply() throws Exception {
 		return this.data
 				.map(new MapFunction<CurrentWeather, Tuple3<String, String, Float>>() {
-					private final Map<String, String> countryMap = DataUtils.getCountryMap();
-
 					@Override
 					public Tuple3<String, String, Float> map(CurrentWeather value) throws Exception {
+						DataUtils.setCurrentWeatherTags(value);
 						return new Tuple3<String, String, Float>(
-								countryMap.get(value.getSys().getCountry()),
+								value.getCountry().getName(),
 								value.getName(), 
 								value.getMain().getTemp());
 					}

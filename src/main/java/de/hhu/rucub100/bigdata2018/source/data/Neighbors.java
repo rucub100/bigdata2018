@@ -3,14 +3,25 @@
  */
 package de.hhu.rucub100.bigdata2018.source.data;
 
+import java.io.Serializable;
+
 /**
  * @author Ruslan Curbanov, ruslan.curbanov@uni-duesseldorf.de, Oct 3, 2018
  *
  */
-public class Neighbors {
+public class Neighbors implements Serializable {
 
+	private static final long serialVersionUID = 1L;
+	
 	private Country country1;
 	private Country country2;
+	
+	public Neighbors() {}
+	
+	public Neighbors(Country country1, Country country2) {
+		this.country1 = country1;
+		this.country2 = country2;
+	}
 	
 	/**
 	 * @return the conutry1

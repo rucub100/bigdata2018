@@ -6,20 +6,28 @@ package de.hhu.rucub100.bigdata2018;
 import java.util.Date;
 import java.util.List;
 
+import org.apache.commons.lang3.NotImplementedException;
 import org.apache.flink.api.java.DataSet;
 import org.apache.flink.api.java.ExecutionEnvironment;
 import org.apache.flink.api.java.tuple.Tuple2;
 import org.apache.flink.api.java.tuple.Tuple3;
+import org.apache.flink.shaded.zookeeper.org.apache.zookeeper.server.UnimplementedRequestProcessor;
 import org.apache.flink.streaming.api.TimeCharacteristic;
 import org.apache.flink.streaming.api.datastream.DataStream;
 import org.apache.flink.streaming.api.environment.StreamExecutionEnvironment;
 import org.apache.flink.streaming.api.functions.sink.SinkFunction;
 
 import de.hhu.rucub100.bigdata2018.source.CurrentWeatherSource;
+import de.hhu.rucub100.bigdata2018.source.data.Country;
 import de.hhu.rucub100.bigdata2018.source.data.CurrentWeather;
+import de.hhu.rucub100.bigdata2018.source.data.Europe;
+import de.hhu.rucub100.bigdata2018.source.data.Neighbors;
 import de.hhu.rucub100.bigdata2018.transformation.AvgCountryTempPer24h;
 import de.hhu.rucub100.bigdata2018.transformation.AvgTemperaturePerCountry;
+import de.hhu.rucub100.bigdata2018.transformation.HottestCountryPer24h;
+import de.hhu.rucub100.bigdata2018.transformation.MaxTemperatureEurope;
 import de.hhu.rucub100.bigdata2018.utils.DataUtils;
+import de.hhu.rucub100.bigdata2018.utils.GeoUtils;
 
 /**
  * @author Ruslan Curbanov, ruslan.curbanov@uni-duesseldorf.de, Oct 4, 2018
@@ -40,7 +48,8 @@ public class StreamingJobCompare {
 		final ExecutionEnvironment batchEnv = ExecutionEnvironment.getExecutionEnvironment();
 		batchEnv.setParallelism(PARALLELISM);
 		
-		compareAvgTemp(batchEnv, streamEnv);
+//		compareAvgTemp(batchEnv, streamEnv);
+		compareMaxTemp(batchEnv, streamEnv);
 	}
 	
 	public static void compareAvgTemp(
@@ -90,6 +99,56 @@ public class StreamingJobCompare {
 				}
 			}
 			
+		});
+		
+		streamEnv.execute("Flink Streaming");
+	}
+	
+	public static void compareMaxTemp(
+			final ExecutionEnvironment batchEnv,
+			final StreamExecutionEnvironment streamEnv) throws Exception {
+		
+		CurrentWeatherSource cwSource = new CurrentWeatherSource(
+				DataUtils.pathToCurrentWeatherData, 
+				HottestCountryPer24h.SERVING_SPEED, 
+				true,
+				true);
+		
+		DataSet<CurrentWeather> cwSet = batchEnv.fromCollection(DataUtils.getOfflineCurrentWeather());
+		DataStream<CurrentWeather> cwStream = streamEnv.addSource(cwSource);
+		
+		Tuple3<String, String, Float> batchResult = MaxTemperatureEurope
+		.fromDataSet(cwSet)
+		.apply()
+		.collect().get(0);
+		
+		Country bCountry = DataUtils.getCountry(batchResult.f0);
+		List<Neighbors> neighbors = DataUtils.getNeighbors();
+		
+		HottestCountryPer24h
+		.fromDataStream(cwStream)
+		.apply()
+		.addSink(new SinkFunction<Tuple3<String,Float,Date>>() {
+			@Override
+			public void invoke(Tuple3<String, Float, Date> value, Context context) throws Exception {
+				Country sCountry = DataUtils.getCountry(value.f0);
+				
+				if (bCountry.getName().equals(sCountry.getName())) {
+					System.out.println("Country (" + value.f2 + "): match! - " + "batch-result: " + 
+							batchResult.f2 + ", stream-result: " + value.f1);
+				} else if (neighbors.contains(new Neighbors(bCountry, sCountry))) {
+					System.out.println("Country (" + value.f2 + "): neighbor: " + sCountry.getName() + " - " + 
+							"batch-result: " +  batchResult.f2 + ", stream-result: " + value.f1);
+				} else {
+					// calculate distance via first city in list
+					double dist = GeoUtils.getDistance2(
+							bCountry.getList()[0].getCoord(), 
+							sCountry.getList()[0].getCoord());
+					
+					System.out.println("Country (" + value.f2 + "): " + value.f0 + ", distance: " + String.valueOf(dist) + "km - " + 
+							"batch-result: " +  batchResult.f2 + ", stream-result: " + value.f1);
+				}
+			}
 		});
 		
 		streamEnv.execute("Flink Streaming");

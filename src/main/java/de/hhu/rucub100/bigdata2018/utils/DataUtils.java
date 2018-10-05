@@ -12,15 +12,14 @@ import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
-import java.util.HashMap;
 import java.util.HashSet;
 import java.util.List;
-import java.util.Map;
 import java.util.Set;
 import java.util.zip.GZIPInputStream;
 
 import com.google.gson.Gson;
 
+import de.hhu.rucub100.bigdata2018.source.data.City;
 import de.hhu.rucub100.bigdata2018.source.data.Country;
 import de.hhu.rucub100.bigdata2018.source.data.CurrentWeather;
 import de.hhu.rucub100.bigdata2018.source.data.Europe;
@@ -49,7 +48,7 @@ public class DataUtils {
 		Gson gson = new Gson();
 		
 		try {
-			gzipStream = new GZIPInputStream(new FileInputStream(pathToCurrentWeatherData));
+			gzipStream = new GZIPInputStream(new FileInputStream(path));
 			reader = new BufferedReader(new InputStreamReader(gzipStream, "UTF-8"));
 			String line;
 		
@@ -138,14 +137,36 @@ public class DataUtils {
 		return new ArrayList<Neighbors>(neighbors);
 	}
 	
-	public static Map<String, String> getCountryMap() {
-		Map<String, String> countryMap = new HashMap<String, String>();
+	public static Country getCountry(String country) {
+		Country result = null;
+		for (Country c : getEurope().getCountries()) {
+			if (country.equalsIgnoreCase(c.getName()) ||
+					country.equalsIgnoreCase(c.getList()[0].getCountry())) {
+				result = c;
+				break;
+			}
+		}
+			
+		return result;
+	}
+	
+	public static City getCity(String city) {
+		City result = null;
 		
-		final Europe eu = getEurope();
-		for (Country country: eu.getCountries()) {
-			countryMap.put(country.getList()[0].getCountry(), country.getName());
+		for (Country country : getEurope().getCountries()) {
+			for (City c : country.getList()) {
+				if (c.getName().equalsIgnoreCase(city)) {
+					result = c;
+					break;
+				}
+			}
 		}
 		
-		return countryMap;
+		return result;
+	}
+	
+	public static void setCurrentWeatherTags(CurrentWeather current) {
+		current.setCity(getCity(current.getName()));
+		current.setCountry(getCountry(current.getSys().getCountry()));
 	}
 }

@@ -3,95 +3,86 @@
  */
 package de.hhu.rucub100.bigdata2018.source.data;
 
+import java.io.Serializable;
+
 /**
  * @author Ruslan Curbanov, ruslan.curbanov@uni-duesseldorf.de, Sep 20, 2018
  *
  */
-public class ForecastItem {
+public class ForecastItem implements Serializable {
 	
-	private final long dt;
-	private final String dt_txt;
-	private final Main main;
-	private final Weather[] weather;
-	private final Clouds clouds;
-	private final Wind wind;
-	private final Rain rain;
-	private final Snow snow;
-	private final Sys sys;
+	private static final long serialVersionUID = 1L;
 	
-	public ForecastItem(long dt, String dt_txt, Main main, Weather[] weather, 
-			Clouds clouds, Wind wind, Rain rain, Snow snow, Sys sys) {
-		this.dt = dt;
-		this.dt_txt = dt_txt;
-		this.main = main;
-		this.weather = weather;
-		this.clouds = clouds;
-		this.wind = wind;
-		this.rain = rain;
-		this.snow = snow;
-		this.sys = sys;
-	}
-
+	private long dt;
+	private String dt_txt;
+	private Main main;
+	private Weather[] weather;
+	private Clouds clouds;
+	private Wind wind;
+	private Rain rain;
+	private Snow snow;
+	private Sys sys;
+	
 	/**
 	 * @return the dt
 	 */
-	public long getDataTime() {
+	public long getDt() {
 		return dt;
 	}
-
+	
 	/**
 	 * @return the dt_txt
 	 */
-	public String getDataTimeTxt() {
+	public String getDt_txt() {
 		return dt_txt;
 	}
-
+	
 	/**
 	 * @return the main
 	 */
 	public Main getMain() {
 		return main;
 	}
-
+	
 	/**
 	 * @return the weather
 	 */
 	public Weather[] getWeather() {
 		return weather;
 	}
-
+	
 	/**
 	 * @return the clouds
 	 */
 	public Clouds getClouds() {
 		return clouds;
 	}
-
+	
 	/**
 	 * @return the wind
 	 */
 	public Wind getWind() {
 		return wind;
 	}
-
+	
 	/**
 	 * @return the rain
 	 */
 	public Rain getRain() {
 		return rain;
 	}
-
+	
 	/**
 	 * @return the snow
 	 */
 	public Snow getSnow() {
 		return snow;
 	}
-
+	
 	/**
 	 * @return the sys
 	 */
-	public Sys getSystemInfo() {
+	public Sys getSys() {
 		return sys;
 	}
 }

@@ -50,11 +50,11 @@ public class BatchJob {
 		
 		DataSet<CurrentWeather> current = env.fromCollection(DataUtils.getCurrentWeatherData());
 		
-//		MaxTemperatureEurope
+		MaxTemperatureEurope
 //		MaxTemperatureDiffEurope
 //		ColdestCityInEurope
 //		MinTemperatureDiffCountries
-		AvgTemperaturePerCountry
+//		AvgTemperaturePerCountry
 		.fromDataSet(current)
 		.apply()
 		.print();

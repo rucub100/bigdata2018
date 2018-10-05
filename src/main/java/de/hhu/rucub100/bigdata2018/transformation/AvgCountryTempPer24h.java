@@ -51,12 +51,11 @@ public class AvgCountryTempPer24h extends StreamTransformationBase<CurrentWeathe
 	public DataStream<Tuple3<String, Float, Date>> apply() throws Exception {
 		return this.data
 				.map(new MapFunction<CurrentWeather, Tuple4<String, Float, Integer, Date>>() {
-					private final Map<String, String> countryMap = DataUtils.getCountryMap();
-					
 					@Override
 					public Tuple4<String, Float, Integer, Date> map(CurrentWeather value) throws Exception {
+						DataUtils.setCurrentWeatherTags(value);
 						return new Tuple4<String, Float, Integer, Date>(
-								countryMap.get(value.getSys().getCountry()), 
+								value.getCountry().getName(), 
 								value.getMain().getTemp(),
 								1,
 								value.getDate());

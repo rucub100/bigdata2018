@@ -3,13 +3,16 @@
  */
 package de.hhu.rucub100.bigdata2018.source.data;
 
+import java.io.Serializable;
 import java.util.Date;
 
 /**
  * @author Ruslan Curbanov, ruslan.curbanov@uni-duesseldorf.de, Sep 19, 2018
  * Current weather data object.
  */
-public class CurrentWeather {
+public class CurrentWeather implements Serializable {
+	
+	private static final long serialVersionUID = 1L;
 	
 	private long id;
 	private String name;
@@ -26,6 +29,37 @@ public class CurrentWeather {
 	private Clouds clouds;
 	private Snow snow;
 	
+	private transient City city;
+	private transient Country country;
+	
+	/**
+	 * @return the city
+	 */
+	public City getCity() {
+		return city;
+	}
+
+	/**
+	 * @param city the city to set
+	 */
+	public void setCity(City city) {
+		this.city = city;
+	}
+
+	/**
+	 * @return the country
+	 */
+	public Country getCountry() {
+		return country;
+	}
+
+	/**
+	 * @param country the country to set
+	 */
+	public void setCountry(Country country) {
+		this.country = country;
+	}
+
 	/**
 	 * @return the id
 	 */

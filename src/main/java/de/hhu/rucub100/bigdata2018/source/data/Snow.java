@@ -1,5 +1,7 @@
 package de.hhu.rucub100.bigdata2018.source.data;
 
+import java.io.Serializable;
+
 import com.google.gson.annotations.SerializedName;
 
 /**
@@ -7,7 +9,9 @@ import com.google.gson.annotations.SerializedName;
  * @author Ruslan Curbanov, ruslan.curbanov@uni-duesseldorf.de, Sep 19, 2018
  *
  */
-public class Snow {
+public class Snow implements Serializable {
+	
+	private static final long serialVersionUID = 1L;
 	
 	@SerializedName("3h") 
 	private float _3h;
