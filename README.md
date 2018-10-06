@@ -68,4 +68,5 @@ For comparison of stream processing events with the calculated offline values, o
 The main method is located in the [StreamingJobCompare.java](src/main/java/de/hhu/rucub100/bigdata2018/StreamingJobCompare.java) file.
 From this comparison, we can draw further conclusions about the weather on the one hand, and on the other hand, this is a good preparation for the construction of a predictive model, as we will see in the next step. For the sake of simplicity, the batch computation (offline values) were executed again here. One could have saved the results before and read them from the storage in this step.
 ### Options for making predictions
+Weather forecasting is a highly complex topic. The resources in this project are not enough for serious results, in particular, we lack sufficient data for this purpose (for example, to approach with machine learning). For that reason, the options shown here are rather to be understood as fun examples.
 ### Visualization
