@@ -51,12 +51,12 @@ public class StreamingJobCompare {
 		final ExecutionEnvironment batchEnv = ExecutionEnvironment.getExecutionEnvironment();
 		batchEnv.setParallelism(PARALLELISM);
 		
-//		compareAvgTemp(batchEnv, streamEnv);
+		compareAvgTemp(batchEnv, streamEnv);
 //		compareMaxTemp(batchEnv, streamEnv);
-		compareMinTemp(batchEnv, streamEnv);
+//		compareMinTemp(batchEnv, streamEnv);
 	}
 	
-	public static void compareAvgTemp(
+	private static void compareAvgTemp(
 			final ExecutionEnvironment batchEnv,
 			final StreamExecutionEnvironment streamEnv) throws Exception {
 		
@@ -108,7 +108,7 @@ public class StreamingJobCompare {
 		streamEnv.execute("Flink Streaming");
 	}
 	
-	public static void compareMaxTemp(
+	private static void compareMaxTemp(
 			final ExecutionEnvironment batchEnv,
 			final StreamExecutionEnvironment streamEnv) throws Exception {
 		
@@ -176,7 +176,7 @@ public class StreamingJobCompare {
 		streamEnv.execute("Flink Streaming");
 	}
 	
-	public static void compareMinTemp(
+	private static void compareMinTemp(
 			final ExecutionEnvironment batchEnv,
 			final StreamExecutionEnvironment streamEnv) throws Exception {
 		

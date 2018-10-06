@@ -65,13 +65,13 @@ public class StreamingJob {
 		
 		// README: servingSpeed in CurrentWeatherSource is specific to the stream job, e.g. AvgCountryTempPer24h.SERVING_SPEED
 		
-//		ColdestCountryPer24h
-		HottestCountryPer24h
-//		ColdWind.fromDataStream(current, 10.0f, 10.0f)
-//		HotAndDry.fromDataStream(current, 28.0f, 40.0f)
+		ColdestCountryPer24h
+//		HottestCountryPer24h
 //		AvgCountryTempPer24h
 //		WeatherAlert
 //		NeighborsDiff
+//		ColdWind.fromDataStream(current, 10.0f, 10.0f)
+//		HotAndDry.fromDataStream(current, 28.0f, 40.0f)
 		.fromDataStream(current)
 		.apply()
 		.print();
