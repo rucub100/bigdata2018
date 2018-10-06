@@ -17,13 +17,20 @@ You can find the hand-crafted structure in the [europe.json](europe.json) file.
    - stream processing (not the simulation)
 3. Build the project with `mvn clean package`
 4. There are different classes with a main method for
-   * collecting data
-   * batch processing
-   * stream processing
-   * comparison between online and offline computed statistics
-   * options for making predictions
+   * collecting data - [Collector.java](src/main/java/de/hhu/rucub100/bigdata2018/source/Collector.java)
+   * batch processing - [BatchJob.java](src/main/java/de/hhu/rucub100/bigdata2018/BatchJob.java)
+   * stream processing - [StreamingJob.java](src/main/java/de/hhu/rucub100/bigdata2018/StreamingJob.java)
+   * comparison between online and offline computed statistics - [StreamingJobCompare.java](src/main/java/de/hhu/rucub100/bigdata2018/StreamingJobCompare.java)
+   * options for making predictions - [StreamingJobPrediction.java](src/main/java/de/hhu/rucub100/bigdata2018/StreamingJobPrediction.java)
 ## Overview
 ### Data collection
+The data collection is implemented in [Collector.java](src/main/java/de/hhu/rucub100/bigdata2018/source/Collector.java) and can be executed via [current.sh](current.sh) for the current weather, or [forecast.sh](forecast.sh) for the 5 day / 3 hour forecast.
+
+The collected data is a txt-file with respect to the json format per line. One collector call for the current weather will add the API response for all 161 cities at once. The test-data is compressed via `gzip -k --best currentWeatherCollection.txt` to [currentWeatherCollection.txt.gz](test/currentWeatherCollection.txt.gz) with the approximate compression factor of 9. The call is executed every 15 minutes, which can be achived e.g. via a crontab as follows:
+```(bash)
+*/15 * * * * /bin/bash /path/to/repo/current.sh >/dev/null
+```
+In case of forecast, the situation is similar. The JSON serializer/deserializer used here is [gson](https://github.com/google/gson).
 ### Online Analysis (stream processing)
 ### Offline Analysis (batch processing)
 ### Comparison
