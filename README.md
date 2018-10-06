@@ -51,6 +51,21 @@ Seven different examples of stream processing were implemented:
    
 The main method is located in the [StreamingJob.java](src/main/java/de/hhu/rucub100/bigdata2018/StreamingJob.java) file.
 ### Offline Analysis (batch processing)
+Five different examples of stream processing were implemented:
+   - [MaxTemperatureEurope](src/main/java/de/hhu/rucub100/bigdata2018/transformation/MaxTemperatureEurope.java) - The max temperature in Europe (country, city, temperature)
+   - [MaxTemperatureDiffEurope](src/main/java/de/hhu/rucub100/bigdata2018/transformation/MaxTemperatureDiffEurope.java) - The absolute difference between the lowest and highest measured temperature in Europe
+   - [ColdestCityInEurope](src/main/java/de/hhu/rucub100/bigdata2018/transformation/ColdestCityInEurope.java) - The city with the lowest measured Temperature (country, city, temperature)
+   - [MinTemperatureDiffCountries](src/main/java/de/hhu/rucub100/bigdata2018/transformation/MinTemperatureDiffCountries.java) - The first five countries with the lowest temperature fluctuation
+   - [AvgTemperaturePerCountry](src/main/java/de/hhu/rucub100/bigdata2018/transformation/AvgTemperaturePerCountry.java) - The average temperature of each country
+   
+The main method is located in the [BatchJob.java](src/main/java/de/hhu/rucub100/bigdata2018/BatchJob.java) file.
 ### Comparison
+For comparison of stream processing events with the calculated offline values, only the following three pair constellations are suitable, which we can take from the previous examples:
+   - AvgTemperaturePerCountry and AvgCountryTempPer24h;
+   - MaxTemperatureEurope and HottestCountryPer24h;
+   - ColdestCityInEurope and ColdestCountryPer24h;
+
+The main method is located in the [StreamingJobCompare.java](src/main/java/de/hhu/rucub100/bigdata2018/StreamingJobCompare.java) file.
+From this comparison, we can draw further conclusions about the weather on the one hand, and on the other hand, this is a good preparation for the construction of a predictive model, as we will see in the next step. For the sake of simplicity, the batch computation (offline values) were executed again here. One could have saved the results before and read them from the storage in this step.
 ### Options for making predictions
 ### Visualization
