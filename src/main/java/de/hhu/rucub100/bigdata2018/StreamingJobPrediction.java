@@ -13,12 +13,17 @@ import org.apache.flink.streaming.api.TimeCharacteristic;
 import org.apache.flink.streaming.api.datastream.DataStream;
 import org.apache.flink.streaming.api.environment.StreamExecutionEnvironment;
 
+import de.hhu.rucub100.bigdata2018.sink.ColdTempCountriesPrediction;
+import de.hhu.rucub100.bigdata2018.sink.HotTempCountriesPrediction;
 import de.hhu.rucub100.bigdata2018.sink.TemperatureRangePrediction;
 import de.hhu.rucub100.bigdata2018.source.CurrentWeatherSource;
 import de.hhu.rucub100.bigdata2018.source.data.CurrentWeather;
+import de.hhu.rucub100.bigdata2018.source.data.Neighbors;
 import de.hhu.rucub100.bigdata2018.transformation.AvgCountryTempPer24h;
 import de.hhu.rucub100.bigdata2018.transformation.AvgTemperaturePerCountry;
 import de.hhu.rucub100.bigdata2018.transformation.ColdestCityInEurope;
+import de.hhu.rucub100.bigdata2018.transformation.ColdestCountryPer24h;
+import de.hhu.rucub100.bigdata2018.transformation.HottestCountryPer24h;
 import de.hhu.rucub100.bigdata2018.transformation.MaxTemperatureDiffEurope;
 import de.hhu.rucub100.bigdata2018.transformation.MaxTemperatureEurope;
 import de.hhu.rucub100.bigdata2018.transformation.MinTemperatureDiffCountries;
@@ -65,11 +70,13 @@ public class StreamingJobPrediction {
 		List<Tuple2<String, Float>> bAvgTPerCountryResult =  bAvgTPerCountry.apply().collect();
 		
 		// predict temperature range for next 24h per country
-		predictTemperatureRange(streamEnv, bAvgTPerCountryResult, bMinTCityEuResult, bMaxTempEuResult);
+//		predictTemperatureRange(streamEnv, bAvgTPerCountryResult, bMinTCityEuResult, bMaxTempEuResult);
 
-		// predict rain for next 24h per country
 		// predict list of countries for hottest temperature
+		predictHotTempCountries(streamEnv, bAvgTPerCountryResult, bMinTCityEuResult, bMaxTempEuResult);
+		
 		// predict list of countries for coldest temperature
+//		predictColdTempCountries(streamEnv, bAvgTPerCountryResult, bMinTCityEuResult, bMaxTempEuResult);
 	}
 
 	private static void predictTemperatureRange(
@@ -89,6 +96,50 @@ public class StreamingJobPrediction {
 		.fromDataStream(cwStream)
 		.apply()
 		.addSink(new TemperatureRangePrediction(avg, min, max));
+		
+		streamEnv.execute();
+	}
+	
+	private static void predictHotTempCountries(
+			StreamExecutionEnvironment streamEnv,
+			List<Tuple2<String, Float>> avg,
+			Tuple3<String, String, Float> min, 
+			Tuple3<String, String, Float> max) throws Exception {
+		CurrentWeatherSource cwSource = new CurrentWeatherSource(
+				DataUtils.pathToCurrentWeatherData, 
+				HottestCountryPer24h.SERVING_SPEED, 
+				true,
+				true);
+		
+		DataStream<CurrentWeather> cwStream = streamEnv.addSource(cwSource);
+		
+		List<Neighbors> neighbors = DataUtils.getNeighbors();
+		
+		HottestCountryPer24h
+		.fromDataStream(cwStream)
+		.apply()
+		.addSink(new HotTempCountriesPrediction(avg, min, max, neighbors));
+		
+		streamEnv.execute();
+	}
+	
+	private static void predictColdTempCountries(
+			StreamExecutionEnvironment streamEnv,
+			List<Tuple2<String, Float>> avg,
+			Tuple3<String, String, Float> min, 
+			Tuple3<String, String, Float> max) throws Exception {
+		CurrentWeatherSource cwSource = new CurrentWeatherSource(
+				DataUtils.pathToCurrentWeatherData, 
+				ColdestCountryPer24h.SERVING_SPEED, 
+				true,
+				true);
+		
+		DataStream<CurrentWeather> cwStream = streamEnv.addSource(cwSource);
+		
+		ColdestCountryPer24h
+		.fromDataStream(cwStream)
+		.apply()
+		.addSink(new ColdTempCountriesPrediction(avg, min, max));
 		
 		streamEnv.execute();
 	}

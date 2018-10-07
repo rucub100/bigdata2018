@@ -75,7 +75,7 @@ public class StreamingJobCompare {
 		.apply()
 		.addSink(new CompareAvgTemp(batchResult));
 		
-		streamEnv.execute("Flink Streaming");
+		streamEnv.execute();
 	}
 	
 	private static void compareMaxTemp(
@@ -106,7 +106,7 @@ public class StreamingJobCompare {
 		.apply()
 		.addSink(new CompareMaxTemp(batchResult, bCountry, neighbors));
 		
-		streamEnv.execute("Flink Streaming");
+		streamEnv.execute();
 	}
 	
 	private static void compareMinTemp(
@@ -137,6 +137,6 @@ public class StreamingJobCompare {
 		.apply()
 		.addSink(new CompareMinTemp(batchResult, bCountry, neighbors));
 		
-		streamEnv.execute("Flink Streaming");
+		streamEnv.execute();
 	}
 }
