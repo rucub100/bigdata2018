@@ -3,13 +3,20 @@
  */
 package de.hhu.rucub100.bigdata2018;
 
-import org.apache.commons.lang3.NotImplementedException;
+import java.util.List;
+
 import org.apache.flink.api.java.DataSet;
 import org.apache.flink.api.java.ExecutionEnvironment;
+import org.apache.flink.api.java.tuple.Tuple2;
+import org.apache.flink.api.java.tuple.Tuple3;
 import org.apache.flink.streaming.api.TimeCharacteristic;
+import org.apache.flink.streaming.api.datastream.DataStream;
 import org.apache.flink.streaming.api.environment.StreamExecutionEnvironment;
 
+import de.hhu.rucub100.bigdata2018.sink.TemperatureRangePrediction;
+import de.hhu.rucub100.bigdata2018.source.CurrentWeatherSource;
 import de.hhu.rucub100.bigdata2018.source.data.CurrentWeather;
+import de.hhu.rucub100.bigdata2018.transformation.AvgCountryTempPer24h;
 import de.hhu.rucub100.bigdata2018.transformation.AvgTemperaturePerCountry;
 import de.hhu.rucub100.bigdata2018.transformation.ColdestCityInEurope;
 import de.hhu.rucub100.bigdata2018.transformation.MaxTemperatureDiffEurope;
@@ -41,7 +48,7 @@ public class StreamingJobPrediction {
 
 	private static void runPredictionMode(
 			final ExecutionEnvironment batchEnv, 
-			final StreamExecutionEnvironment streamEnv) {
+			final StreamExecutionEnvironment streamEnv) throws Exception {
 		
 		// consider all offline statistics for the prediction
 		DataSet<CurrentWeather> cwSet = batchEnv.fromCollection(DataUtils.getOfflineCurrentWeather());
@@ -51,6 +58,39 @@ public class StreamingJobPrediction {
 		MinTemperatureDiffCountries bTDiffCountries = MinTemperatureDiffCountries.fromDataSet(cwSet);
 		AvgTemperaturePerCountry bAvgTPerCountry = AvgTemperaturePerCountry.fromDataSet(cwSet);
 		
-		throw new NotImplementedException("");
+		Tuple3<String, String, Float> bMaxTempEuResult =  bMaxTempEu.apply().collect().get(0);
+		List<Float> bMaxTDiffEuResult = bMaxTDiffEu.apply().collect();
+		Tuple3<String, String, Float> bMinTCityEuResult = bMinTCityEu.apply().collect().get(0);
+		List<Tuple2<String, Float>> bTDiffCountriesResult = bTDiffCountries.apply().collect();
+		List<Tuple2<String, Float>> bAvgTPerCountryResult =  bAvgTPerCountry.apply().collect();
+		
+		// predict temperature range for next 24h per country
+		predictTemperatureRange(streamEnv, bAvgTPerCountryResult, bMinTCityEuResult, bMaxTempEuResult);
+
+		// predict rain for next 24h per country
+		// predict list of countries for hottest temperature
+		// predict list of countries for coldest temperature
 	}
+
+	private static void predictTemperatureRange(
+			StreamExecutionEnvironment streamEnv,
+			List<Tuple2<String, Float>> avg,
+			Tuple3<String, String, Float> min, 
+			Tuple3<String, String, Float> max) throws Exception {
+		CurrentWeatherSource cwSource = new CurrentWeatherSource(
+				DataUtils.pathToCurrentWeatherData, 
+				AvgCountryTempPer24h.SERVING_SPEED, 
+				true,
+				true);
+		
+		DataStream<CurrentWeather> cwStream = streamEnv.addSource(cwSource);
+		
+		AvgCountryTempPer24h
+		.fromDataStream(cwStream)
+		.apply()
+		.addSink(new TemperatureRangePrediction(avg, min, max));
+		
+		streamEnv.execute();
+	}
+
 }

@@ -59,7 +59,7 @@ public class StreamingJob {
 		DataStream<CurrentWeather> current = env.addSource(
 				new CurrentWeatherSource(
 						DataUtils.pathToCurrentWeatherData, 
-						HottestCountryPer24h.SERVING_SPEED, 
+						ColdestCountryPer24h.SERVING_SPEED, 
 						true,
 						false));
 		
