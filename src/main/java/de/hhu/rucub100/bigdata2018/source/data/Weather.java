@@ -5,7 +5,8 @@ import java.io.Serializable;
 /**
  * 
  * @author Ruslan Curbanov, ruslan.curbanov@uni-duesseldorf.de, Sep 19, 2018
- *
+ * 
+ * Serializable weather description POJO.
  */
 public class Weather implements Serializable {
 	

@@ -22,7 +22,8 @@ import org.apache.http.util.EntityUtils;
 /**
  * 
  * @author Ruslan Curbanov, ruslan.curbanov@uni-duesseldorf.de, Sep 18, 2018
- *
+ * 
+ * The OpenWeatherMap-API.
  */
 public final class OpenWeatherMapAPI {
 	

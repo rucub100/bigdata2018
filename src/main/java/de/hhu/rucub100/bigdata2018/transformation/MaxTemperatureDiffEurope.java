@@ -3,22 +3,17 @@
  */
 package de.hhu.rucub100.bigdata2018.transformation;
 
-import java.util.Map;
-
 import org.apache.flink.api.common.functions.MapFunction;
 import org.apache.flink.api.common.functions.ReduceFunction;
 import org.apache.flink.api.java.DataSet;
 import org.apache.flink.api.java.tuple.Tuple2;
-import org.apache.flink.api.java.tuple.Tuple3;
-import org.apache.flink.api.java.tuple.Tuple4;
 
 import de.hhu.rucub100.bigdata2018.source.data.CurrentWeather;
-import de.hhu.rucub100.bigdata2018.utils.DataUtils;
 
 /**
  * @author Ruslan Curbanov, ruslan.curbanov@uni-duesseldorf.de, Sep 24, 2018
  *
- * (country, city, temperature)
+ * The absolute difference between the lowest and highest measured temperature in Europe (country, city, temperature).
  */
 public class MaxTemperatureDiffEurope extends BatchTransformationBase<CurrentWeather, Float> {
 

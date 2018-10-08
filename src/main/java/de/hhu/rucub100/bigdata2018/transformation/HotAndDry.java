@@ -18,6 +18,7 @@ import de.hhu.rucub100.bigdata2018.source.data.CurrentWeather;
 /**
  * @author Ruslan Curbanov, ruslan.curbanov@uni-duesseldorf.de, Sep 29, 2018
  *
+ * Detection filter for hot and dry circumstances (thresholds via constructor parameters).
  */
 public class HotAndDry extends StreamTransformationBase<CurrentWeather, Tuple4<String, Float, Float, Date>> {
 

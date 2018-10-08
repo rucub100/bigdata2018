@@ -23,6 +23,8 @@ import de.hhu.rucub100.bigdata2018.utils.GeoUtils;
  */
 public class HotTempCountriesPrediction implements SinkFunction<Tuple3<String,Float,Date>> {
 
+	private static final long serialVersionUID = 1L;
+	
 	private final List<Tuple2<String, Float>> avg;
 	private final Tuple3<String, String, Float> min;
 	private final Tuple3<String, String, Float> max;

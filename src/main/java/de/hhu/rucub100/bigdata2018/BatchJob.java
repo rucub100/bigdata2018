@@ -30,10 +30,7 @@ import de.hhu.rucub100.bigdata2018.transformation.MinTemperatureDiffCountries;
 import de.hhu.rucub100.bigdata2018.utils.DataUtils;
 
 /**
- * Skeleton for a Flink Batch Job.
- *
- * <p>For a tutorial how to write a Flink batch application, check the
- * tutorials and examples on the <a href="http://flink.apache.org/docs/stable/">Flink Website</a>.
+ * Batch job for some example transformations.
  *
  * <p>To package your application into a JAR file for execution,
  * change the main class in the POM.xml file to this class (simply search for 'mainClass')

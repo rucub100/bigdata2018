@@ -5,7 +5,8 @@ import java.io.Serializable;
 /**
  * 
  * @author Ruslan Curbanov, ruslan.curbanov@uni-duesseldorf.de, Sep 19, 2018
- *
+ * 
+ * Serializable main properties for weather data.
  */
 public class Main implements Serializable {
 	

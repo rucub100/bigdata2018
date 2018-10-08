@@ -13,6 +13,7 @@ import org.apache.flink.streaming.api.functions.sink.SinkFunction;
 /**
  * @author Ruslan Curbanov, ruslan.curbanov@uni-duesseldorf.de, Oct 7, 2018
  *
+ * Sink function for the comparison between average temperature (from past) and average of last 24 hours, per country.
  */
 public class CompareAvgTemp implements SinkFunction<Tuple3<String,Float,Date>> {
 

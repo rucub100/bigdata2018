@@ -20,9 +20,13 @@ import de.hhu.rucub100.bigdata2018.utils.GeoUtils;
 /**
  * @author Ruslan Curbanov, ruslan.curbanov@uni-duesseldorf.de, Oct 7, 2018
  *
+ * Sink function to predict list of countries with cold temperature in the next 24 hours.
  */
 public class ColdTempCountriesPrediction implements SinkFunction<Tuple3<String,Float,Date>> {
 
+
+	private static final long serialVersionUID = 1L;
+	
 	private final List<Tuple2<String, Float>> avg;
 	private final Tuple3<String, String, Float> min;
 	private final Tuple3<String, String, Float> max;

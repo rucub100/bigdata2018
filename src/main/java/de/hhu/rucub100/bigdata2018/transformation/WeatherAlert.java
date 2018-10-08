@@ -19,6 +19,7 @@ import de.hhu.rucub100.bigdata2018.source.data.CurrentWeather;
 /**
  * @author Ruslan Curbanov, ruslan.curbanov@uni-duesseldorf.de, Sep 29, 2018
  *
+ * Weather alert observing changes for temperature, wind speed, humidity and rain (via static thresholds, computation over multiple values).
  */
 public class WeatherAlert extends StreamTransformationBase<CurrentWeather, String> {
 

@@ -3,8 +3,6 @@
  */
 package de.hhu.rucub100.bigdata2018.transformation;
 
-import java.util.Map;
-
 import org.apache.flink.api.common.functions.MapFunction;
 import org.apache.flink.api.common.functions.ReduceFunction;
 import org.apache.flink.api.java.DataSet;
@@ -15,8 +13,8 @@ import de.hhu.rucub100.bigdata2018.utils.DataUtils;
 
 /**
  * @author Ruslan Curbanov, ruslan.curbanov@uni-duesseldorf.de, Sep 24, 2018
- *
- * (country, city, temperature)
+ * 
+ * The city with the lowest measured Temperature (country, city, temperature).
  */
 public class ColdestCityInEurope extends BatchTransformationBase<CurrentWeather, Tuple3<String, String, Float>> {
 

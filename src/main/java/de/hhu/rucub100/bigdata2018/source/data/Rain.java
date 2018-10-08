@@ -7,7 +7,8 @@ import com.google.gson.annotations.SerializedName;
 /**
  * 
  * @author Ruslan Curbanov, ruslan.curbanov@uni-duesseldorf.de, Sep 19, 2018
- *
+ * 
+ * Serializable rain data.
  */
 public class Rain implements Serializable {
 	

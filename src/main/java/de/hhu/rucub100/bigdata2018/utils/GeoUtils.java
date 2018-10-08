@@ -7,7 +7,8 @@ import de.hhu.rucub100.bigdata2018.source.data.Coord;
 
 /**
  * @author Ruslan Curbanov, ruslan.curbanov@uni-duesseldorf.de, Sep 26, 2018
- *
+ * 
+ * Utils for the geo information.
  */
 public class GeoUtils {
 

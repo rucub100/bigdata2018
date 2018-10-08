@@ -7,7 +7,8 @@ import java.io.Serializable;
 
 /**
  * @author Ruslan Curbanov, ruslan.curbanov@uni-duesseldorf.de, Oct 3, 2018
- *
+ * 
+ * Pair of countries.
  */
 public class Neighbors implements Serializable {
 

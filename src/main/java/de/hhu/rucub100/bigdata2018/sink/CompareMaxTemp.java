@@ -17,7 +17,9 @@ import de.hhu.rucub100.bigdata2018.utils.GeoUtils;
 
 /**
  * @author Ruslan Curbanov, ruslan.curbanov@uni-duesseldorf.de, Oct 7, 2018
- *
+ * 
+ * Sink function to compare hottest country from batch computation with streaming results for each 24 hours.
+ * Comparison will take spatial relation into count.
  */
 public class CompareMaxTemp implements SinkFunction<Tuple3<String,Float,Date>> {
 	

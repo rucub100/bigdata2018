@@ -4,16 +4,13 @@
 package de.hhu.rucub100.bigdata2018.transformation;
 
 import java.util.Comparator;
-import java.util.Map;
 import java.util.SortedSet;
 import java.util.TreeSet;
 
 import org.apache.flink.api.common.functions.GroupReduceFunction;
 import org.apache.flink.api.common.functions.MapFunction;
 import org.apache.flink.api.common.functions.ReduceFunction;
-import org.apache.flink.api.common.operators.Order;
 import org.apache.flink.api.java.DataSet;
-import org.apache.flink.api.java.aggregation.Aggregations;
 import org.apache.flink.api.java.tuple.Tuple2;
 import org.apache.flink.api.java.tuple.Tuple3;
 import org.apache.flink.util.Collector;
@@ -24,7 +21,7 @@ import de.hhu.rucub100.bigdata2018.utils.DataUtils;
 /**
  * @author Ruslan Curbanov, ruslan.curbanov@uni-duesseldorf.de, Sep 24, 2018
  *
- * (country, city, temperature)
+ * The first five countries with the lowest temperature fluctuation (country, city, temperature).
  */
 public class MinTemperatureDiffCountries extends BatchTransformationBase<CurrentWeather, Tuple2<String, Float>> {
 

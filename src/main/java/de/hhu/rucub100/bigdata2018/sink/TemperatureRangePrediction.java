@@ -3,7 +3,6 @@
  */
 package de.hhu.rucub100.bigdata2018.sink;
 
-import java.time.LocalDateTime;
 import java.util.Date;
 import java.util.List;
 
@@ -14,10 +13,13 @@ import org.apache.flink.streaming.api.functions.sink.SinkFunction;
 
 /**
  * @author Ruslan Curbanov, ruslan.curbanov@uni-duesseldorf.de, Oct 7, 2018
- *
+ * 
+ * Sink function to predict temperature range for the next 24h per country.
  */
 public class TemperatureRangePrediction implements SinkFunction<Tuple3<String,Float,Date>> {
 
+	private static final long serialVersionUID = 1L;
+	
 	private final List<Tuple2<String, Float>> avg;
 	private final Tuple3<String, String, Float> min;
 	private final Tuple3<String, String, Float> max;

@@ -1,13 +1,7 @@
 package de.hhu.rucub100.bigdata2018.source;
 
-import java.io.BufferedReader;
-import java.io.FileInputStream;
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.InputStreamReader;
 import java.util.Iterator;
 import java.util.List;
-import java.util.zip.GZIPInputStream;
 
 import org.apache.flink.streaming.api.functions.source.SourceFunction;
 import org.apache.flink.streaming.api.watermark.Watermark;
@@ -24,8 +18,12 @@ import de.hhu.rucub100.bigdata2018.utils.DataUtils;
  * 
  * @author Ruslan Curbanov, ruslan.curbanov@uni-duesseldorf.de, Sep 18, 2018
  * 
+ * Source function, which serves as a transparent source for the weather data and allows a simulation 
+ * or real streaming with respect to the adjustable serving speed.
  */
 public class CurrentWeatherSource implements SourceFunction<CurrentWeather> {
+
+	private static final long serialVersionUID = 1L;
 
 	private final int servingSpeed;
 	private final boolean simulation;

@@ -8,6 +8,7 @@ import java.io.Serializable;
 /**
  * @author Ruslan Curbanov, ruslan.curbanov@uni-duesseldorf.de, Sep 21, 2018
  *
+ * A serializable country POJO.
  */
 public class Country implements Serializable {
 	

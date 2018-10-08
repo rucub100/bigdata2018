@@ -7,7 +7,8 @@ import org.apache.flink.api.java.DataSet;
 
 /**
  * @author Ruslan Curbanov, ruslan.curbanov@uni-duesseldorf.de, Sep 24, 2018
- *
+ * 
+ * Base class for batch transformations.
  */
 public abstract class BatchTransformationBase<IN, OUT> {
 

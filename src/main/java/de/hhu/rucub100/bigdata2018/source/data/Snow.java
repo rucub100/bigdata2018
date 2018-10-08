@@ -8,6 +8,7 @@ import com.google.gson.annotations.SerializedName;
  * 
  * @author Ruslan Curbanov, ruslan.curbanov@uni-duesseldorf.de, Sep 19, 2018
  *
+ * Serializable snow data.
  */
 public class Snow implements Serializable {
 	

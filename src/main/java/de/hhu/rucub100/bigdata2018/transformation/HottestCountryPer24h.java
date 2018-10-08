@@ -4,7 +4,6 @@
 package de.hhu.rucub100.bigdata2018.transformation;
 
 import java.util.Date;
-import java.util.Map;
 
 import org.apache.flink.api.common.functions.MapFunction;
 import org.apache.flink.api.common.functions.ReduceFunction;
@@ -19,6 +18,7 @@ import de.hhu.rucub100.bigdata2018.utils.DataUtils;
 /**
  * @author Ruslan Curbanov, ruslan.curbanov@uni-duesseldorf.de, Sep 29, 2018
  *
+ * The country with the highest temperature in a window of 24 hours.
  */
 public class HottestCountryPer24h extends StreamTransformationBase<CurrentWeather, Tuple3<String, Float, Date>> {
 

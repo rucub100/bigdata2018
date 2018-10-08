@@ -6,6 +6,7 @@ import java.io.Serializable;
  * 
  * @author Ruslan Curbanov, ruslan.curbanov@uni-duesseldorf.de, Sep 19, 2018
  *
+ * Serializable wind information.
  */
 public class Wind implements Serializable {
 	

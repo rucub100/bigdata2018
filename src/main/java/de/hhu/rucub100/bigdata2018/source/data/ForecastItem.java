@@ -7,7 +7,8 @@ import java.io.Serializable;
 
 /**
  * @author Ruslan Curbanov, ruslan.curbanov@uni-duesseldorf.de, Sep 20, 2018
- *
+ * 
+ * A serializable forecast item.
  */
 public class ForecastItem implements Serializable {
 	

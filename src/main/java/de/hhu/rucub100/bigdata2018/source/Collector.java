@@ -17,7 +17,8 @@ import de.hhu.rucub100.bigdata2018.utils.DataUtils;
 
 /**
  * @author Ruslan Curbanov, ruslan.curbanov@uni-duesseldorf.de, Sep 18, 2018
- *
+ * 
+ * The collector uses the OpenWeatherMap-API and allows retrieval of current weather or forecast data.
  */
 public class Collector {
 	

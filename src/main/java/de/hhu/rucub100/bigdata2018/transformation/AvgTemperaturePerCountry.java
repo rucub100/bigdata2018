@@ -3,8 +3,6 @@
  */
 package de.hhu.rucub100.bigdata2018.transformation;
 
-import java.util.Map;
-
 import org.apache.flink.api.common.functions.MapFunction;
 import org.apache.flink.api.common.functions.ReduceFunction;
 import org.apache.flink.api.java.DataSet;

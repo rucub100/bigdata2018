@@ -7,7 +7,8 @@ import java.io.Serializable;
 
 /**
  * @author Ruslan Curbanov, ruslan.curbanov@uni-duesseldorf.de, Sep 19, 2018
- *
+ * 
+ * A serializable city POJO.
  */
 public class City implements Serializable {
 	

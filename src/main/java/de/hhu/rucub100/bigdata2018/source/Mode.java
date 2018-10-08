@@ -5,7 +5,8 @@ package de.hhu.rucub100.bigdata2018.source;
 
 /**
  * @author Ruslan Curbanov, ruslan.curbanov@uni-duesseldorf.de, Sep 18, 2018
- *
+ * 
+ * The API mode.
  */
 public enum Mode {
 	/**

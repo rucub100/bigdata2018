@@ -34,11 +34,8 @@ import de.hhu.rucub100.bigdata2018.transformation.WeatherAlert;
 import de.hhu.rucub100.bigdata2018.utils.DataUtils;
 
 /**
- * Skeleton for a Flink Streaming Job.
- *
- * <p>For a tutorial how to write a Flink streaming application, check the
- * tutorials and examples on the <a href="http://flink.apache.org/docs/stable/">Flink Website</a>.
- *
+ * Stream job the some example transformations.
+ * 
  * <p>To package your application into a JAR file for execution, run
  * 'mvn clean package' on the command line.
  *

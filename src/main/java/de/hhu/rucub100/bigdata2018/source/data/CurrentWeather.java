@@ -8,6 +8,7 @@ import java.util.Date;
 
 /**
  * @author Ruslan Curbanov, ruslan.curbanov@uni-duesseldorf.de, Sep 19, 2018
+ * 
  * Current weather data object.
  */
 public class CurrentWeather implements Serializable {
