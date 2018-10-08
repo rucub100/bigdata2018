@@ -73,10 +73,10 @@ public class StreamingJobPrediction {
 //		predictTemperatureRange(streamEnv, bAvgTPerCountryResult, bMinTCityEuResult, bMaxTempEuResult);
 
 		// predict list of countries for hottest temperature
-		predictHotTempCountries(streamEnv, bAvgTPerCountryResult, bMinTCityEuResult, bMaxTempEuResult);
+//		predictHotTempCountries(streamEnv, bAvgTPerCountryResult, bMinTCityEuResult, bMaxTempEuResult);
 		
 		// predict list of countries for coldest temperature
-//		predictColdTempCountries(streamEnv, bAvgTPerCountryResult, bMinTCityEuResult, bMaxTempEuResult);
+		predictColdTempCountries(streamEnv, bAvgTPerCountryResult, bMinTCityEuResult, bMaxTempEuResult);
 	}
 
 	private static void predictTemperatureRange(
@@ -136,10 +136,12 @@ public class StreamingJobPrediction {
 		
 		DataStream<CurrentWeather> cwStream = streamEnv.addSource(cwSource);
 		
+		List<Neighbors> neighbors = DataUtils.getNeighbors();
+		
 		ColdestCountryPer24h
 		.fromDataStream(cwStream)
 		.apply()
-		.addSink(new ColdTempCountriesPrediction(avg, min, max));
+		.addSink(new ColdTempCountriesPrediction(avg, min, max, neighbors));
 		
 		streamEnv.execute();
 	}
