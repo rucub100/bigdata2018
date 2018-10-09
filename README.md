@@ -22,6 +22,7 @@ You can find the hand-crafted structure in the [europe.json](europe.json) file.
    * stream processing - [StreamingJob.java](src/main/java/de/hhu/rucub100/bigdata2018/StreamingJob.java)
    * comparison between online and offline computed statistics - [StreamingJobCompare.java](src/main/java/de/hhu/rucub100/bigdata2018/StreamingJobCompare.java)
    * options for making predictions - [StreamingJobPrediction.java](src/main/java/de/hhu/rucub100/bigdata2018/StreamingJobPrediction.java)
+5. If you use Eclipse IDE running `mvn eclipse:eclipse` might fix eclipse project structure problems with the maven project (import existing maven project)
 ## Overview
 The structure is organized as follows:
    - source related features like data collection and the weather API are in [de.hhu.rucub100.bigdata2018.source](src/main/java/de/hhu/rucub100/bigdata2018/source)
