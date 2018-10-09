@@ -1,0 +1,65 @@
+MaxTemperatureEurope
+====================
+
+Spain, Seville, 37.46°C
+
+MaxTemperatureDiffEurope
+========================
+
+41.46°C
+
+ColdestCityInEurope
+===================
+
+Finland, Oulu, -4.0°C
+
+MinTemperatureDiffCountries
+===========================
+
+Latvia, 12.0°C
+Estonia, 15.0°C
+Denmark, 15.46°C
+Lithuania, 17.0°C
+Luxembourg, 17.82°C
+
+AvgTemperaturePerCountry
+========================
+
+Albania, 19.12°C
+Belarus, 8.86°C
+Belgium, 10.84°C
+Czech, 9.77°C
+France, 16.76°C
+Germany, 10.51°C
+Ireland, 10.74°C
+Italy, 18.28°C
+Serbia, 12.66°C
+United Kingdom, 11.37°C
+Austria, 10.99°C
+Croatia, 15.28°C
+Hungary, 11.32°C
+Lithuania, 9.64°C
+Macedonia, 14.18°C
+Norway, 8.94°C
+Russia, 10.71°C
+Spain, 23.01°C
+Ukraine, 11.87°C
+Denmark, 10.86°C
+Luxembourg, 10.43°C
+Malta, 22.62°C
+Montenegro, 18.47°C
+Portugal, 21.58°C
+Romania, 12.19°C
+Slovakia, 11.27°C
+Switzerland, 13.49°C
+Bosnia, 10.46°C
+Bulgaria, 14.84°C
+Estonia, 9.19°C
+Finland, 7.26°C
+Greece, 20.28°C
+Latvia, 9.59°C
+Moldova, 12.05°C
+Netherlands, 11.54°C
+Poland, 9.94°C
+Slovenia, 10.33°C
+Sweden, 8.73°C

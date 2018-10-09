@@ -1,0 +1,2342 @@
+ColdestCountryPer24h
+====================
+
+United Kingdom, 9.26169°C, Sat Sep 22 18:20:00 CEST 2018
+Ireland, 8.610129°C, Sun Sep 23 02:00:00 CEST 2018
+Finland, 6.819858°C, Mon Sep 24 02:20:00 CEST 2018
+Czech, 6.961745°C, Tue Sep 25 02:00:00 CEST 2018
+Belarus, 7.2585254°C, Wed Sep 26 02:00:00 CEST 2018
+Finland, 7.9317737°C, Thu Sep 27 02:20:00 CEST 2018
+Finland, 4.7939186°C, Fri Sep 28 02:20:00 CEST 2018
+Finland, 4.9445744°C, Sat Sep 29 02:20:00 CEST 2018
+Belarus, 7.1294084°C, Sun Sep 30 02:00:00 CEST 2018
+Sweden, 7.12816°C, Mon Oct 01 02:20:00 CEST 2018
+Finland, 5.5015564°C, Tue Oct 02 02:20:00 CEST 2018
+Finland, 4.7710166°C, Wed Oct 03 02:20:00 CEST 2018
+
+HottestCountryPer24h
+====================
+
+Spain, 26.89726°C, Sat Sep 22 18:00:00 CEST 2018
+Spain, 26.481936°C, Sun Sep 23 02:00:00 CEST 2018
+Spain, 25.819006°C, Mon Sep 24 02:00:00 CEST 2018
+Malta, 24.663158°C, Tue Sep 25 02:15:00 CEST 2018
+Portugal, 23.612993°C, Wed Sep 26 02:00:00 CEST 2018
+Portugal, 23.667177°C, Thu Sep 27 02:00:00 CEST 2018
+Spain, 22.31893°C, Fri Sep 28 02:00:00 CEST 2018
+Malta, 22.340206°C, Sat Sep 29 02:15:00 CEST 2018
+Spain, 22.516884°C, Sun Sep 30 02:00:00 CEST 2018
+Malta, 23.28866°C, Mon Oct 01 02:15:00 CEST 2018
+Portugal, 21.47135°C, Tue Oct 02 02:00:00 CEST 2018
+Portugal, 22.17521°C, Wed Oct 03 02:00:00 CEST 2018
+
+AvgCountryTempPer24h
+====================
+
+Belgium, 10.817298°C, Sun Sep 23 01:55:00 CEST 2018
+Finland, 10.857473°C, Sun Sep 23 01:50:00 CEST 2018
+Macedonia, 17.260984°C, Sun Sep 23 01:55:54 CEST 2018
+Romania, 16.463146°C, Sun Sep 23 01:30:00 CEST 2018
+Ireland, 9.285831°C, Sun Sep 23 01:58:26 CEST 2018
+Malta, 25.09375°C, Sun Sep 23 01:45:00 CEST 2018
+Montenegro, 21.359999°C, Sun Sep 23 01:30:00 CEST 2018
+Austria, 13.012512°C, Sun Sep 23 01:50:00 CEST 2018
+Albania, 20.84319°C, Sun Sep 23 01:50:00 CEST 2018
+Czech, 13.267017°C, Sun Sep 23 01:37:00 CEST 2018
+Bosnia, 15.099349°C, Sun Sep 23 01:59:46 CEST 2018
+Estonia, 11.484559°C, Sun Sep 23 01:56:12 CEST 2018
+Serbia, 18.225533°C, Sun Sep 23 01:30:00 CEST 2018
+France, 20.363985°C, Sun Sep 23 01:50:00 CEST 2018
+Switzerland, 17.38543°C, Sun Sep 23 01:50:00 CEST 2018
+Greece, 21.172556°C, Sun Sep 23 01:50:00 CEST 2018
+United Kingdom, 9.261689°C, Sun Sep 23 01:50:00 CEST 2018
+Luxembourg, 10.901249°C, Sun Sep 23 01:56:00 CEST 2018
+Belarus, 10.937325°C, Sun Sep 23 01:59:22 CEST 2018
+Denmark, 11.056985°C, Sun Sep 23 01:50:57 CEST 2018
+Croatia, 17.280321°C, Sun Sep 23 01:30:00 CEST 2018
+Hungary, 11.809528°C, Sun Sep 23 01:45:00 CEST 2018
+Lithuania, 10.84375°C, Sun Sep 23 01:50:00 CEST 2018
+Netherlands, 11.425732°C, Sun Sep 23 01:55:00 CEST 2018
+Spain, 26.897263°C, Sun Sep 23 01:30:00 CEST 2018
+Sweden, 10.438605°C, Sun Sep 23 01:50:00 CEST 2018
+Moldova, 19.370436°C, Sun Sep 23 01:45:00 CEST 2018
+Slovakia, 12.465968°C, Sun Sep 23 01:30:00 CEST 2018
+Italy, 22.75503°C, Sun Sep 23 01:50:00 CEST 2018
+Portugal, 21.75258°C, Sun Sep 23 01:30:00 CEST 2018
+Slovenia, 11.249463°C, Sun Sep 23 01:30:00 CEST 2018
+Ukraine, 17.343817°C, Sun Sep 23 01:30:00 CEST 2018
+Norway, 9.729577°C, Sun Sep 23 01:59:27 CEST 2018
+Germany, 11.629359°C, Sun Sep 23 01:56:00 CEST 2018
+Latvia, 11.15625°C, Sun Sep 23 01:50:00 CEST 2018
+Bulgaria, 18.82787°C, Sun Sep 23 01:30:00 CEST 2018
+Poland, 11.105691°C, Sun Sep 23 01:30:00 CEST 2018
+Russia, 13.047377°C, Sun Sep 23 01:30:00 CEST 2018
+Moldova, 14.598958°C, Mon Sep 24 01:41:14 CEST 2018
+Slovakia, 14.646286°C, Mon Sep 24 01:30:00 CEST 2018
+Czech, 13.117416°C, Mon Sep 24 01:40:00 CEST 2018
+Italy, 22.68218°C, Mon Sep 24 01:55:00 CEST 2018
+Greece, 22.993715°C, Mon Sep 24 01:50:00 CEST 2018
+Sweden, 9.834484°C, Mon Sep 24 01:50:00 CEST 2018
+Austria, 14.897572°C, Mon Sep 24 01:50:00 CEST 2018
+Lithuania, 10.739583°C, Mon Sep 24 01:50:00 CEST 2018
+Luxembourg, 13.029166°C, Mon Sep 24 01:56:00 CEST 2018
+Slovenia, 13.938006°C, Mon Sep 24 01:30:00 CEST 2018
+Netherlands, 10.513889°C, Mon Sep 24 01:55:00 CEST 2018
+Poland, 12.3412075°C, Mon Sep 24 01:30:00 CEST 2018
+Serbia, 19.444164°C, Mon Sep 24 01:30:00 CEST 2018
+Spain, 26.481932°C, Mon Sep 24 01:30:00 CEST 2018
+Norway, 9.226°C, Mon Sep 24 01:59:27 CEST 2018
+United Kingdom, 9.488672°C, Mon Sep 24 01:50:00 CEST 2018
+Belarus, 10.849407°C, Mon Sep 24 01:58:13 CEST 2018
+Russia, 12.920614°C, Mon Sep 24 01:30:00 CEST 2018
+Switzerland, 20.369919°C, Mon Sep 24 01:50:00 CEST 2018
+Latvia, 11.114583°C, Mon Sep 24 01:50:00 CEST 2018
+Portugal, 21.387505°C, Mon Sep 24 01:30:00 CEST 2018
+Denmark, 11.045783°C, Mon Sep 24 01:57:28 CEST 2018
+Ukraine, 12.344454°C, Mon Sep 24 01:00:00 CEST 2018
+Croatia, 20.29955°C, Mon Sep 24 01:30:00 CEST 2018
+Hungary, 15.379374°C, Mon Sep 24 01:58:54 CEST 2018
+Albania, 21.965696°C, Mon Sep 24 01:50:00 CEST 2018
+Estonia, 10.437569°C, Mon Sep 24 01:55:53 CEST 2018
+Ireland, 8.610129°C, Mon Sep 24 01:53:28 CEST 2018
+Germany, 11.255991°C, Mon Sep 24 01:56:00 CEST 2018
+Malta, 25.340206°C, Mon Sep 24 01:45:00 CEST 2018
+Bosnia, 17.60412°C, Mon Sep 24 01:56:59 CEST 2018
+Macedonia, 19.274948°C, Mon Sep 24 01:55:54 CEST 2018
+Montenegro, 22.711678°C, Mon Sep 24 01:30:00 CEST 2018
+France, 21.482306°C, Mon Sep 24 01:30:00 CEST 2018
+Romania, 16.234066°C, Mon Sep 24 01:30:00 CEST 2018
+Bulgaria, 20.879896°C, Mon Sep 24 01:30:00 CEST 2018
+Finland, 9.589617°C, Mon Sep 24 01:50:00 CEST 2018
+Belgium, 10.522609°C, Mon Sep 24 01:55:00 CEST 2018
+Hungary, 12.730051°C, Tue Sep 25 01:48:08 CEST 2018
+Bosnia, 10.1407585°C, Tue Sep 25 01:42:48 CEST 2018
+Serbia, 12.693737°C, Tue Sep 25 01:30:00 CEST 2018
+Bulgaria, 20.148438°C, Tue Sep 25 01:30:00 CEST 2018
+United Kingdom, 9.555508°C, Tue Sep 25 01:50:00 CEST 2018
+Ireland, 8.268644°C, Tue Sep 25 01:55:05 CEST 2018
+Luxembourg, 8.808228°C, Tue Sep 25 01:56:00 CEST 2018
+Macedonia, 17.176588°C, Tue Sep 25 01:45:07 CEST 2018
+Netherlands, 10.678467°C, Tue Sep 25 01:55:00 CEST 2018
+Malta, 25.479166°C, Tue Sep 25 01:45:00 CEST 2018
+Germany, 9.322878°C, Tue Sep 25 01:56:00 CEST 2018
+Montenegro, 20.237703°C, Tue Sep 25 01:30:00 CEST 2018
+Switzerland, 12.07549°C, Tue Sep 25 01:50:00 CEST 2018
+Latvia, 8.833333°C, Tue Sep 25 01:50:00 CEST 2018
+Romania, 13.781773°C, Tue Sep 25 01:30:00 CEST 2018
+Greece, 22.825636°C, Tue Sep 25 01:50:00 CEST 2018
+Russia, 11.814996°C, Tue Sep 25 01:30:00 CEST 2018
+Finland, 6.8198576°C, Tue Sep 25 01:50:00 CEST 2018
+Moldova, 13.879272°C, Tue Sep 25 01:41:33 CEST 2018
+Austria, 11.142488°C, Tue Sep 25 01:50:00 CEST 2018
+Norway, 7.511707°C, Tue Sep 25 01:50:00 CEST 2018
+Belgium, 9.769955°C, Tue Sep 25 01:55:00 CEST 2018
+Albania, 22.083944°C, Tue Sep 25 01:50:00 CEST 2018
+France, 16.387753°C, Tue Sep 25 01:30:00 CEST 2018
+Ukraine, 13.405211°C, Tue Sep 25 01:00:00 CEST 2018
+Poland, 8.8671875°C, Tue Sep 25 01:30:00 CEST 2018
+Croatia, 16.6763°C, Tue Sep 25 01:30:00 CEST 2018
+Italy, 22.361145°C, Tue Sep 25 01:55:00 CEST 2018
+Sweden, 7.277807°C, Tue Sep 25 01:50:00 CEST 2018
+Lithuania, 8.662021°C, Tue Sep 25 01:50:00 CEST 2018
+Portugal, 23.39358°C, Tue Sep 25 01:30:00 CEST 2018
+Slovenia, 12.667052°C, Tue Sep 25 01:30:00 CEST 2018
+Belarus, 9.160457°C, Tue Sep 25 01:59:44 CEST 2018
+Spain, 25.819006°C, Tue Sep 25 01:30:00 CEST 2018
+Slovakia, 11.787399°C, Tue Sep 25 01:30:00 CEST 2018
+Czech, 8.956899°C, Tue Sep 25 01:30:00 CEST 2018
+Estonia, 9.1978445°C, Tue Sep 25 01:55:24 CEST 2018
+Denmark, 9.523622°C, Tue Sep 25 01:50:00 CEST 2018
+Hungary, 9.130666°C, Wed Sep 26 01:56:02 CEST 2018
+Macedonia, 12.244449°C, Wed Sep 26 01:55:55 CEST 2018
+Serbia, 10.34195°C, Wed Sep 26 01:30:00 CEST 2018
+Netherlands, 10.477042°C, Wed Sep 26 01:55:00 CEST 2018
+Belgium, 9.480319°C, Wed Sep 26 01:55:00 CEST 2018
+Luxembourg, 8.869793°C, Wed Sep 26 01:56:00 CEST 2018
+Malta, 24.663158°C, Wed Sep 26 01:45:00 CEST 2018
+United Kingdom, 10.541412°C, Wed Sep 26 01:50:00 CEST 2018
+Finland, 7.356021°C, Wed Sep 26 01:50:00 CEST 2018
+Austria, 8.3585415°C, Wed Sep 26 01:50:00 CEST 2018
+Ireland, 11.313345°C, Wed Sep 26 01:58:27 CEST 2018
+Greece, 21.23089°C, Wed Sep 26 01:50:00 CEST 2018
+Romania, 9.410571°C, Wed Sep 26 01:30:00 CEST 2018
+Switzerland, 11.398581°C, Wed Sep 26 01:50:00 CEST 2018
+Montenegro, 17.236572°C, Wed Sep 26 01:30:00 CEST 2018
+Moldova, 9.721696°C, Wed Sep 26 01:57:37 CEST 2018
+Portugal, 23.762447°C, Wed Sep 26 01:30:00 CEST 2018
+Lithuania, 7.5°C, Wed Sep 26 01:50:00 CEST 2018
+Albania, 19.35298°C, Wed Sep 26 01:57:17 CEST 2018
+Slovakia, 8.569684°C, Wed Sep 26 01:30:00 CEST 2018
+Denmark, 9.9898405°C, Wed Sep 26 01:58:53 CEST 2018
+Poland, 7.2421875°C, Wed Sep 26 01:30:00 CEST 2018
+Sweden, 8.415479°C, Wed Sep 26 01:50:00 CEST 2018
+Estonia, 8.48097°C, Wed Sep 26 01:56:53 CEST 2018
+Spain, 23.806322°C, Wed Sep 26 01:30:00 CEST 2018
+Czech, 6.9617457°C, Wed Sep 26 01:30:00 CEST 2018
+Italy, 17.656288°C, Wed Sep 26 01:55:00 CEST 2018
+Germany, 8.720409°C, Wed Sep 26 01:56:00 CEST 2018
+Latvia, 7.8229165°C, Wed Sep 26 01:50:00 CEST 2018
+Belarus, 7.0503335°C, Wed Sep 26 01:55:58 CEST 2018
+Russia, 11.971809°C, Wed Sep 26 01:30:00 CEST 2018
+Slovenia, 8.078057°C, Wed Sep 26 01:30:00 CEST 2018
+Ukraine, 9.437043°C, Wed Sep 26 01:30:00 CEST 2018
+Croatia, 12.824713°C, Wed Sep 26 01:30:00 CEST 2018
+Bulgaria, 12.498688°C, Wed Sep 26 01:30:00 CEST 2018
+Bosnia, 7.775666°C, Wed Sep 26 01:45:03 CEST 2018
+France, 15.375897°C, Wed Sep 26 01:30:00 CEST 2018
+Norway, 9.602334°C, Wed Sep 26 01:50:00 CEST 2018
+Bosnia, 7.931585°C, Thu Sep 27 01:59:40 CEST 2018
+Poland, 9.145454°C, Thu Sep 27 01:30:00 CEST 2018
+Belarus, 7.2585254°C, Thu Sep 27 01:56:45 CEST 2018
+Russia, 11.457606°C, Thu Sep 27 01:30:00 CEST 2018
+Spain, 23.598753°C, Thu Sep 27 01:30:00 CEST 2018
+Latvia, 9.802083°C, Thu Sep 27 01:50:00 CEST 2018
+Lithuania, 9.249135°C, Thu Sep 27 01:50:00 CEST 2018
+Ukraine, 7.6092486°C, Thu Sep 27 01:30:00 CEST 2018
+Italy, 15.561848°C, Thu Sep 27 01:55:00 CEST 2018
+Albania, 16.705584°C, Thu Sep 27 01:59:02 CEST 2018
+Sweden, 12.00701°C, Thu Sep 27 01:50:00 CEST 2018
+Moldova, 7.8489556°C, Thu Sep 27 01:56:02 CEST 2018
+Germany, 11.244116°C, Thu Sep 27 01:56:00 CEST 2018
+Slovakia, 8.608914°C, Thu Sep 27 01:30:00 CEST 2018
+Bulgaria, 10.758442°C, Thu Sep 27 01:30:00 CEST 2018
+Croatia, 12.195971°C, Thu Sep 27 01:30:00 CEST 2018
+Norway, 12.499856°C, Thu Sep 27 01:50:00 CEST 2018
+Slovenia, 7.2659864°C, Thu Sep 27 01:30:00 CEST 2018
+France, 16.593803°C, Thu Sep 27 01:30:00 CEST 2018
+Portugal, 23.612993°C, Thu Sep 27 01:30:00 CEST 2018
+Denmark, 13.812753°C, Thu Sep 27 01:50:02 CEST 2018
+Ireland, 15.090755°C, Thu Sep 27 01:30:00 CEST 2018
+Serbia, 9.412893°C, Thu Sep 27 01:30:00 CEST 2018
+United Kingdom, 15.055713°C, Thu Sep 27 01:50:00 CEST 2018
+Luxembourg, 10.752167°C, Thu Sep 27 01:56:00 CEST 2018
+Greece, 18.830626°C, Thu Sep 27 01:50:00 CEST 2018
+Austria, 8.519915°C, Thu Sep 27 01:50:00 CEST 2018
+Netherlands, 13.020005°C, Thu Sep 27 01:55:00 CEST 2018
+Switzerland, 12.059844°C, Thu Sep 27 01:50:00 CEST 2018
+Estonia, 10.613504°C, Thu Sep 27 01:56:06 CEST 2018
+Hungary, 8.391606°C, Thu Sep 27 01:57:56 CEST 2018
+Czech, 8.03206°C, Thu Sep 27 01:30:00 CEST 2018
+Montenegro, 16.89022°C, Thu Sep 27 01:30:00 CEST 2018
+Malta, 22.061855°C, Thu Sep 27 01:45:00 CEST 2018
+Finland, 9.416991°C, Thu Sep 27 01:50:00 CEST 2018
+Macedonia, 10.254866°C, Thu Sep 27 01:45:01 CEST 2018
+Belgium, 11.820866°C, Thu Sep 27 01:55:00 CEST 2018
+Romania, 8.380239°C, Thu Sep 27 01:30:00 CEST 2018
+Denmark, 14.552266°C, Fri Sep 28 01:50:00 CEST 2018
+Serbia, 9.907451°C, Fri Sep 28 01:30:00 CEST 2018
+Bosnia, 8.091952°C, Fri Sep 28 01:45:04 CEST 2018
+Netherlands, 14.573705°C, Fri Sep 28 01:57:00 CEST 2018
+Poland, 14.046997°C, Fri Sep 28 01:30:00 CEST 2018
+Luxembourg, 13.702419°C, Fri Sep 28 01:56:00 CEST 2018
+United Kingdom, 14.788709°C, Fri Sep 28 01:50:00 CEST 2018
+Russia, 10.182013°C, Fri Sep 28 01:30:00 CEST 2018
+Latvia, 13.020833°C, Fri Sep 28 01:50:00 CEST 2018
+Switzerland, 14.308145°C, Fri Sep 28 01:50:00 CEST 2018
+Ukraine, 10.139419°C, Fri Sep 28 01:00:00 CEST 2018
+Greece, 18.135134°C, Fri Sep 28 01:50:00 CEST 2018
+Albania, 16.240595°C, Fri Sep 28 01:50:00 CEST 2018
+Austria, 11.474043°C, Fri Sep 28 01:50:00 CEST 2018
+Estonia, 10.348535°C, Fri Sep 28 01:58:23 CEST 2018
+Germany, 14.638563°C, Fri Sep 28 01:56:00 CEST 2018
+Belarus, 11.399505°C, Fri Sep 28 01:51:47 CEST 2018
+Czech, 12.601963°C, Fri Sep 28 01:30:00 CEST 2018
+Bulgaria, 10.7736845°C, Fri Sep 28 01:30:00 CEST 2018
+Slovenia, 9.885241°C, Fri Sep 28 01:30:00 CEST 2018
+Hungary, 10.571182°C, Fri Sep 28 01:45:06 CEST 2018
+Norway, 9.649613°C, Fri Sep 28 01:50:00 CEST 2018
+Sweden, 10.878594°C, Fri Sep 28 01:50:00 CEST 2018
+France, 17.680235°C, Fri Sep 28 01:30:00 CEST 2018
+Slovakia, 11.367349°C, Fri Sep 28 01:30:00 CEST 2018
+Italy, 16.486954°C, Fri Sep 28 01:55:00 CEST 2018
+Lithuania, 13.885017°C, Fri Sep 28 01:50:00 CEST 2018
+Ireland, 11.687194°C, Fri Sep 28 01:51:47 CEST 2018
+Moldova, 10.26791°C, Fri Sep 28 01:41:11 CEST 2018
+Finland, 7.9317737°C, Fri Sep 28 01:50:00 CEST 2018
+Croatia, 14.879338°C, Fri Sep 28 01:30:00 CEST 2018
+Malta, 20.542553°C, Fri Sep 28 01:45:00 CEST 2018
+Spain, 22.208452°C, Fri Sep 28 01:30:00 CEST 2018
+Macedonia, 9.214974°C, Fri Sep 28 01:55:54 CEST 2018
+Montenegro, 16.554739°C, Fri Sep 28 01:30:00 CEST 2018
+Portugal, 23.667183°C, Fri Sep 28 01:30:00 CEST 2018
+Belgium, 13.539235°C, Fri Sep 28 01:57:00 CEST 2018
+Romania, 10.335719°C, Fri Sep 28 01:30:00 CEST 2018
+Albania, 18.298761°C, Sat Sep 29 01:50:00 CEST 2018
+Poland, 13.109375°C, Sat Sep 29 01:30:00 CEST 2018
+Hungary, 12.697259°C, Sat Sep 29 01:55:13 CEST 2018
+Austria, 13.821044°C, Sat Sep 29 01:50:00 CEST 2018
+Germany, 11.325534°C, Sat Sep 29 01:56:00 CEST 2018
+Netherlands, 12.421358°C, Sat Sep 29 01:55:00 CEST 2018
+Greece, 19.095766°C, Sat Sep 29 01:50:00 CEST 2018
+Russia, 10.219407°C, Sat Sep 29 01:30:00 CEST 2018
+Latvia, 9.59375°C, Sat Sep 29 01:50:00 CEST 2018
+United Kingdom, 10.347586°C, Sat Sep 29 01:50:00 CEST 2018
+Ukraine, 13.752507°C, Sat Sep 29 01:30:00 CEST 2018
+Denmark, 10.289398°C, Sat Sep 29 01:59:50 CEST 2018
+Luxembourg, 11.3012495°C, Sat Sep 29 01:50:00 CEST 2018
+Bulgaria, 12.183246°C, Sat Sep 29 01:30:00 CEST 2018
+Estonia, 7.402044°C, Sat Sep 29 01:57:01 CEST 2018
+Bosnia, 10.610105°C, Sat Sep 29 01:57:38 CEST 2018
+Switzerland, 16.176683°C, Sat Sep 29 01:50:00 CEST 2018
+France, 18.47527°C, Sat Sep 29 01:30:00 CEST 2018
+Serbia, 13.1771345°C, Sat Sep 29 01:30:00 CEST 2018
+Norway, 8.25744°C, Sat Sep 29 01:55:10 CEST 2018
+Czech, 13.076789°C, Sat Sep 29 01:30:00 CEST 2018
+Ireland, 8.710337°C, Sat Sep 29 01:45:07 CEST 2018
+Belarus, 11.678405°C, Sat Sep 29 01:58:55 CEST 2018
+Finland, 4.7939186°C, Sat Sep 29 01:50:00 CEST 2018
+Montenegro, 15.558022°C, Sat Sep 29 01:30:00 CEST 2018
+Portugal, 20.96267°C, Sat Sep 29 01:30:00 CEST 2018
+Malta, 20.96875°C, Sat Sep 29 01:45:00 CEST 2018
+Italy, 17.713192°C, Sat Sep 29 01:55:00 CEST 2018
+Macedonia, 11.601612°C, Sat Sep 29 01:45:01 CEST 2018
+Lithuania, 11.350596°C, Sat Sep 29 01:58:27 CEST 2018
+Belgium, 11.328103°C, Sat Sep 29 01:55:00 CEST 2018
+Sweden, 7.486668°C, Sat Sep 29 01:50:00 CEST 2018
+Romania, 14.411911°C, Sat Sep 29 01:30:00 CEST 2018
+Slovakia, 14.572583°C, Sat Sep 29 01:30:00 CEST 2018
+Spain, 22.318935°C, Sat Sep 29 01:30:00 CEST 2018
+Moldova, 14.80309°C, Sat Sep 29 01:59:55 CEST 2018
+Slovenia, 11.866137°C, Sat Sep 29 01:30:00 CEST 2018
+Croatia, 17.036354°C, Sat Sep 29 01:30:00 CEST 2018
+Macedonia, 15.306054°C, Sun Sep 30 01:55:02 CEST 2018
+Belarus, 6.534481°C, Sun Sep 30 01:56:45 CEST 2018
+Ireland, 8.965569°C, Sun Sep 30 01:45:06 CEST 2018
+Spain, 22.31063°C, Sun Sep 30 01:30:00 CEST 2018
+Bosnia, 10.292935°C, Sun Sep 30 01:57:35 CEST 2018
+Sweden, 7.8961787°C, Sun Sep 30 01:50:00 CEST 2018
+Lithuania, 7.7245355°C, Sun Sep 30 01:50:00 CEST 2018
+Austria, 12.082585°C, Sun Sep 30 01:50:00 CEST 2018
+Russia, 9.324132°C, Sun Sep 30 01:30:00 CEST 2018
+Latvia, 8.239583°C, Sun Sep 30 01:50:00 CEST 2018
+Denmark, 10.294738°C, Sun Sep 30 01:50:00 CEST 2018
+Ukraine, 12.642757°C, Sun Sep 30 01:30:00 CEST 2018
+Switzerland, 13.938981°C, Sun Sep 30 01:50:00 CEST 2018
+Norway, 9.414444°C, Sun Sep 30 01:50:00 CEST 2018
+Greece, 19.67054°C, Sun Sep 30 01:50:00 CEST 2018
+Albania, 20.48581°C, Sun Sep 30 01:50:00 CEST 2018
+United Kingdom, 9.82633°C, Sun Sep 30 01:50:00 CEST 2018
+Montenegro, 20.523521°C, Sun Sep 30 01:30:00 CEST 2018
+Italy, 19.022552°C, Sun Sep 30 01:55:00 CEST 2018
+Malta, 22.340206°C, Sun Sep 30 01:45:00 CEST 2018
+Estonia, 7.05747°C, Sun Sep 30 01:56:50 CEST 2018
+Croatia, 16.40173°C, Sun Sep 30 01:30:00 CEST 2018
+Germany, 8.675823°C, Sun Sep 30 01:56:00 CEST 2018
+Netherlands, 9.25536°C, Sun Sep 30 01:55:00 CEST 2018
+Romania, 12.012161°C, Sun Sep 30 01:30:00 CEST 2018
+Luxembourg, 9.476669°C, Sun Sep 30 01:56:00 CEST 2018
+Slovenia, 12.4719095°C, Sun Sep 30 01:30:00 CEST 2018
+Bulgaria, 14.683246°C, Sun Sep 30 01:30:00 CEST 2018
+Belgium, 8.859793°C, Sun Sep 30 01:55:00 CEST 2018
+Hungary, 11.59149°C, Sun Sep 30 01:45:00 CEST 2018
+Moldova, 10.881763°C, Sun Sep 30 01:59:42 CEST 2018
+Poland, 7.736979°C, Sun Sep 30 01:30:00 CEST 2018
+Czech, 8.193634°C, Sun Sep 30 01:30:00 CEST 2018
+Slovakia, 11.321139°C, Sun Sep 30 01:30:00 CEST 2018
+Finland, 4.9445744°C, Sun Sep 30 01:50:00 CEST 2018
+Serbia, 13.284099°C, Sun Sep 30 01:30:00 CEST 2018
+Portugal, 18.945843°C, Sun Sep 30 01:30:00 CEST 2018
+France, 17.007746°C, Sun Sep 30 01:30:00 CEST 2018
+Ireland, 9.859791°C, Mon Oct 01 01:35:23 CEST 2018
+Denmark, 11.669181°C, Mon Oct 01 01:58:00 CEST 2018
+Serbia, 11.264896°C, Mon Oct 01 01:30:00 CEST 2018
+Bosnia, 10.337408°C, Mon Oct 01 01:45:05 CEST 2018
+Poland, 8.046753°C, Mon Oct 01 01:30:00 CEST 2018
+Russia, 9.31498°C, Mon Oct 01 01:30:00 CEST 2018
+Latvia, 10.3125°C, Mon Oct 01 01:50:00 CEST 2018
+Belarus, 7.1294084°C, Mon Oct 01 01:59:32 CEST 2018
+Ukraine, 10.043602°C, Mon Oct 01 01:30:00 CEST 2018
+Slovenia, 9.204435°C, Mon Oct 01 01:30:00 CEST 2018
+Albania, 18.532835°C, Mon Oct 01 01:50:00 CEST 2018
+Italy, 18.057604°C, Mon Oct 01 01:55:00 CEST 2018
+Sweden, 10.743518°C, Mon Oct 01 01:50:00 CEST 2018
+Lithuania, 10.013937°C, Mon Oct 01 01:50:00 CEST 2018
+Spain, 22.516884°C, Mon Oct 01 01:30:00 CEST 2018
+Germany, 10.011438°C, Mon Oct 01 01:56:00 CEST 2018
+Moldova, 9.161748°C, Mon Oct 01 01:42:13 CEST 2018
+Bulgaria, 12.779221°C, Mon Oct 01 01:30:00 CEST 2018
+Croatia, 14.174963°C, Mon Oct 01 01:30:00 CEST 2018
+Norway, 9.665751°C, Mon Oct 01 01:50:00 CEST 2018
+Slovakia, 10.1457°C, Mon Oct 01 01:30:00 CEST 2018
+France, 15.865303°C, Mon Oct 01 01:30:00 CEST 2018
+Portugal, 18.329752°C, Mon Oct 01 01:30:00 CEST 2018
+United Kingdom, 10.180934°C, Mon Oct 01 01:50:00 CEST 2018
+Luxembourg, 10.623126°C, Mon Oct 01 01:56:00 CEST 2018
+Finland, 9.084964°C, Mon Oct 01 01:50:00 CEST 2018
+Netherlands, 10.833451°C, Mon Oct 01 01:55:00 CEST 2018
+Malta, 22.505262°C, Mon Oct 01 01:45:00 CEST 2018
+Switzerland, 13.4750395°C, Mon Oct 01 01:50:00 CEST 2018
+Macedonia, 15.2022915°C, Mon Oct 01 01:45:07 CEST 2018
+Greece, 19.058172°C, Mon Oct 01 01:50:00 CEST 2018
+Romania, 11.105794°C, Mon Oct 01 01:30:00 CEST 2018
+Montenegro, 19.572811°C, Mon Oct 01 01:30:00 CEST 2018
+Austria, 10.341086°C, Mon Oct 01 01:50:00 CEST 2018
+Belgium, 9.792061°C, Mon Oct 01 01:55:00 CEST 2018
+Estonia, 10.20588°C, Mon Oct 01 01:55:49 CEST 2018
+Hungary, 10.721547°C, Mon Oct 01 01:55:30 CEST 2018
+Czech, 8.485296°C, Mon Oct 01 01:30:00 CEST 2018
+Bosnia, 10.873273°C, Tue Oct 02 01:30:00 CEST 2018
+Macedonia, 15.132847°C, Tue Oct 02 01:59:43 CEST 2018
+Czech, 8.018887°C, Tue Oct 02 01:30:00 CEST 2018
+Norway, 7.1615915°C, Tue Oct 02 01:58:10 CEST 2018
+Finland, 7.873053°C, Tue Oct 02 01:50:00 CEST 2018
+Austria, 9.228249°C, Tue Oct 02 01:50:00 CEST 2018
+Russia, 10.051183°C, Tue Oct 02 01:30:00 CEST 2018
+Montenegro, 17.429165°C, Tue Oct 02 01:30:00 CEST 2018
+United Kingdom, 9.464144°C, Tue Oct 02 01:50:00 CEST 2018
+Latvia, 9.1875°C, Tue Oct 02 01:50:00 CEST 2018
+Malta, 23.28866°C, Tue Oct 02 01:45:00 CEST 2018
+Luxembourg, 8.336875°C, Tue Oct 02 01:50:00 CEST 2018
+Ukraine, 12.121384°C, Tue Oct 02 01:30:00 CEST 2018
+Ireland, 10.091686°C, Tue Oct 02 01:53:25 CEST 2018
+Netherlands, 10.074691°C, Tue Oct 02 01:55:00 CEST 2018
+Albania, 18.105526°C, Tue Oct 02 01:58:51 CEST 2018
+Belgium, 9.697267°C, Tue Oct 02 01:55:00 CEST 2018
+Greece, 19.919575°C, Tue Oct 02 01:50:00 CEST 2018
+Romania, 12.116822°C, Tue Oct 02 01:30:00 CEST 2018
+Switzerland, 10.200959°C, Tue Oct 02 01:50:00 CEST 2018
+Germany, 9.148749°C, Tue Oct 02 01:50:00 CEST 2018
+Serbia, 13.601529°C, Tue Oct 02 01:30:00 CEST 2018
+Bulgaria, 14.587467°C, Tue Oct 02 01:30:00 CEST 2018
+Belarus, 8.19106°C, Tue Oct 02 01:59:55 CEST 2018
+Hungary, 12.512027°C, Tue Oct 02 01:45:06 CEST 2018
+Poland, 9.553525°C, Tue Oct 02 01:30:00 CEST 2018
+Slovakia, 11.434038°C, Tue Oct 02 01:30:00 CEST 2018
+Estonia, 10.47118°C, Tue Oct 02 01:56:11 CEST 2018
+Lithuania, 8.972222°C, Tue Oct 02 01:52:00 CEST 2018
+France, 14.067518°C, Tue Oct 02 01:30:00 CEST 2018
+Denmark, 8.7743°C, Tue Oct 02 01:51:05 CEST 2018
+Sweden, 7.1281586°C, Tue Oct 02 01:50:00 CEST 2018
+Italy, 16.175108°C, Tue Oct 02 01:55:00 CEST 2018
+Spain, 21.49757°C, Tue Oct 02 01:30:00 CEST 2018
+Slovenia, 8.874233°C, Tue Oct 02 01:30:00 CEST 2018
+Croatia, 13.960754°C, Tue Oct 02 01:30:00 CEST 2018
+Portugal, 19.818148°C, Tue Oct 02 01:30:00 CEST 2018
+Moldova, 11.2371°C, Tue Oct 02 01:57:12 CEST 2018
+Ireland, 13.722107°C, Wed Oct 03 01:50:40 CEST 2018
+Finland, 5.5015564°C, Wed Oct 03 01:50:00 CEST 2018
+Malta, 19.822916°C, Wed Oct 03 01:45:00 CEST 2018
+Montenegro, 16.578218°C, Wed Oct 03 01:30:00 CEST 2018
+Macedonia, 14.508684°C, Wed Oct 03 01:45:01 CEST 2018
+Belgium, 11.694997°C, Wed Oct 03 01:55:00 CEST 2018
+Romania, 13.066481°C, Wed Oct 03 01:30:00 CEST 2018
+Estonia, 8.506308°C, Wed Oct 03 01:55:48 CEST 2018
+Switzerland, 10.226114°C, Wed Oct 03 01:50:00 CEST 2018
+United Kingdom, 13.422485°C, Wed Oct 03 01:50:00 CEST 2018
+Luxembourg, 7.608751°C, Wed Oct 03 01:56:00 CEST 2018
+Greece, 20.276728°C, Wed Oct 03 01:50:00 CEST 2018
+Austria, 9.46841°C, Wed Oct 03 01:50:00 CEST 2018
+Netherlands, 12.274961°C, Wed Oct 03 01:55:00 CEST 2018
+Denmark, 9.110984°C, Wed Oct 03 01:56:23 CEST 2018
+Belarus, 9.277846°C, Wed Oct 03 01:59:57 CEST 2018
+Moldova, 14.613642°C, Wed Oct 03 01:42:34 CEST 2018
+Albania, 18.383396°C, Wed Oct 03 01:59:04 CEST 2018
+Czech, 7.9983144°C, Wed Oct 03 01:30:00 CEST 2018
+Slovakia, 9.843385°C, Wed Oct 03 01:30:00 CEST 2018
+Poland, 9.0963545°C, Wed Oct 03 01:30:00 CEST 2018
+Serbia, 11.437743°C, Wed Oct 03 01:30:00 CEST 2018
+Italy, 16.039665°C, Wed Oct 03 01:55:00 CEST 2018
+Norway, 6.7294097°C, Wed Oct 03 01:50:00 CEST 2018
+Hungary, 9.628436°C, Wed Oct 03 01:49:38 CEST 2018
+Sweden, 6.14995°C, Wed Oct 03 01:50:00 CEST 2018
+Ukraine, 14.114712°C, Wed Oct 03 01:48:00 CEST 2018
+Slovenia, 9.529898°C, Wed Oct 03 01:30:00 CEST 2018
+Lithuania, 8.947917°C, Wed Oct 03 01:50:00 CEST 2018
+Russia, 9.238264°C, Wed Oct 03 01:30:00 CEST 2018
+Croatia, 14.295007°C, Wed Oct 03 01:30:00 CEST 2018
+Spain, 19.994604°C, Wed Oct 03 01:30:00 CEST 2018
+Germany, 9.08419°C, Wed Oct 03 01:56:00 CEST 2018
+Latvia, 8.927083°C, Wed Oct 03 01:50:00 CEST 2018
+Portugal, 21.47135°C, Wed Oct 03 01:30:00 CEST 2018
+Bosnia, 9.855275°C, Wed Oct 03 01:59:32 CEST 2018
+France, 13.490926°C, Wed Oct 03 01:30:00 CEST 2018
+Bulgaria, 15.942857°C, Wed Oct 03 01:30:00 CEST 2018
+Moldova, 13.611827°C, Wed Oct 03 20:36:26 CEST 2018
+Slovenia, 9.377583°C, Wed Oct 03 20:00:00 CEST 2018
+Ireland, 12.752457°C, Wed Oct 03 20:30:00 CEST 2018
+Lithuania, 8.337899°C, Wed Oct 03 20:20:00 CEST 2018
+Estonia, 7.259112°C, Wed Oct 03 20:45:05 CEST 2018
+Romania, 11.710236°C, Wed Oct 03 20:00:00 CEST 2018
+Sweden, 7.359387°C, Wed Oct 03 20:20:00 CEST 2018
+Serbia, 12.976831°C, Wed Oct 03 20:00:00 CEST 2018
+Finland, 4.771017°C, Wed Oct 03 20:20:00 CEST 2018
+Portugal, 22.175213°C, Wed Oct 03 20:30:00 CEST 2018
+Switzerland, 12.742882°C, Wed Oct 03 20:30:00 CEST 2018
+Bosnia, 10.035354°C, Wed Oct 03 20:30:00 CEST 2018
+Spain, 20.793234°C, Wed Oct 03 20:30:00 CEST 2018
+Netherlands, 13.258814°C, Wed Oct 03 20:27:00 CEST 2018
+Slovakia, 11.319863°C, Wed Oct 03 20:00:00 CEST 2018
+Malta, 20.347221°C, Wed Oct 03 20:15:00 CEST 2018
+Luxembourg, 12.583699°C, Wed Oct 03 19:56:00 CEST 2018
+Italy, 17.601278°C, Wed Oct 03 20:20:00 CEST 2018
+Macedonia, 15.358725°C, Wed Oct 03 20:00:00 CEST 2018
+Belarus, 8.037715°C, Wed Oct 03 20:43:08 CEST 2018
+Belgium, 13.380604°C, Wed Oct 03 20:25:00 CEST 2018
+Croatia, 14.577673°C, Wed Oct 03 20:30:00 CEST 2018
+Montenegro, 19.102568°C, Wed Oct 03 20:00:00 CEST 2018
+Albania, 19.751062°C, Wed Oct 03 20:45:03 CEST 2018
+Denmark, 10.112187°C, Wed Oct 03 20:41:21 CEST 2018
+Ukraine, 13.4106455°C, Wed Oct 03 20:00:00 CEST 2018
+Hungary, 11.065223°C, Wed Oct 03 20:43:47 CEST 2018
+Latvia, 7.712329°C, Wed Oct 03 20:20:00 CEST 2018
+Greece, 20.818789°C, Wed Oct 03 20:20:00 CEST 2018
+France, 16.871193°C, Wed Oct 03 20:30:00 CEST 2018
+United Kingdom, 13.631294°C, Wed Oct 03 20:27:00 CEST 2018
+Poland, 9.818832°C, Wed Oct 03 20:30:00 CEST 2018
+Czech, 11.270676°C, Wed Oct 03 20:00:00 CEST 2018
+Norway, 8.185836°C, Wed Oct 03 20:20:00 CEST 2018
+Austria, 11.011652°C, Wed Oct 03 20:30:00 CEST 2018
+Russia, 10.464296°C, Wed Oct 03 20:00:00 CEST 2018
+Bulgaria, 17.188553°C, Wed Oct 03 20:30:00 CEST 2018
+Germany, 12.204485°C, Wed Oct 03 20:20:00 CEST 2018
+
+WeatherAlert
+============
+
+Parnu, Sat Sep 22 21:55:29 CEST 2018, Light rain
+Mahilyow, Sat Sep 22 21:45:01 CEST 2018, Light rain
+Vitsyebsk, Sat Sep 22 21:43:02 CEST 2018, Light rain
+Vitsyebsk, Sat Sep 22 23:59:28 CEST 2018, Rain has stopped
+Kaunas, Sun Sep 23 01:50:00 CEST 2018, Light rain
+Klaipeda, Sun Sep 23 01:50:00 CEST 2018, Light rain
+Mahilyow, Sun Sep 23 01:55:23 CEST 2018, Rain has stopped
+Klaipeda, Sun Sep 23 03:50:00 CEST 2018, Rain has stopped
+Odessa, Sun Sep 23 03:00:00 CEST 2018, Wind delta: 20.487274km/h
+Balti, Sun Sep 23 03:45:06 CEST 2018, Light rain
+Kaunas, Sun Sep 23 05:50:00 CEST 2018, Rain has stopped
+Klaipeda, Sun Sep 23 05:50:00 CEST 2018, Light rain
+Balti, Sun Sep 23 05:41:29 CEST 2018, Rain has stopped
+Klaipeda, Sun Sep 23 07:50:00 CEST 2018, Rain has stopped
+Parnu, Sun Sep 23 09:50:00 CEST 2018, Rain has stopped
+Oulu, Sun Sep 23 11:50:00 CEST 2018, Light rain
+Oulu, Sun Sep 23 13:50:00 CEST 2018, Rain has stopped
+Bergen, Sun Sep 23 13:50:00 CEST 2018, Rain has stopped
+Frankfurt am Main, Sun Sep 23 15:56:00 CEST 2018, Wind delta: 27.810001km/h
+Luxembourg, Sun Sep 23 17:56:00 CEST 2018, Wind delta: -18.179998km/h
+Parnu, Sun Sep 23 17:57:35 CEST 2018, Light rain
+Narva, Sun Sep 23 17:44:27 CEST 2018, Light rain
+Narva, Sun Sep 23 19:56:11 CEST 2018, Rain has stopped
+Geneva, Sun Sep 23 21:30:00 CEST 2018, Light rain
+Hrodna, Sun Sep 23 23:44:18 CEST 2018, Light rain
+Brest, Sun Sep 23 23:40:47 CEST 2018, Light rain
+Wroclaw, Mon Sep 24 01:30:00 CEST 2018, Wind delta: 18.765001km/h
+Geneva, Mon Sep 24 01:30:00 CEST 2018, Rain has stopped
+Krakow, Mon Sep 24 01:30:00 CEST 2018, Wind delta: 23.490002km/h
+Bergen, Mon Sep 24 01:59:27 CEST 2018, Light rain
+Bratislava, Mon Sep 24 03:30:00 CEST 2018, Wind delta: 24.57km/h
+Brno, Mon Sep 24 03:30:00 CEST 2018, Wind delta: 24.435003km/h
+Vienna, Mon Sep 24 03:30:00 CEST 2018, Wind delta: 18.99km/h
+Narva, Mon Sep 24 03:59:01 CEST 2018, Light rain
+Parnu, Mon Sep 24 03:40:53 CEST 2018, Rain has stopped
+Debrecen, Mon Sep 24 05:45:00 CEST 2018, Light rain
+Brest, Mon Sep 24 05:00:00 CEST 2018, Rain has stopped
+Miskolc, Mon Sep 24 05:43:00 CEST 2018, Light rain
+Budapest, Mon Sep 24 05:30:00 CEST 2018, Wind delta: 20.970001km/h
+Mahilyow, Mon Sep 24 05:45:04 CEST 2018, Light rain
+Vitsyebsk, Mon Sep 24 05:44:14 CEST 2018, Light rain
+Tuzla, Mon Sep 24 07:30:00 CEST 2018, Light rain
+Bergen, Mon Sep 24 07:20:00 CEST 2018, Rain has stopped
+Homyel, Mon Sep 24 07:41:47 CEST 2018, Light rain
+Debrecen, Mon Sep 24 07:45:00 CEST 2018, Rain has stopped
+Mahilyow, Mon Sep 24 07:00:00 CEST 2018, Rain has stopped
+Hrodna, Mon Sep 24 07:30:00 CEST 2018, Rain has stopped
+Narva, Mon Sep 24 09:45:06 CEST 2018, Rain has stopped
+Vitsyebsk, Mon Sep 24 09:25:00 CEST 2018, Rain has stopped
+Milan, Mon Sep 24 09:50:00 CEST 2018, Humidity delta: -47.75%
+Graz, Mon Sep 24 09:30:00 CEST 2018, Wind delta: 18.797144km/h
+Tuzla, Mon Sep 24 09:30:00 CEST 2018, Rain has stopped
+Rijeka, Mon Sep 24 09:30:00 CEST 2018, Wind delta: 18.044998km/h
+Ljubljana, Mon Sep 24 11:30:00 CEST 2018, Humidity delta: -41.0%
+Miskolc, Mon Sep 24 11:56:00 CEST 2018, Rain has stopped
+Geneva, Mon Sep 24 11:30:00 CEST 2018, Wind delta: 22.902857km/h
+Kranj, Mon Sep 24 11:30:00 CEST 2018, Humidity delta: -41.555557%
+Homyel, Mon Sep 24 11:30:00 CEST 2018, Rain has stopped
+Nis, Mon Sep 24 11:30:00 CEST 2018, Wind delta: 26.91km/h
+Nis, Mon Sep 24 13:30:00 CEST 2018, Wind delta: 23.175003km/h
+Split, Mon Sep 24 13:30:00 CEST 2018, Wind delta: 21.42km/h
+Balti, Mon Sep 24 13:57:26 CEST 2018, Light rain
+Skopje, Mon Sep 24 15:30:00 CEST 2018, Wind delta: 25.928997km/h
+Sofia, Mon Sep 24 15:30:00 CEST 2018, Wind delta: 32.657143km/h
+Nis, Mon Sep 24 15:30:00 CEST 2018, Wind delta: -19.890001km/h
+Podgorica, Mon Sep 24 17:30:00 CEST 2018, Wind delta: 24.480003km/h
+Mahilyow, Mon Sep 24 17:58:49 CEST 2018, Wind delta: 21.239998km/hLight rain
+Wroclaw, Mon Sep 24 19:30:00 CEST 2018, Wind delta: -19.184998km/h
+Mahilyow, Mon Sep 24 19:45:05 CEST 2018, Rain has stopped
+Plovdiv, Mon Sep 24 19:30:00 CEST 2018, Wind delta: 23.940004km/h
+Balti, Mon Sep 24 19:52:13 CEST 2018, Rain has stopped
+Brest, Mon Sep 24 19:55:36 CEST 2018, Light rain
+Bergen, Mon Sep 24 23:36:09 CEST 2018, Light rain
+Burgas, Mon Sep 24 23:30:00 CEST 2018, Wind delta: -23.310003km/h
+Nice, Tue Sep 25 01:30:00 CEST 2018, Wind delta: 23.759998km/h
+Brest, Tue Sep 25 01:59:05 CEST 2018, Rain has stopped
+Bergen, Tue Sep 25 05:56:13 CEST 2018, Rain has stopped
+Barcelona, Tue Sep 25 11:30:00 CEST 2018, Wind delta: -18.026285km/h
+Tirana, Tue Sep 25 19:50:00 CEST 2018, Humidity delta: 41.125%
+Durres, Tue Sep 25 19:50:00 CEST 2018, Humidity delta: 64.25%
+Durres, Tue Sep 25 21:50:00 CEST 2018, Humidity delta: -54.678574%
+Bergen, Tue Sep 25 21:56:27 CEST 2018, Light rain
+County Galway, Wed Sep 26 05:58:26 CEST 2018, Light rain
+Helsinki, Wed Sep 26 07:50:00 CEST 2018, Light rain
+Turku, Wed Sep 26 07:50:00 CEST 2018, Light rain
+County Galway, Wed Sep 26 07:30:00 CEST 2018, Rain has stopped
+Aalborg, Wed Sep 26 07:56:23 CEST 2018, Light rain
+Helsinki, Wed Sep 26 09:50:00 CEST 2018, Rain has stopped
+Turku, Wed Sep 26 09:50:00 CEST 2018, Rain has stopped
+Aalborg, Wed Sep 26 09:50:00 CEST 2018, Rain has stopped
+Toulouse, Wed Sep 26 09:30:00 CEST 2018, Wind delta: 20.198572km/h
+Bergen, Wed Sep 26 11:50:00 CEST 2018, Rain has stopped
+Balti, Wed Sep 26 11:30:00 CEST 2018, Temperature delta: 11.437841
+Narva, Wed Sep 26 13:59:29 CEST 2018, Light rain
+Oulu, Wed Sep 26 17:50:00 CEST 2018, Light rain
+Helsinki, Wed Sep 26 17:50:00 CEST 2018, Light rain
+Turku, Wed Sep 26 17:50:00 CEST 2018, Light rain
+Parnu, Wed Sep 26 17:56:45 CEST 2018, Light rain
+Helsinki, Wed Sep 26 19:50:00 CEST 2018, Rain has stopped
+Turku, Wed Sep 26 19:50:00 CEST 2018, Rain has stopped
+Oulu, Wed Sep 26 19:50:00 CEST 2018, Rain has stopped
+Vitsyebsk, Wed Sep 26 21:55:44 CEST 2018, Light rain
+Varna, Wed Sep 26 23:00:00 CEST 2018, Humidity delta: -57.0%
+Hrodna, Wed Sep 26 23:42:49 CEST 2018, Light rain
+Durres, Wed Sep 26 23:50:00 CEST 2018, Humidity delta: 43.875%
+Mahilyow, Wed Sep 26 23:44:59 CEST 2018, Light rain
+Kaunas, Thu Sep 27 01:50:00 CEST 2018, Light rain
+Hrodna, Thu Sep 27 01:56:45 CEST 2018, Rain has stopped
+Oulu, Thu Sep 27 01:50:00 CEST 2018, Light rain
+Bergen, Thu Sep 27 01:42:16 CEST 2018, Light rain
+Kaunas, Thu Sep 27 03:50:00 CEST 2018, Rain has stopped
+Oulu, Thu Sep 27 03:50:00 CEST 2018, Rain has stopped
+Parnu, Thu Sep 27 03:45:05 CEST 2018, Rain has stopped
+Narva, Thu Sep 27 03:57:46 CEST 2018, Rain has stopped
+Mahilyow, Thu Sep 27 05:55:54 CEST 2018, Rain has stopped
+Vitsyebsk, Thu Sep 27 07:30:08 CEST 2018, Rain has stopped
+Bergen, Thu Sep 27 07:50:00 CEST 2018, Rain has stopped
+Bitola, Thu Sep 27 09:30:00 CEST 2018, Humidity delta: -49.333336%
+Split, Thu Sep 27 19:30:00 CEST 2018, Humidity delta: 43.375%
+Parnu, Thu Sep 27 21:59:57 CEST 2018, Light rain
+Bergen, Thu Sep 27 23:40:30 CEST 2018, Wind delta: -22.343998km/hLight rain
+Bitola, Thu Sep 27 23:51:57 CEST 2018, Humidity delta: 42.142857%
+Bergen, Fri Sep 28 01:42:20 CEST 2018, Rain has stopped
+Parnu, Fri Sep 28 01:56:48 CEST 2018, Wind delta: 23.9085km/h
+Narva, Fri Sep 28 01:58:23 CEST 2018, Light rain
+Bergen, Fri Sep 28 07:57:37 CEST 2018, Light rain
+Parnu, Fri Sep 28 09:50:00 CEST 2018, Rain has stopped
+Bergen, Fri Sep 28 09:50:00 CEST 2018, Rain has stopped
+Bitola, Fri Sep 28 09:30:00 CEST 2018, Humidity delta: -50.3%
+Elbasan, Fri Sep 28 09:50:00 CEST 2018, Humidity delta: -41.75%
+Narva, Fri Sep 28 11:41:19 CEST 2018, Rain has stopped
+Dimos Heraklion, Fri Sep 28 13:50:00 CEST 2018, Wind delta: 19.804363km/h
+Nantes, Fri Sep 28 13:30:00 CEST 2018, Humidity delta: -41.75%
+Brest, Fri Sep 28 17:56:46 CEST 2018, Light rain
+Mahilyow, Fri Sep 28 17:39:04 CEST 2018, Light rain
+Brest, Fri Sep 28 19:58:05 CEST 2018, Rain has stopped
+Parnu, Fri Sep 28 19:56:50 CEST 2018, Light rain
+Mahilyow, Fri Sep 28 21:56:58 CEST 2018, Rain has stopped
+Bergen, Fri Sep 28 23:41:17 CEST 2018, Light rain
+Kosice, Sat Sep 29 01:30:00 CEST 2018, Wind delta: 18.707142km/h
+Parnu, Sat Sep 29 01:56:56 CEST 2018, Rain has stopped
+Stavanger, Sat Sep 29 05:50:00 CEST 2018, Light rain
+Stavanger, Sat Sep 29 07:50:00 CEST 2018, Rain has stopped
+Szeged, Sat Sep 29 09:48:00 CEST 2018, Wind delta: 18.66km/h
+Iasi, Sat Sep 29 11:30:00 CEST 2018, Wind delta: 24.210001km/h
+Balti, Sat Sep 29 13:35:57 CEST 2018, Light rain
+Balti, Sat Sep 29 19:43:02 CEST 2018, Rain has stopped
+Bergen, Sat Sep 29 23:41:33 CEST 2018, Rain has stopped
+Turku, Sat Sep 29 23:50:00 CEST 2018, Light rain
+Helsinki, Sat Sep 29 23:50:00 CEST 2018, Light rain
+Turku, Sun Sep 30 01:50:00 CEST 2018, Rain has stopped
+Helsinki, Sun Sep 30 01:50:00 CEST 2018, Rain has stopped
+Parnu, Sun Sep 30 01:56:50 CEST 2018, Light rain
+Bergen, Sun Sep 30 01:43:42 CEST 2018, Light rain
+Barcelona, Sun Sep 30 03:30:00 CEST 2018, Light rain
+Barcelona, Sun Sep 30 05:30:00 CEST 2018, Rain has stopped
+Narva, Sun Sep 30 05:45:05 CEST 2018, Light rain
+Oulu, Sun Sep 30 05:50:00 CEST 2018, Light rain
+Tartu, Sun Sep 30 07:50:00 CEST 2018, Light rain
+Narva, Sun Sep 30 07:55:25 CEST 2018, Rain has stopped
+Oulu, Sun Sep 30 07:50:00 CEST 2018, Rain has stopped
+Parnu, Sun Sep 30 07:50:00 CEST 2018, Rain has stopped
+Tartu, Sun Sep 30 09:50:00 CEST 2018, Rain has stopped
+Bergen, Sun Sep 30 13:50:00 CEST 2018, Rain has stopped
+Parnu, Sun Sep 30 17:45:06 CEST 2018, Light rain
+Lausanne, Sun Sep 30 19:50:00 CEST 2018, Humidity delta: 40.555557%
+Bergen, Sun Sep 30 21:43:49 CEST 2018, Light rain
+Bergen, Mon Oct 01 01:41:23 CEST 2018, Rain has stopped
+Parnu, Mon Oct 01 05:56:56 CEST 2018, Rain has stopped
+Valencia, Mon Oct 01 11:30:00 CEST 2018, Humidity delta: -40.25%
+Narva, Mon Oct 01 15:58:51 CEST 2018, Light rain
+Narva, Mon Oct 01 19:58:33 CEST 2018, Rain has stopped
+Miskolc, Mon Oct 01 21:56:01 CEST 2018, Light rain
+County Galway, Mon Oct 01 23:35:23 CEST 2018, Light rain
+Split, Tue Oct 02 01:30:00 CEST 2018, Light rain
+Debrecen, Tue Oct 02 03:30:00 CEST 2018, Light rain
+County Galway, Tue Oct 02 03:50:57 CEST 2018, Rain has stopped
+Bergen, Tue Oct 02 05:50:00 CEST 2018, Light rain
+Miskolc, Tue Oct 02 05:54:09 CEST 2018, Rain has stopped
+Parnu, Tue Oct 02 05:41:58 CEST 2018, Light rain
+Debrecen, Tue Oct 02 05:45:00 CEST 2018, Rain has stopped
+Bergen, Tue Oct 02 07:50:00 CEST 2018, Rain has stopped
+Split, Tue Oct 02 07:30:00 CEST 2018, Rain has stopped
+Parnu, Tue Oct 02 09:50:00 CEST 2018, Rain has stopped
+Seville, Tue Oct 02 11:30:00 CEST 2018, Humidity delta: -56.571426%
+Narva, Tue Oct 02 11:56:52 CEST 2018, Light rain
+Goeteborg, Tue Oct 02 13:50:00 CEST 2018, Light rain
+Nis, Tue Oct 02 13:30:00 CEST 2018, Wind delta: 18.657143km/h
+Narva, Tue Oct 02 13:58:33 CEST 2018, Rain has stopped
+Vlore, Tue Oct 02 13:45:03 CEST 2018, Light rain
+Goeteborg, Tue Oct 02 15:50:00 CEST 2018, Rain has stopped
+Bergen, Tue Oct 02 15:50:00 CEST 2018, Wind delta: 19.079998km/h
+Aalborg, Tue Oct 02 19:48:37 CEST 2018, Light rain
+Vlore, Tue Oct 02 19:41:31 CEST 2018, Rain has stopped
+Durres, Tue Oct 02 21:50:00 CEST 2018, Light rain
+Turku, Tue Oct 02 23:50:00 CEST 2018, Light rain
+Helsinki, Tue Oct 02 23:50:00 CEST 2018, Light rain
+Aalborg, Tue Oct 02 23:42:23 CEST 2018, Rain has stopped
+Durres, Tue Oct 02 23:50:00 CEST 2018, Rain has stopped
+Helsinki, Wed Oct 03 01:50:00 CEST 2018, Rain has stopped
+Balti, Wed Oct 03 01:42:34 CEST 2018, Light rain
+Parnu, Wed Oct 03 01:55:48 CEST 2018, Light rain
+Klaipeda, Wed Oct 03 01:50:00 CEST 2018, Light rain
+Turku, Wed Oct 03 03:50:00 CEST 2018, Rain has stopped
+Balti, Wed Oct 03 05:58:51 CEST 2018, Rain has stopped
+Parnu, Wed Oct 03 05:57:00 CEST 2018, Rain has stopped
+Klaipeda, Wed Oct 03 05:50:00 CEST 2018, Rain has stopped
+Narva, Wed Oct 03 07:56:16 CEST 2018, Light rain
+Narva, Wed Oct 03 11:43:00 CEST 2018, Rain has stopped
+Wroclaw, Wed Oct 03 17:30:00 CEST 2018, Wind delta: -18.449999km/h
+Plovdiv, Wed Oct 03 17:30:00 CEST 2018, Light rain
+Brno, Wed Oct 03 19:30:00 CEST 2018, Wind delta: -18.315002km/h
+Hrodna, Wed Oct 03 19:59:28 CEST 2018, Light rain
+
+NeighborsDiff
+=============
+
+Italy, Slovenia, 11.505565°C, Sun Sep 23 01:50:00 CEST 2018
+Belgium, France, 10.959704°C, Mon Sep 24 01:55:00 CEST 2018
+Austria, Italy, 11.218658°C, Tue Sep 25 01:55:00 CEST 2018
+Italy, Slovenia, 9.578228°C, Wed Sep 26 01:55:00 CEST 2018
+Bosnia, Montenegro, 8.958633°C, Thu Sep 27 01:59:40 CEST 2018
+Greece, Macedonia, 8.920161°C, Fri Sep 28 01:55:54 CEST 2018
+Greece, Macedonia, 7.494152°C, Sat Sep 29 01:50:00 CEST 2018
+Bosnia, Montenegro, 10.230584°C, Sun Sep 30 01:57:35 CEST 2018
+Bosnia, Montenegro, 9.235405°C, Mon Oct 01 01:45:05 CEST 2018
+France, Spain, 7.430052°C, Tue Oct 02 01:30:00 CEST 2018
+Albania, Serbia, 6.945655°C, Wed Oct 03 01:59:04 CEST 2018
+Bosnia, Montenegro, 9.067212°C, Wed Oct 03 20:30:00 CEST 2018
+
+ColdWind Thresholds(10.0°C, 10.0m/s)
+====================================
+
+Stavanger, 9.91°C, 10.8m/s, Sat Sep 22 23:50:00 CEST 2018
+Bergen, 7.0°C, 10.8m/s, Sun Sep 23 18:50:00 CEST 2018
+Dresden, 8.0°C, 11.3m/s, Sun Sep 23 21:50:00 CEST 2018
+Leipzig, 8.53°C, 10.3m/s, Sun Sep 23 21:50:00 CEST 2018
+Prague, 9.56°C, 10.3m/s, Mon Sep 24 00:30:00 CEST 2018
+Wroclaw, 8.0°C, 10.8m/s, Mon Sep 24 02:00:00 CEST 2018
+Stavanger, 9.55°C, 11.3m/s, Sun Sep 23 06:50:00 CEST 2018
+Brno, 9.81°C, 10.8m/s, Mon Sep 24 03:30:00 CEST 2018
+Dresden, 8.0°C, 11.3m/s, Sun Sep 23 21:50:00 CEST 2018
+Leipzig, 9.53°C, 11.8m/s, Sun Sep 23 20:20:00 CEST 2018
+Stavanger, 9.9°C, 10.8m/s, Sat Sep 22 23:50:00 CEST 2018
+Stavanger, 9.54°C, 11.3m/s, Sun Sep 23 06:50:00 CEST 2018
+Bergen, 7.0°C, 10.8m/s, Sun Sep 23 18:50:00 CEST 2018
+Leipzig, 9.53°C, 10.8m/s, Sun Sep 23 20:50:00 CEST 2018
+Leipzig, 8.0°C, 10.3m/s, Sun Sep 23 22:20:00 CEST 2018
+Warsaw, 8.0°C, 10.8m/s, Mon Sep 24 04:30:00 CEST 2018
+Leipzig, 9.53°C, 10.8m/s, Sun Sep 23 20:50:00 CEST 2018
+Leipzig, 9.53°C, 11.8m/s, Sun Sep 23 20:20:00 CEST 2018
+Prague, 9.03°C, 10.3m/s, Mon Sep 24 01:09:00 CEST 2018
+Leipzig, 8.53°C, 10.3m/s, Sun Sep 23 21:50:00 CEST 2018
+Brno, 9.78°C, 10.8m/s, Mon Sep 24 03:30:00 CEST 2018
+Prague, 9.15°C, 10.3m/s, Mon Sep 24 01:40:00 CEST 2018
+Prague, 9.14°C, 10.3m/s, Mon Sep 24 01:40:00 CEST 2018
+Wroclaw, 9.0°C, 10.3m/s, Mon Sep 24 01:30:00 CEST 2018
+Wroclaw, 9.0°C, 10.8m/s, Mon Sep 24 06:00:00 CEST 2018
+Brno, 9.41°C, 11.8m/s, Mon Sep 24 04:30:00 CEST 2018
+Warsaw, 8.0°C, 10.8m/s, Mon Sep 24 04:30:00 CEST 2018
+Krakow, 9.0°C, 10.3m/s, Mon Sep 24 05:30:00 CEST 2018
+Wroclaw, 8.0°C, 10.8m/s, Mon Sep 24 07:30:00 CEST 2018
+Wroclaw, 8.0°C, 10.8m/s, Mon Sep 24 07:30:00 CEST 2018
+Lodz, 8.0°C, 10.3m/s, Mon Sep 24 08:30:00 CEST 2018
+Brest, 8.0°C, 12.0m/s, Mon Sep 24 08:30:00 CEST 2018
+Brest, 9.0°C, 11.0m/s, Mon Sep 24 09:30:00 CEST 2018
+Brest, 9.0°C, 11.0m/s, Mon Sep 24 09:00:00 CEST 2018
+Lodz, 9.0°C, 10.8m/s, Mon Sep 24 11:00:00 CEST 2018
+Leipzig, 9.8°C, 10.8m/s, Mon Sep 24 14:50:00 CEST 2018
+Wroclaw, 9.0°C, 15.9m/s, Mon Sep 24 17:00:00 CEST 2018
+Prague, 9.99°C, 10.3m/s, Mon Sep 24 18:00:00 CEST 2018
+Mahilyow, 8.59°C, 10.62m/s, Mon Sep 24 18:30:08 CEST 2018
+Mahilyow, 8.59°C, 10.62m/s, Mon Sep 24 19:27:26 CEST 2018
+Mahilyow, 8.59°C, 10.62m/s, Mon Sep 24 21:13:41 CEST 2018
+Vitsyebsk, 8.54°C, 10.17m/s, Mon Sep 24 20:13:06 CEST 2018
+Mahilyow, 8.59°C, 10.62m/s, Mon Sep 24 20:00:13 CEST 2018
+Mahilyow, 8.59°C, 10.62m/s, Mon Sep 24 21:26:13 CEST 2018
+Odense, 8.98°C, 10.3m/s, Mon Sep 24 20:50:00 CEST 2018
+Helsinki, 9.0°C, 10.3m/s, Wed Sep 26 10:20:00 CEST 2018
+Helsinki, 9.0°C, 10.3m/s, Wed Sep 26 10:50:00 CEST 2018
+Turku, 9.0°C, 10.3m/s, Wed Sep 26 11:50:00 CEST 2018
+Hrodna, 9.65°C, 10.37m/s, Wed Sep 26 18:11:51 CEST 2018
+Hrodna, 8.03°C, 11.17m/s, Wed Sep 26 18:40:43 CEST 2018
+Hrodna, 8.03°C, 11.17m/s, Wed Sep 26 19:29:33 CEST 2018
+Vitsyebsk, 6.88°C, 11.87m/s, Wed Sep 26 20:25:56 CEST 2018
+Vitsyebsk, 6.38°C, 13.56m/s, Wed Sep 26 21:43:59 CEST 2018
+Hrodna, 8.03°C, 11.17m/s, Wed Sep 26 20:30:11 CEST 2018
+Vilnius, 7.0°C, 11.3m/s, Wed Sep 26 19:20:00 CEST 2018
+Vilnius, 7.0°C, 11.3m/s, Wed Sep 26 19:20:00 CEST 2018
+Vitsyebsk, 6.88°C, 11.87m/s, Wed Sep 26 21:27:34 CEST 2018
+Vilnius, 7.0°C, 10.8m/s, Wed Sep 26 21:20:00 CEST 2018
+Mahilyow, 5.88°C, 11.51m/s, Wed Sep 26 22:44:23 CEST 2018
+Wroclaw, 9.0°C, 10.8m/s, Mon Sep 24 06:00:00 CEST 2018
+Leipzig, 8.0°C, 10.3m/s, Sun Sep 23 22:20:00 CEST 2018
+Brest, 8.0°C, 12.0m/s, Mon Sep 24 08:00:00 CEST 2018
+Prague, 9.55°C, 10.3m/s, Mon Sep 24 00:30:00 CEST 2018
+Homyel, 9.92°C, 11.12m/s, Mon Sep 24 08:11:27 CEST 2018
+Brno, 9.39°C, 11.8m/s, Mon Sep 24 04:30:00 CEST 2018
+Brest, 8.0°C, 12.0m/s, Mon Sep 24 08:00:00 CEST 2018
+Prague, 9.02°C, 10.3m/s, Mon Sep 24 01:09:00 CEST 2018
+Odense, 9.67°C, 10.3m/s, Mon Sep 24 08:20:00 CEST 2018
+Wroclaw, 8.0°C, 10.8m/s, Mon Sep 24 02:00:00 CEST 2018
+Brno, 9.41°C, 11.8m/s, Mon Sep 24 04:30:00 CEST 2018
+Warsaw, 9.0°C, 12.3m/s, Mon Sep 24 04:00:00 CEST 2018
+Warsaw, 9.0°C, 12.3m/s, Mon Sep 24 04:00:00 CEST 2018
+Homyel, 9.92°C, 11.12m/s, Mon Sep 24 07:41:47 CEST 2018
+Brest, 8.0°C, 12.0m/s, Mon Sep 24 08:00:00 CEST 2018
+Wroclaw, 9.0°C, 11.3m/s, Mon Sep 24 08:30:00 CEST 2018
+Odense, 9.66°C, 10.3m/s, Mon Sep 24 08:20:00 CEST 2018
+Wroclaw, 9.0°C, 11.3m/s, Mon Sep 24 09:00:00 CEST 2018
+Brest, 9.0°C, 11.0m/s, Mon Sep 24 09:30:00 CEST 2018
+Brest, 9.0°C, 11.0m/s, Mon Sep 24 11:30:00 CEST 2018
+Leipzig, 9.83°C, 10.8m/s, Mon Sep 24 14:50:00 CEST 2018
+Mahilyow, 8.59°C, 10.62m/s, Mon Sep 24 19:15:05 CEST 2018
+Wroclaw, 9.0°C, 15.9m/s, Mon Sep 24 17:00:00 CEST 2018
+Mahilyow, 8.59°C, 10.62m/s, Mon Sep 24 18:59:01 CEST 2018
+Brno, 8.81°C, 10.8m/s, Mon Sep 24 05:30:00 CEST 2018
+Wroclaw, 9.0°C, 11.3m/s, Mon Sep 24 08:30:00 CEST 2018
+Vitsyebsk, 8.54°C, 10.17m/s, Mon Sep 24 20:41:38 CEST 2018
+Warsaw, 8.0°C, 10.8m/s, Mon Sep 24 04:30:00 CEST 2018
+Brest, 9.0°C, 11.0m/s, Mon Sep 24 09:00:00 CEST 2018
+Homyel, 9.92°C, 11.12m/s, Mon Sep 24 08:00:10 CEST 2018
+Brest, 9.0°C, 11.0m/s, Mon Sep 24 11:30:00 CEST 2018
+Brest, 8.0°C, 12.0m/s, Mon Sep 24 08:00:00 CEST 2018
+Mahilyow, 9.06°C, 13.1m/s, Mon Sep 24 16:45:04 CEST 2018
+Brest, 8.0°C, 12.0m/s, Mon Sep 24 08:30:00 CEST 2018
+Mahilyow, 9.06°C, 13.1m/s, Mon Sep 24 17:58:49 CEST 2018
+Lodz, 8.0°C, 10.3m/s, Mon Sep 24 08:30:00 CEST 2018
+Mahilyow, 9.06°C, 13.1m/s, Mon Sep 24 17:42:28 CEST 2018
+Wroclaw, 9.0°C, 11.3m/s, Mon Sep 24 09:00:00 CEST 2018
+Mahilyow, 9.06°C, 13.1m/s, Mon Sep 24 17:15:04 CEST 2018
+Lodz, 9.0°C, 10.8m/s, Mon Sep 24 11:00:00 CEST 2018
+Odense, 9.68°C, 10.3m/s, Mon Sep 24 19:50:00 CEST 2018
+Mahilyow, 9.06°C, 13.1m/s, Mon Sep 24 17:00:06 CEST 2018
+Vitsyebsk, 8.54°C, 10.17m/s, Mon Sep 24 19:45:05 CEST 2018
+Mahilyow, 9.06°C, 13.1m/s, Mon Sep 24 17:30:06 CEST 2018
+Mahilyow, 8.59°C, 10.62m/s, Mon Sep 24 20:30:09 CEST 2018
+Mahilyow, 8.59°C, 10.62m/s, Mon Sep 24 18:41:15 CEST 2018
+Mahilyow, 8.59°C, 10.62m/s, Mon Sep 24 20:11:31 CEST 2018
+Mahilyow, 9.06°C, 13.1m/s, Mon Sep 24 18:10:10 CEST 2018
+Odense, 9.68°C, 10.3m/s, Mon Sep 24 19:50:00 CEST 2018
+Odense, 9.99°C, 10.3m/s, Mon Sep 24 19:20:00 CEST 2018
+Turku, 9.0°C, 10.3m/s, Wed Sep 26 10:20:00 CEST 2018
+Mahilyow, 8.59°C, 10.62m/s, Mon Sep 24 20:55:54 CEST 2018
+Helsinki, 9.0°C, 10.3m/s, Wed Sep 26 10:50:00 CEST 2018
+Odense, 9.99°C, 10.3m/s, Mon Sep 24 19:20:00 CEST 2018
+Helsinki, 9.0°C, 10.3m/s, Wed Sep 26 11:50:00 CEST 2018
+Mahilyow, 8.59°C, 10.62m/s, Mon Sep 24 19:45:05 CEST 2018
+Hrodna, 9.65°C, 10.37m/s, Wed Sep 26 18:26:07 CEST 2018
+Vitsyebsk, 8.54°C, 10.17m/s, Mon Sep 24 21:03:32 CEST 2018
+Hrodna, 8.03°C, 11.17m/s, Wed Sep 26 19:41:04 CEST 2018
+Mahilyow, 8.59°C, 10.62m/s, Mon Sep 24 20:43:56 CEST 2018
+Hrodna, 8.03°C, 11.17m/s, Wed Sep 26 18:55:58 CEST 2018
+Helsinki, 9.0°C, 10.3m/s, Wed Sep 26 10:20:00 CEST 2018
+Vitsyebsk, 6.88°C, 11.87m/s, Wed Sep 26 19:40:14 CEST 2018
+Turku, 9.0°C, 10.3m/s, Wed Sep 26 10:50:00 CEST 2018
+Vilnius, 6.0°C, 10.3m/s, Wed Sep 26 20:05:00 CEST 2018
+Helsinki, 9.0°C, 10.3m/s, Wed Sep 26 11:50:00 CEST 2018
+Vitsyebsk, 6.38°C, 13.56m/s, Wed Sep 26 21:55:44 CEST 2018
+Hrodna, 9.65°C, 10.37m/s, Wed Sep 26 17:54:46 CEST 2018
+Vitsyebsk, 6.88°C, 11.87m/s, Wed Sep 26 20:45:01 CEST 2018
+Hrodna, 8.03°C, 11.17m/s, Wed Sep 26 20:00:12 CEST 2018
+Hrodna, 8.03°C, 11.17m/s, Wed Sep 26 20:41:24 CEST 2018
+Vilnius, 7.0°C, 10.3m/s, Wed Sep 26 18:50:00 CEST 2018
+Vilnius, 6.0°C, 10.3m/s, Wed Sep 26 20:05:00 CEST 2018
+Vitsyebsk, 6.88°C, 11.87m/s, Wed Sep 26 20:12:43 CEST 2018
+Mahilyow, 5.88°C, 11.51m/s, Wed Sep 26 21:45:05 CEST 2018
+Hrodna, 8.03°C, 11.17m/s, Wed Sep 26 21:20:22 CEST 2018
+Hrodna, 7.03°C, 11.86m/s, Wed Sep 26 22:13:49 CEST 2018
+Hrodna, 8.03°C, 11.17m/s, Wed Sep 26 20:15:05 CEST 2018
+Mahilyow, 5.88°C, 11.51m/s, Wed Sep 26 22:55:50 CEST 2018
+Hrodna, 7.03°C, 11.86m/s, Wed Sep 26 21:44:26 CEST 2018
+Vitsyebsk, 6.88°C, 11.87m/s, Wed Sep 26 21:11:22 CEST 2018
+Hrodna, 8.03°C, 11.17m/s, Wed Sep 26 21:15:04 CEST 2018
+Mahilyow, 5.88°C, 11.51m/s, Wed Sep 26 21:59:35 CEST 2018
+Kaunas, 9.0°C, 10.3m/s, Wed Sep 26 21:53:00 CEST 2018
+Vitsyebsk, 8.54°C, 10.17m/s, Mon Sep 24 20:00:14 CEST 2018
+Vitsyebsk, 8.54°C, 10.17m/s, Mon Sep 24 21:26:45 CEST 2018
+Vitsyebsk, 8.54°C, 10.17m/s, Mon Sep 24 20:58:22 CEST 2018
+Vitsyebsk, 8.54°C, 10.17m/s, Mon Sep 24 20:30:09 CEST 2018
+Turku, 9.0°C, 10.3m/s, Wed Sep 26 10:50:00 CEST 2018
+Turku, 9.0°C, 10.3m/s, Wed Sep 26 10:20:00 CEST 2018
+Turku, 9.0°C, 10.3m/s, Wed Sep 26 11:50:00 CEST 2018
+Hrodna, 9.65°C, 10.37m/s, Wed Sep 26 17:42:51 CEST 2018
+Vilnius, 7.0°C, 10.3m/s, Wed Sep 26 18:50:00 CEST 2018
+Hrodna, 8.03°C, 11.17m/s, Wed Sep 26 19:10:02 CEST 2018
+Vitsyebsk, 6.88°C, 11.87m/s, Wed Sep 26 20:00:11 CEST 2018
+Vilnius, 6.0°C, 10.3m/s, Wed Sep 26 20:23:00 CEST 2018
+Mahilyow, 5.88°C, 11.51m/s, Wed Sep 26 22:12:07 CEST 2018
+Vilnius, 6.0°C, 10.3m/s, Wed Sep 26 20:23:00 CEST 2018
+Vitsyebsk, 6.88°C, 11.87m/s, Wed Sep 26 21:00:07 CEST 2018
+Hrodna, 8.03°C, 11.17m/s, Wed Sep 26 20:57:15 CEST 2018
+Vilnius, 7.0°C, 10.8m/s, Wed Sep 26 21:20:00 CEST 2018
+Vitsyebsk, 6.38°C, 13.56m/s, Wed Sep 26 22:26:13 CEST 2018
+Mahilyow, 5.88°C, 11.51m/s, Wed Sep 26 23:15:02 CEST 2018
+Vilnius, 7.0°C, 10.3m/s, Wed Sep 26 22:50:00 CEST 2018
+Kaunas, 9.0°C, 10.3m/s, Wed Sep 26 21:53:00 CEST 2018
+Mahilyow, 5.88°C, 11.51m/s, Thu Sep 27 00:00:20 CEST 2018
+Tampere, 8.44°C, 10.3m/s, Wed Sep 26 22:20:00 CEST 2018
+Vitsyebsk, 6.38°C, 13.56m/s, Wed Sep 26 23:30:08 CEST 2018
+Hrodna, 7.03°C, 11.86m/s, Wed Sep 26 22:30:13 CEST 2018
+Kaunas, 9.0°C, 10.8m/s, Wed Sep 26 22:50:00 CEST 2018
+Vitsyebsk, 6.38°C, 13.56m/s, Thu Sep 27 00:12:08 CEST 2018
+Hrodna, 9.31°C, 11.58m/s, Thu Sep 27 00:41:52 CEST 2018
+Mahilyow, 6.31°C, 12.53m/s, Thu Sep 27 01:30:01 CEST 2018
+Hrodna, 9.31°C, 11.58m/s, Thu Sep 27 01:42:03 CEST 2018
+Vitsyebsk, 8.16°C, 14.18m/s, Thu Sep 27 01:45:04 CEST 2018
+Hrodna, 9.31°C, 11.58m/s, Thu Sep 27 01:15:02 CEST 2018
+Mahilyow, 6.31°C, 12.53m/s, Thu Sep 27 02:15:02 CEST 2018
+Vitsyebsk, 8.16°C, 14.18m/s, Thu Sep 27 03:06:09 CEST 2018
+Mahilyow, 6.31°C, 12.53m/s, Thu Sep 27 02:45:03 CEST 2018
+Vitsyebsk, 8.16°C, 14.18m/s, Thu Sep 27 02:11:28 CEST 2018
+Mahilyow, 6.31°C, 12.53m/s, Thu Sep 27 03:00:05 CEST 2018
+Mahilyow, 7.61°C, 12.42m/s, Thu Sep 27 05:45:02 CEST 2018
+Hrodna, 7.03°C, 11.86m/s, Wed Sep 26 22:00:08 CEST 2018
+Hrodna, 7.03°C, 11.86m/s, Wed Sep 26 23:42:49 CEST 2018
+Hrodna, 7.03°C, 11.86m/s, Wed Sep 26 23:29:23 CEST 2018
+Vitsyebsk, 6.38°C, 13.56m/s, Wed Sep 26 22:14:23 CEST 2018
+Mahilyow, 7.61°C, 12.42m/s, Thu Sep 27 05:12:19 CEST 2018
+Vitsyebsk, 6.38°C, 13.56m/s, Wed Sep 26 23:44:41 CEST 2018
+Vantaa, 9.0°C, 10.3m/s, Thu Sep 27 08:20:00 CEST 2018
+Hrodna, 7.03°C, 11.86m/s, Wed Sep 26 22:41:23 CEST 2018
+Tampere, 7.43°C, 10.3m/s, Thu Sep 27 09:50:00 CEST 2018
+Hrodna, 7.03°C, 11.86m/s, Wed Sep 26 23:15:02 CEST 2018
+Vilnius, 7.0°C, 10.8m/s, Wed Sep 26 21:20:00 CEST 2018
+Vitsyebsk, 8.16°C, 14.18m/s, Thu Sep 27 00:30:11 CEST 2018
+Tampere, 8.43°C, 10.3m/s, Wed Sep 26 22:20:00 CEST 2018
+Vitsyebsk, 6.38°C, 13.56m/s, Wed Sep 26 23:12:49 CEST 2018
+Mahilyow, 5.88°C, 11.51m/s, Wed Sep 26 22:29:58 CEST 2018
+Hrodna, 7.03°C, 11.86m/s, Thu Sep 27 00:25:38 CEST 2018
+Hrodna, 7.03°C, 11.86m/s, Wed Sep 26 22:46:11 CEST 2018
+Mahilyow, 5.88°C, 11.51m/s, Wed Sep 26 23:44:59 CEST 2018
+Vitsyebsk, 6.38°C, 13.56m/s, Wed Sep 26 22:41:46 CEST 2018
+Mahilyow, 5.88°C, 11.51m/s, Wed Sep 26 23:27:30 CEST 2018
+Mahilyow, 5.88°C, 11.51m/s, Thu Sep 27 00:29:51 CEST 2018
+Tampere, 8.0°C, 10.3m/s, Thu Sep 27 00:20:00 CEST 2018
+Vitsyebsk, 8.16°C, 14.18m/s, Thu Sep 27 00:45:05 CEST 2018
+Hrodna, 9.31°C, 11.58m/s, Thu Sep 27 01:56:45 CEST 2018
+Vitsyebsk, 8.16°C, 14.18m/s, Thu Sep 27 02:00:07 CEST 2018
+Vitsyebsk, 8.16°C, 14.18m/s, Thu Sep 27 01:27:04 CEST 2018
+Hrodna, 9.31°C, 11.58m/s, Thu Sep 27 02:45:04 CEST 2018
+Mahilyow, 7.61°C, 12.42m/s, Thu Sep 27 04:30:00 CEST 2018
+Hrodna, 7.03°C, 11.86m/s, Thu Sep 27 00:00:21 CEST 2018
+Hrodna, 7.03°C, 11.86m/s, Thu Sep 27 00:13:42 CEST 2018
+Vitsyebsk, 6.38°C, 13.56m/s, Wed Sep 26 22:57:03 CEST 2018
+Vilnius, 7.0°C, 10.3m/s, Wed Sep 26 22:50:00 CEST 2018
+Vitsyebsk, 6.38°C, 13.56m/s, Thu Sep 27 00:00:03 CEST 2018
+Vitsyebsk, 8.16°C, 14.18m/s, Thu Sep 27 00:51:13 CEST 2018
+Mahilyow, 6.31°C, 12.53m/s, Thu Sep 27 01:00:12 CEST 2018
+Mahilyow, 6.31°C, 12.53m/s, Thu Sep 27 00:43:14 CEST 2018
+Hrodna, 9.31°C, 11.58m/s, Thu Sep 27 00:55:02 CEST 2018
+Mahilyow, 6.31°C, 12.53m/s, Thu Sep 27 01:45:04 CEST 2018
+Hrodna, 9.31°C, 11.58m/s, Thu Sep 27 02:30:12 CEST 2018
+Hrodna, 9.31°C, 11.58m/s, Thu Sep 27 02:15:02 CEST 2018
+Mahilyow, 7.61°C, 12.42m/s, Thu Sep 27 03:45:04 CEST 2018
+Hrodna, 9.31°C, 11.58m/s, Thu Sep 27 03:00:08 CEST 2018
+Mahilyow, 7.61°C, 12.42m/s, Thu Sep 27 04:45:03 CEST 2018
+Mahilyow, 7.61°C, 12.42m/s, Thu Sep 27 05:25:37 CEST 2018
+Saint Petersburg, 9.0°C, 11.0m/s, Thu Sep 27 05:00:00 CEST 2018
+Espoo, 9.0°C, 10.3m/s, Thu Sep 27 08:20:00 CEST 2018
+Vantaa, 9.0°C, 10.3m/s, Thu Sep 27 09:20:00 CEST 2018
+Tampere, 7.87°C, 10.8m/s, Thu Sep 27 10:50:00 CEST 2018
+Oulu, 7.0°C, 10.3m/s, Thu Sep 27 11:20:00 CEST 2018
+Saint Petersburg, 9.0°C, 11.0m/s, Thu Sep 27 14:00:00 CEST 2018
+Kazan, 5.0°C, 11.0m/s, Thu Sep 27 15:00:00 CEST 2018
+Bergen, 9.0°C, 11.3m/s, Thu Sep 27 19:20:00 CEST 2018
+Bergen, 9.0°C, 11.3m/s, Thu Sep 27 19:20:00 CEST 2018
+Bergen, 9.0°C, 10.3m/s, Thu Sep 27 20:50:00 CEST 2018
+Stavanger, 9.0°C, 11.3m/s, Thu Sep 27 22:50:00 CEST 2018
+Stavanger, 9.0°C, 10.3m/s, Fri Sep 28 00:20:00 CEST 2018
+Stavanger, 8.0°C, 10.3m/s, Mon Oct 01 08:50:00 CEST 2018
+Stavanger, 9.0°C, 10.3m/s, Mon Oct 01 12:20:00 CEST 2018
+Bergen, 4.0°C, 10.3m/s, Tue Oct 02 07:50:00 CEST 2018
+Leipzig, 9.53°C, 10.3m/s, Tue Oct 02 12:20:00 CEST 2018
+Copenhagen, 8.58°C, 10.3m/s, Tue Oct 02 12:50:00 CEST 2018
+Hamburg, 8.65°C, 10.3m/s, Tue Oct 02 13:20:00 CEST 2018
+Leipzig, 9.59°C, 10.3m/s, Tue Oct 02 12:50:00 CEST 2018
+Malmoe, 9.0°C, 10.3m/s, Tue Oct 02 13:20:00 CEST 2018
+Leipzig, 8.53°C, 10.3m/s, Tue Oct 02 13:20:00 CEST 2018
+Espoo, 9.0°C, 10.3m/s, Thu Sep 27 09:20:00 CEST 2018
+Mahilyow, 5.88°C, 11.51m/s, Thu Sep 27 00:11:55 CEST 2018
+Tampere, 7.86°C, 10.8m/s, Thu Sep 27 10:50:00 CEST 2018
+Saint Petersburg, 9.0°C, 14.0m/s, Thu Sep 27 13:00:00 CEST 2018
+Vitsyebsk, 8.16°C, 14.18m/s, Thu Sep 27 01:13:11 CEST 2018
+Saint Petersburg, 9.0°C, 11.0m/s, Thu Sep 27 14:00:00 CEST 2018
+Mahilyow, 6.31°C, 12.53m/s, Thu Sep 27 03:12:09 CEST 2018
+Mahilyow, 6.31°C, 12.53m/s, Thu Sep 27 01:15:05 CEST 2018
+Bergen, 9.0°C, 11.3m/s, Thu Sep 27 19:20:00 CEST 2018
+Hrodna, 9.31°C, 11.58m/s, Thu Sep 27 01:26:14 CEST 2018
+Mahilyow, 6.31°C, 12.53m/s, Thu Sep 27 02:30:02 CEST 2018
+Bergen, 9.0°C, 11.3m/s, Thu Sep 27 20:20:00 CEST 2018
+Hrodna, 9.31°C, 11.58m/s, Thu Sep 27 03:11:47 CEST 2018
+Tampere, 8.0°C, 10.3m/s, Thu Sep 27 00:20:00 CEST 2018
+Mahilyow, 7.61°C, 12.42m/s, Thu Sep 27 05:55:54 CEST 2018
+Bergen, 9.0°C, 10.3m/s, Thu Sep 27 20:50:00 CEST 2018
+Saint Petersburg, 9.0°C, 11.0m/s, Thu Sep 27 05:00:00 CEST 2018
+Stavanger, 9.55°C, 13.4m/s, Thu Sep 27 21:50:00 CEST 2018
+Mahilyow, 6.31°C, 12.53m/s, Thu Sep 27 02:00:09 CEST 2018
+Stavanger, 9.45°C, 12.9m/s, Thu Sep 27 22:20:00 CEST 2018
+Vitsyebsk, 8.16°C, 14.18m/s, Thu Sep 27 02:44:43 CEST 2018
+Kazan, 9.0°C, 11.0m/s, Sat Sep 29 05:00:00 CEST 2018
+Vantaa, 9.0°C, 10.3m/s, Thu Sep 27 08:20:00 CEST 2018
+Stavanger, 8.0°C, 11.3m/s, Mon Oct 01 11:20:00 CEST 2018
+Vitsyebsk, 8.16°C, 14.18m/s, Thu Sep 27 02:28:05 CEST 2018
+Stavanger, 8.46°C, 11.8m/s, Mon Oct 01 11:50:00 CEST 2018
+Mahilyow, 7.61°C, 12.42m/s, Thu Sep 27 04:13:31 CEST 2018
+Stavanger, 8.46°C, 10.3m/s, Tue Oct 02 11:20:00 CEST 2018
+Saint Petersburg, 9.0°C, 11.0m/s, Thu Sep 27 09:30:00 CEST 2018
+Malmoe, 8.73°C, 10.3m/s, Tue Oct 02 12:50:00 CEST 2018
+Vantaa, 9.0°C, 10.3m/s, Thu Sep 27 09:20:00 CEST 2018
+Mahilyow, 7.61°C, 12.42m/s, Thu Sep 27 03:30:02 CEST 2018
+Saint Petersburg, 9.0°C, 13.0m/s, Thu Sep 27 12:30:00 CEST 2018
+Mahilyow, 7.61°C, 12.42m/s, Thu Sep 27 05:00:04 CEST 2018
+Saint Petersburg, 9.0°C, 14.0m/s, Thu Sep 27 13:00:00 CEST 2018
+Leipzig, 9.61°C, 10.3m/s, Tue Oct 02 12:50:00 CEST 2018
+Kazan, 6.0°C, 11.0m/s, Thu Sep 27 14:30:00 CEST 2018
+Leipzig, 9.53°C, 10.8m/s, Tue Oct 02 11:50:00 CEST 2018
+Mahilyow, 7.61°C, 12.42m/s, Thu Sep 27 06:11:49 CEST 2018
+Stavanger, 9.1°C, 11.8m/s, Tue Oct 02 12:50:00 CEST 2018
+Mahilyow, 7.61°C, 12.42m/s, Thu Sep 27 06:29:19 CEST 2018
+Bergen, 9.0°C, 11.3m/s, Thu Sep 27 19:20:00 CEST 2018
+Hamburg, 8.64°C, 10.3m/s, Tue Oct 02 13:20:00 CEST 2018
+Espoo, 9.0°C, 10.3m/s, Thu Sep 27 09:20:00 CEST 2018
+Stavanger, 9.45°C, 10.3m/s, Thu Sep 27 21:20:00 CEST 2018
+Saint Petersburg, 9.0°C, 11.0m/s, Thu Sep 27 09:30:00 CEST 2018
+Bergen, 9.0°C, 11.3m/s, Thu Sep 27 20:20:00 CEST 2018
+Stavanger, 9.54°C, 13.4m/s, Thu Sep 27 21:50:00 CEST 2018
+Oulu, 7.0°C, 10.3m/s, Thu Sep 27 11:20:00 CEST 2018
+Stavanger, 9.0°C, 11.3m/s, Thu Sep 27 22:50:00 CEST 2018
+Saint Petersburg, 9.0°C, 13.0m/s, Thu Sep 27 12:30:00 CEST 2018
+Kazan, 9.0°C, 11.0m/s, Sat Sep 29 05:00:00 CEST 2018
+Kazan, 6.0°C, 11.0m/s, Thu Sep 27 14:30:00 CEST 2018
+Kazan, 5.0°C, 11.0m/s, Thu Sep 27 15:00:00 CEST 2018
+Stavanger, 9.0°C, 10.3m/s, Mon Oct 01 12:20:00 CEST 2018
+Bergen, 9.0°C, 11.3m/s, Thu Sep 27 20:20:00 CEST 2018
+Stavanger, 9.46°C, 10.3m/s, Thu Sep 27 21:20:00 CEST 2018
+Stavanger, 8.45°C, 11.8m/s, Mon Oct 01 11:50:00 CEST 2018
+Bergen, 9.0°C, 10.3m/s, Thu Sep 27 20:50:00 CEST 2018
+Stavanger, 8.45°C, 10.3m/s, Tue Oct 02 11:20:00 CEST 2018
+Stavanger, 9.46°C, 12.9m/s, Thu Sep 27 22:20:00 CEST 2018
+Leipzig, 9.53°C, 10.8m/s, Tue Oct 02 11:50:00 CEST 2018
+Stavanger, 9.0°C, 10.3m/s, Fri Sep 28 00:20:00 CEST 2018
+Copenhagen, 8.57°C, 10.3m/s, Tue Oct 02 13:20:00 CEST 2018
+Stavanger, 8.0°C, 10.3m/s, Mon Oct 01 08:50:00 CEST 2018
+Hamburg, 8.65°C, 10.3m/s, Tue Oct 02 12:50:00 CEST 2018
+Stavanger, 8.0°C, 11.3m/s, Mon Oct 01 11:20:00 CEST 2018
+Leipzig, 9.53°C, 10.3m/s, Tue Oct 02 12:20:00 CEST 2018
+Bergen, 4.0°C, 10.3m/s, Tue Oct 02 07:50:00 CEST 2018
+Malmoe, 8.73°C, 10.3m/s, Tue Oct 02 12:50:00 CEST 2018
+Malmoe, 9.0°C, 10.8m/s, Tue Oct 02 13:50:00 CEST 2018
+Hamburg, 8.64°C, 10.3m/s, Tue Oct 02 12:50:00 CEST 2018
+Leipzig, 8.53°C, 10.3m/s, Tue Oct 02 13:20:00 CEST 2018
+Stavanger, 9.09°C, 11.8m/s, Tue Oct 02 12:50:00 CEST 2018
+Copenhagen, 9.0°C, 10.3m/s, Tue Oct 02 13:20:00 CEST 2018
+Malmoe, 9.0°C, 10.3m/s, Tue Oct 02 13:20:00 CEST 2018
+Brno, 9.3°C, 10.3m/s, Tue Oct 02 13:30:00 CEST 2018
+Malmoe, 9.26°C, 10.3m/s, Tue Oct 02 14:50:00 CEST 2018
+Malmoe, 9.0°C, 10.8m/s, Tue Oct 02 13:50:00 CEST 2018
+Copenhagen, 9.0°C, 10.8m/s, Tue Oct 02 13:50:00 CEST 2018
+Malmoe, 9.0°C, 10.8m/s, Tue Oct 02 14:20:00 CEST 2018
+Stavanger, 9.91°C, 14.4m/s, Tue Oct 02 15:20:00 CEST 2018
+Copenhagen, 9.0°C, 10.8m/s, Tue Oct 02 13:50:00 CEST 2018
+Leipzig, 8.53°C, 10.3m/s, Tue Oct 02 14:50:00 CEST 2018
+Stavanger, 9.55°C, 11.8m/s, Tue Oct 02 13:50:00 CEST 2018
+Malmoe, 9.0°C, 10.8m/s, Tue Oct 02 14:20:00 CEST 2018
+Copenhagen, 9.2°C, 10.3m/s, Tue Oct 02 14:50:00 CEST 2018
+Aalborg, 9.59°C, 13.91m/s, Tue Oct 02 16:15:05 CEST 2018
+Aalborg, 9.59°C, 13.91m/s, Tue Oct 02 17:41:47 CEST 2018
+Copenhagen, 9.36°C, 10.8m/s, Tue Oct 02 15:20:00 CEST 2018
+Copenhagen, 9.0°C, 10.8m/s, Tue Oct 02 14:20:00 CEST 2018
+Aalborg, 9.59°C, 13.91m/s, Tue Oct 02 16:57:55 CEST 2018
+Aalborg, 9.59°C, 13.91m/s, Tue Oct 02 15:58:53 CEST 2018
+Copenhagen, 9.0°C, 10.8m/s, Tue Oct 02 13:50:00 CEST 2018
+Aalborg, 9.59°C, 13.91m/s, Tue Oct 02 15:32:23 CEST 2018
+Copenhagen, 9.2°C, 10.3m/s, Tue Oct 02 14:50:00 CEST 2018
+Malmoe, 9.26°C, 10.3m/s, Tue Oct 02 14:50:00 CEST 2018
+Bergen, 8.0°C, 16.5m/s, Tue Oct 02 15:50:00 CEST 2018
+Bergen, 9.0°C, 11.8m/s, Tue Oct 02 17:20:00 CEST 2018
+Stavanger, 9.46°C, 14.9m/s, Tue Oct 02 15:50:00 CEST 2018
+Bergen, 9.0°C, 15.9m/s, Tue Oct 02 16:20:00 CEST 2018
+Bergen, 9.0°C, 15.9m/s, Tue Oct 02 16:20:00 CEST 2018
+Aalborg, 9.59°C, 13.91m/s, Tue Oct 02 17:25:25 CEST 2018
+Bergen, 9.0°C, 11.3m/s, Tue Oct 02 17:50:00 CEST 2018
+Arhus, 9.54°C, 11.8m/s, Tue Oct 02 17:58:00 CEST 2018
+Bergen, 9.0°C, 11.3m/s, Tue Oct 02 18:20:00 CEST 2018
+Prague, 9.14°C, 10.3m/s, Tue Oct 02 18:37:00 CEST 2018
+Prague, 8.55°C, 10.8m/s, Tue Oct 02 19:30:00 CEST 2018
+Prague, 8.55°C, 10.8m/s, Tue Oct 02 19:30:00 CEST 2018
+Leipzig, 9.0°C, 11.8m/s, Tue Oct 02 20:50:00 CEST 2018
+Prague, 9.1°C, 12.3m/s, Tue Oct 02 21:30:00 CEST 2018
+Leipzig, 9.0°C, 10.8m/s, Tue Oct 02 19:50:00 CEST 2018
+Leipzig, 9.0°C, 10.8m/s, Tue Oct 02 20:20:00 CEST 2018
+Prague, 9.5°C, 11.8m/s, Tue Oct 02 21:03:00 CEST 2018
+Stavanger, 8.45°C, 10.3m/s, Tue Oct 02 21:50:00 CEST 2018
+Aalborg, 9.64°C, 10.32m/s, Tue Oct 02 22:05:59 CEST 2018
+Aalborg, 9.64°C, 10.32m/s, Wed Oct 03 00:00:20 CEST 2018
+Aalborg, 9.64°C, 10.32m/s, Tue Oct 02 22:27:23 CEST 2018
+Aalborg, 9.64°C, 10.32m/s, Wed Oct 03 00:15:05 CEST 2018
+Malmoe, 9.49°C, 13.9m/s, Wed Oct 03 00:20:00 CEST 2018
+Arhus, 9.47°C, 10.3m/s, Wed Oct 03 01:29:00 CEST 2018
+Arhus, 9.44°C, 10.3m/s, Wed Oct 03 00:50:00 CEST 2018
+Malmoe, 9.74°C, 12.9m/s, Wed Oct 03 00:50:00 CEST 2018
+Arhus, 9.45°C, 10.3m/s, Wed Oct 03 00:50:00 CEST 2018
+Stavanger, 8.0°C, 10.3m/s, Wed Oct 03 02:20:00 CEST 2018
+Copenhagen, 8.58°C, 10.8m/s, Wed Oct 03 02:50:00 CEST 2018
+Malmoe, 8.74°C, 10.8m/s, Wed Oct 03 02:50:00 CEST 2018
+Copenhagen, 8.59°C, 10.3m/s, Wed Oct 03 04:20:00 CEST 2018
+Malmoe, 9.49°C, 10.3m/s, Wed Oct 03 03:20:00 CEST 2018
+Hrodna, 7.37°C, 10.02m/s, Wed Oct 03 04:43:24 CEST 2018
+Lodz, 9.0°C, 10.3m/s, Wed Oct 03 06:00:00 CEST 2018
+Stavanger, 9.54°C, 11.8m/s, Tue Oct 02 13:50:00 CEST 2018
+Bergen, 8.0°C, 17.0m/s, Tue Oct 02 15:20:00 CEST 2018
+Copenhagen, 9.2°C, 10.3m/s, Tue Oct 02 14:50:00 CEST 2018
+Aalborg, 9.59°C, 13.91m/s, Tue Oct 02 16:31:58 CEST 2018
+Brno, 9.3°C, 10.3m/s, Tue Oct 02 13:30:00 CEST 2018
+Bergen, 9.0°C, 14.4m/s, Tue Oct 02 16:50:00 CEST 2018
+Leipzig, 8.53°C, 10.3m/s, Tue Oct 02 14:50:00 CEST 2018
+Copenhagen, 9.37°C, 10.8m/s, Tue Oct 02 15:20:00 CEST 2018
+Bergen, 8.0°C, 17.0m/s, Tue Oct 02 15:20:00 CEST 2018
+Malmoe, 9.26°C, 10.3m/s, Tue Oct 02 14:50:00 CEST 2018
+Aalborg, 9.59°C, 13.91m/s, Tue Oct 02 18:12:26 CEST 2018
+Stavanger, 9.9°C, 14.4m/s, Tue Oct 02 15:20:00 CEST 2018
+Aalborg, 9.59°C, 13.91m/s, Tue Oct 02 17:47:21 CEST 2018
+Stavanger, 9.45°C, 11.3m/s, Tue Oct 02 18:50:00 CEST 2018
+Aalborg, 9.59°C, 13.91m/s, Tue Oct 02 16:20:22 CEST 2018
+Stavanger, 9.0°C, 15.4m/s, Tue Oct 02 16:20:00 CEST 2018
+Malmoe, 9.48°C, 10.8m/s, Tue Oct 02 15:20:00 CEST 2018
+Bergen, 9.0°C, 11.8m/s, Tue Oct 02 17:20:00 CEST 2018
+Stavanger, 9.0°C, 15.4m/s, Tue Oct 02 16:20:00 CEST 2018
+Bergen, 9.0°C, 14.4m/s, Tue Oct 02 16:50:00 CEST 2018
+Bergen, 9.0°C, 11.3m/s, Tue Oct 02 17:50:00 CEST 2018
+Leipzig, 9.0°C, 11.8m/s, Tue Oct 02 18:20:00 CEST 2018
+Bergen, 9.0°C, 11.3m/s, Tue Oct 02 18:20:00 CEST 2018
+Prague, 9.12°C, 10.3m/s, Tue Oct 02 18:37:00 CEST 2018
+Stavanger, 9.45°C, 13.4m/s, Tue Oct 02 18:20:00 CEST 2018
+Odense, 9.99°C, 10.3m/s, Tue Oct 02 18:20:00 CEST 2018
+Leipzig, 9.0°C, 10.8m/s, Tue Oct 02 19:50:00 CEST 2018
+Prague, 9.0°C, 10.8m/s, Tue Oct 02 20:30:00 CEST 2018
+Leipzig, 9.0°C, 10.8m/s, Tue Oct 02 20:20:00 CEST 2018
+Leipzig, 9.47°C, 10.8m/s, Tue Oct 02 21:20:00 CEST 2018
+Copenhagen, 9.59°C, 10.3m/s, Tue Oct 02 20:20:00 CEST 2018
+Malmoe, 9.5°C, 10.3m/s, Tue Oct 02 20:20:00 CEST 2018
+Leipzig, 9.47°C, 10.3m/s, Tue Oct 02 21:50:00 CEST 2018
+Malmoe, 9.5°C, 11.8m/s, Tue Oct 02 22:50:00 CEST 2018
+Aalborg, 9.64°C, 10.32m/s, Tue Oct 02 23:42:23 CEST 2018
+Stavanger, 8.46°C, 10.3m/s, Tue Oct 02 21:50:00 CEST 2018
+Malmoe, 9.5°C, 11.8m/s, Tue Oct 02 22:50:00 CEST 2018
+Ostrava, 9.0°C, 10.3m/s, Tue Oct 02 23:30:00 CEST 2018
+Malmoe, 9.74°C, 11.3m/s, Wed Oct 03 01:20:00 CEST 2018
+Malmoe, 9.74°C, 12.9m/s, Wed Oct 03 00:50:00 CEST 2018
+Arhus, 9.46°C, 10.8m/s, Wed Oct 03 00:27:00 CEST 2018
+Malmoe, 9.49°C, 13.9m/s, Wed Oct 03 00:20:00 CEST 2018
+Copenhagen, 8.77°C, 11.8m/s, Wed Oct 03 02:20:00 CEST 2018
+Malmoe, 8.98°C, 11.8m/s, Wed Oct 03 02:20:00 CEST 2018
+Copenhagen, 8.59°C, 10.3m/s, Wed Oct 03 04:20:00 CEST 2018
+Hrodna, 7.37°C, 10.02m/s, Wed Oct 03 04:28:10 CEST 2018
+Hrodna, 7.37°C, 10.02m/s, Wed Oct 03 03:58:20 CEST 2018
+Malmoe, 9.49°C, 10.3m/s, Wed Oct 03 03:20:00 CEST 2018
+Hrodna, 7.37°C, 10.02m/s, Wed Oct 03 05:30:09 CEST 2018
+Bergen, 8.0°C, 16.5m/s, Tue Oct 02 15:50:00 CEST 2018
+Stavanger, 9.46°C, 11.3m/s, Tue Oct 02 18:50:00 CEST 2018
+Stavanger, 9.45°C, 14.9m/s, Tue Oct 02 15:50:00 CEST 2018
+Leipzig, 9.0°C, 11.8m/s, Tue Oct 02 19:20:00 CEST 2018
+Aalborg, 9.59°C, 13.91m/s, Tue Oct 02 17:02:55 CEST 2018
+Leipzig, 9.0°C, 10.8m/s, Tue Oct 02 19:50:00 CEST 2018
+Arhus, 9.53°C, 11.8m/s, Tue Oct 02 17:58:00 CEST 2018
+Aalborg, 9.64°C, 10.32m/s, Tue Oct 02 21:30:11 CEST 2018
+Odense, 9.99°C, 10.3m/s, Tue Oct 02 18:20:00 CEST 2018
+Leipzig, 9.47°C, 10.8m/s, Tue Oct 02 21:20:00 CEST 2018
+Stavanger, 9.46°C, 13.4m/s, Tue Oct 02 18:20:00 CEST 2018
+Stavanger, 9.45°C, 11.8m/s, Tue Oct 02 19:20:00 CEST 2018
+Leipzig, 9.0°C, 11.8m/s, Tue Oct 02 18:20:00 CEST 2018
+Prague, 9.11°C, 12.3m/s, Tue Oct 02 21:30:00 CEST 2018
+Bergen, 9.0°C, 11.3m/s, Tue Oct 02 18:20:00 CEST 2018
+Stavanger, 9.46°C, 11.8m/s, Tue Oct 02 19:20:00 CEST 2018
+Leipzig, 9.0°C, 11.8m/s, Tue Oct 02 20:50:00 CEST 2018
+Aalborg, 9.64°C, 10.32m/s, Tue Oct 02 22:32:24 CEST 2018
+Malmoe, 9.5°C, 10.3m/s, Tue Oct 02 20:20:00 CEST 2018
+Malmoe, 9.74°C, 10.8m/s, Tue Oct 02 22:20:00 CEST 2018
+Copenhagen, 9.59°C, 10.3m/s, Tue Oct 02 20:20:00 CEST 2018
+Malmoe, 9.23°C, 11.8m/s, Tue Oct 02 23:50:00 CEST 2018
+Aalborg, 9.64°C, 10.32m/s, Tue Oct 02 21:47:52 CEST 2018
+Malmoe, 9.74°C, 10.8m/s, Tue Oct 02 22:20:00 CEST 2018
+Prague, 9.0°C, 10.8m/s, Tue Oct 02 20:30:00 CEST 2018
+Copenhagen, 9.8°C, 11.8m/s, Tue Oct 02 22:50:00 CEST 2018
+Prague, 9.12°C, 12.3m/s, Tue Oct 02 21:30:00 CEST 2018
+Arhus, 9.46°C, 10.8m/s, Wed Oct 03 00:27:00 CEST 2018
+Aalborg, 9.64°C, 10.32m/s, Tue Oct 02 21:42:32 CEST 2018
+Malmoe, 9.74°C, 11.3m/s, Wed Oct 03 01:20:00 CEST 2018
+Aalborg, 9.64°C, 10.32m/s, Tue Oct 02 23:14:55 CEST 2018
+Malmoe, 9.76°C, 10.8m/s, Wed Oct 03 01:50:00 CEST 2018
+Copenhagen, 9.8°C, 11.8m/s, Tue Oct 02 22:50:00 CEST 2018
+Arhus, 9.47°C, 10.3m/s, Wed Oct 03 01:29:00 CEST 2018
+Leipzig, 9.47°C, 10.3m/s, Tue Oct 02 21:50:00 CEST 2018
+Odense, 8.51°C, 10.8m/s, Wed Oct 03 01:20:00 CEST 2018
+Aalborg, 9.64°C, 10.32m/s, Tue Oct 02 22:59:29 CEST 2018
+Stavanger, 8.0°C, 10.3m/s, Wed Oct 03 02:20:00 CEST 2018
+Aalborg, 9.64°C, 10.32m/s, Tue Oct 02 23:30:11 CEST 2018
+Copenhagen, 9.17°C, 10.3m/s, Wed Oct 03 03:20:00 CEST 2018
+Odense, 8.51°C, 10.8m/s, Wed Oct 03 01:20:00 CEST 2018
+Malmoe, 8.74°C, 10.8m/s, Wed Oct 03 02:50:00 CEST 2018
+Copenhagen, 9.58°C, 10.8m/s, Wed Oct 03 01:50:00 CEST 2018
+Copenhagen, 8.77°C, 11.8m/s, Wed Oct 03 02:20:00 CEST 2018
+Malmoe, 9.23°C, 11.8m/s, Tue Oct 02 23:50:00 CEST 2018
+Hrodna, 7.37°C, 10.02m/s, Wed Oct 03 05:00:18 CEST 2018
+Copenhagen, 9.97°C, 10.8m/s, Wed Oct 03 01:50:00 CEST 2018
+Malmoe, 9.01°C, 10.8m/s, Wed Oct 03 04:20:00 CEST 2018
+Malmoe, 9.75°C, 10.8m/s, Wed Oct 03 01:50:00 CEST 2018
+Lodz, 9.0°C, 10.3m/s, Wed Oct 03 06:00:00 CEST 2018
+Malmoe, 8.99°C, 11.8m/s, Wed Oct 03 02:20:00 CEST 2018
+Hrodna, 7.37°C, 10.02m/s, Wed Oct 03 04:05:53 CEST 2018
+Copenhagen, 9.17°C, 10.3m/s, Wed Oct 03 03:20:00 CEST 2018
+Copenhagen, 8.58°C, 10.8m/s, Wed Oct 03 02:50:00 CEST 2018
+Hrodna, 7.37°C, 10.02m/s, Wed Oct 03 03:45:05 CEST 2018
+Malmoe, 9.01°C, 10.8m/s, Wed Oct 03 04:20:00 CEST 2018
+Hrodna, 7.37°C, 10.02m/s, Wed Oct 03 05:15:05 CEST 2018
+
+HotAndDry Thresholds(28.0°C, 40.0%)
+===================================
+
+Seville, 36.41°C, 17.0%, Sat Sep 22 18:30:00 CEST 2018
+Marseille, 28.78°C, 21.0%, Sat Sep 22 18:30:00 CEST 2018
+Marseille, 28.79°C, 21.0%, Sat Sep 22 18:30:00 CEST 2018
+Seville, 36.39°C, 17.0%, Sat Sep 22 18:30:00 CEST 2018
+Madrid, 32.0°C, 22.0%, Sat Sep 22 19:00:00 CEST 2018
+Madrid, 32.6°C, 22.0%, Sat Sep 22 18:00:00 CEST 2018
+Seville, 35.41°C, 18.0%, Sat Sep 22 19:30:00 CEST 2018
+Madrid, 32.0°C, 22.0%, Sat Sep 22 19:00:00 CEST 2018
+Seville, 31.0°C, 25.0%, Sat Sep 22 21:00:00 CEST 2018
+Madrid, 29.6°C, 24.0%, Sat Sep 22 20:30:00 CEST 2018
+Madrid, 29.6°C, 24.0%, Sat Sep 22 20:30:00 CEST 2018
+Madrid, 30.2°C, 24.0%, Sat Sep 22 20:00:00 CEST 2018
+Seville, 31.0°C, 25.0%, Sat Sep 22 21:00:00 CEST 2018
+Seville, 31.4°C, 31.0%, Sat Sep 22 21:30:00 CEST 2018
+Marseille, 28.79°C, 21.0%, Sat Sep 22 18:30:00 CEST 2018
+Skopje, 29.0°C, 35.0%, Sat Sep 22 18:00:00 CEST 2018
+Madrid, 32.0°C, 22.0%, Sat Sep 22 19:30:00 CEST 2018
+Seville, 34.0°C, 21.0%, Sat Sep 22 20:00:00 CEST 2018
+Seville, 35.39°C, 18.0%, Sat Sep 22 19:30:00 CEST 2018
+Seville, 34.0°C, 21.0%, Sat Sep 22 20:00:00 CEST 2018
+Seville, 29.4°C, 35.0%, Sat Sep 22 22:30:00 CEST 2018
+Seville, 33.21°C, 24.0%, Sat Sep 22 20:30:00 CEST 2018
+Athens, 29.49°C, 27.0%, Sun Sep 23 11:50:00 CEST 2018
+Seville, 29.46°C, 35.0%, Sat Sep 22 22:00:00 CEST 2018
+Athens, 28.99°C, 28.0%, Sun Sep 23 11:20:00 CEST 2018
+Seville, 29.0°C, 30.0%, Sun Sep 23 11:00:00 CEST 2018
+Thessaloniki, 29.0°C, 39.0%, Sun Sep 23 12:50:00 CEST 2018
+Seville, 31.54°C, 29.0%, Sun Sep 23 12:00:00 CEST 2018
+Plovdiv, 30.0°C, 30.0%, Sun Sep 23 13:00:00 CEST 2018
+Athens, 29.99°C, 25.0%, Sun Sep 23 12:20:00 CEST 2018
+Seville, 29.41°C, 30.0%, Sun Sep 23 11:30:00 CEST 2018
+Plovdiv, 30.0°C, 33.0%, Sun Sep 23 12:00:00 CEST 2018
+Podgorica, 28.46°C, 37.0%, Sun Sep 23 13:00:00 CEST 2018
+Skopje, 29.0°C, 37.0%, Sun Sep 23 13:30:00 CEST 2018
+Skopje, 30.0°C, 33.0%, Sun Sep 23 14:00:00 CEST 2018
+Plovdiv, 31.0°C, 29.0%, Sun Sep 23 14:30:00 CEST 2018
+Madrid, 29.6°C, 30.0%, Sun Sep 23 13:00:00 CEST 2018
+Plovdiv, 31.0°C, 31.0%, Sun Sep 23 13:30:00 CEST 2018
+Skopje, 30.0°C, 33.0%, Sun Sep 23 14:00:00 CEST 2018
+Thessaloniki, 29.0°C, 39.0%, Sun Sep 23 12:50:00 CEST 2018
+Seville, 34.0°C, 24.0%, Sun Sep 23 13:30:00 CEST 2018
+Podgorica, 28.91°C, 33.0%, Sun Sep 23 14:00:00 CEST 2018
+Lisbon, 30.87°C, 35.0%, Sun Sep 23 14:30:00 CEST 2018
+Amadora, 31.07°C, 33.0%, Sun Sep 23 15:00:00 CEST 2018
+Skopje, 29.0°C, 37.0%, Sun Sep 23 13:30:00 CEST 2018
+Athens, 30.99°C, 31.0%, Sun Sep 23 13:50:00 CEST 2018
+Sofia, 29.0°C, 32.0%, Sun Sep 23 14:30:00 CEST 2018
+Sofia, 29.0°C, 32.0%, Sun Sep 23 15:00:00 CEST 2018
+Skopje, 31.0°C, 33.0%, Sun Sep 23 15:00:00 CEST 2018
+Plovdiv, 31.0°C, 29.0%, Sun Sep 23 15:00:00 CEST 2018
+Athens, 29.99°C, 31.0%, Sun Sep 23 15:20:00 CEST 2018
+Valencia, 32.0°C, 35.0%, Sun Sep 23 16:00:00 CEST 2018
+Lisbon, 35.01°C, 32.0%, Sun Sep 23 16:00:00 CEST 2018
+Skopje, 32.0°C, 31.0%, Sun Sep 23 16:00:00 CEST 2018
+Podgorica, 28.92°C, 37.0%, Sun Sep 23 16:30:00 CEST 2018
+Lisbon, 35.13°C, 32.0%, Sun Sep 23 16:30:00 CEST 2018
+Skopje, 31.0°C, 31.0%, Sun Sep 23 17:00:00 CEST 2018
+Madrid, 32.4°C, 22.0%, Sat Sep 22 18:30:00 CEST 2018
+Seville, 36.39°C, 17.0%, Sat Sep 22 18:30:00 CEST 2018
+Seville, 35.92°C, 17.0%, Sat Sep 22 19:00:00 CEST 2018
+Madrid, 32.0°C, 22.0%, Sat Sep 22 19:30:00 CEST 2018
+Madrid, 31.99°C, 22.0%, Sat Sep 22 19:30:00 CEST 2018
+Seville, 31.0°C, 25.0%, Sat Sep 22 21:00:00 CEST 2018
+Seville, 33.18°C, 24.0%, Sat Sep 22 20:30:00 CEST 2018
+Seville, 29.47°C, 35.0%, Sat Sep 22 22:00:00 CEST 2018
+Seville, 29.0°C, 30.0%, Sun Sep 23 11:00:00 CEST 2018
+Plovdiv, 30.0°C, 30.0%, Sun Sep 23 12:30:00 CEST 2018
+Athens, 29.49°C, 27.0%, Sun Sep 23 11:50:00 CEST 2018
+Seville, 33.54°C, 26.0%, Sun Sep 23 13:00:00 CEST 2018
+Montpellier, 29.62°C, 35.0%, Sun Sep 23 12:00:00 CEST 2018
+Athens, 28.49°C, 27.0%, Sun Sep 23 10:50:00 CEST 2018
+Plovdiv, 29.0°C, 35.0%, Sun Sep 23 11:30:00 CEST 2018
+Plovdiv, 30.0°C, 30.0%, Sun Sep 23 13:00:00 CEST 2018
+Thessaloniki, 29.0°C, 37.0%, Sun Sep 23 13:20:00 CEST 2018
+Thessaloniki, 30.0°C, 33.0%, Sun Sep 23 13:50:00 CEST 2018
+Seville, 35.54°C, 24.0%, Sun Sep 23 14:00:00 CEST 2018
+Amadora, 30.86°C, 35.0%, Sun Sep 23 14:30:00 CEST 2018
+Madrid, 30.2°C, 24.0%, Sat Sep 22 20:00:00 CEST 2018
+Plovdiv, 30.0°C, 30.0%, Sun Sep 23 12:30:00 CEST 2018
+Seville, 29.41°C, 35.0%, Sat Sep 22 22:30:00 CEST 2018
+Plovdiv, 29.0°C, 35.0%, Sun Sep 23 11:30:00 CEST 2018
+Athens, 28.49°C, 27.0%, Sun Sep 23 10:50:00 CEST 2018
+Seville, 32.0°C, 27.0%, Sun Sep 23 12:30:00 CEST 2018
+Seville, 31.54°C, 29.0%, Sun Sep 23 12:00:00 CEST 2018
+Athens, 28.99°C, 28.0%, Sun Sep 23 11:20:00 CEST 2018
+Seville, 31.53°C, 29.0%, Sun Sep 23 12:00:00 CEST 2018
+Athens, 29.99°C, 25.0%, Sun Sep 23 12:20:00 CEST 2018
+Athens, 30.49°C, 25.0%, Sun Sep 23 12:50:00 CEST 2018
+Podgorica, 28.45°C, 37.0%, Sun Sep 23 13:00:00 CEST 2018
+Montpellier, 29.63°C, 35.0%, Sun Sep 23 12:00:00 CEST 2018
+Madrid, 30.37°C, 27.0%, Sun Sep 23 13:30:00 CEST 2018
+Plovdiv, 30.0°C, 30.0%, Sun Sep 23 13:00:00 CEST 2018
+Madrid, 31.4°C, 25.0%, Sun Sep 23 14:00:00 CEST 2018
+Seville, 29.39°C, 30.0%, Sun Sep 23 11:30:00 CEST 2018
+Athens, 30.49°C, 31.0%, Sun Sep 23 14:20:00 CEST 2018
+Seville, 33.53°C, 26.0%, Sun Sep 23 13:00:00 CEST 2018
+Marseille, 29.97°C, 38.0%, Sun Sep 23 13:30:00 CEST 2018
+Lyon, 28.24°C, 37.0%, Sun Sep 23 13:30:00 CEST 2018
+Podgorica, 28.92°C, 33.0%, Sun Sep 23 13:30:00 CEST 2018
+Madrid, 31.4°C, 25.0%, Sun Sep 23 14:00:00 CEST 2018
+Madrid, 30.37°C, 27.0%, Sun Sep 23 13:30:00 CEST 2018
+Plovdiv, 31.0°C, 29.0%, Sun Sep 23 14:00:00 CEST 2018
+Sofia, 29.0°C, 32.0%, Sun Sep 23 14:30:00 CEST 2018
+Lyon, 28.98°C, 35.0%, Sun Sep 23 15:00:00 CEST 2018
+Madrid, 33.0°C, 22.0%, Sun Sep 23 15:00:00 CEST 2018
+Madrid, 30.37°C, 27.0%, Sun Sep 23 13:30:00 CEST 2018
+Seville, 35.54°C, 24.0%, Sun Sep 23 14:00:00 CEST 2018
+Seville, 35.61°C, 24.0%, Sun Sep 23 14:30:00 CEST 2018
+Lisbon, 31.11°C, 33.0%, Sun Sep 23 15:00:00 CEST 2018
+Madrid, 31.97°C, 21.0%, Sun Sep 23 14:30:00 CEST 2018
+Podgorica, 29.92°C, 33.0%, Sun Sep 23 15:00:00 CEST 2018
+Seville, 36.0°C, 20.0%, Sun Sep 23 15:30:00 CEST 2018
+Sarajevo, 29.0°C, 39.0%, Sun Sep 23 16:00:00 CEST 2018
+Zenica, 29.0°C, 39.0%, Sun Sep 23 16:00:00 CEST 2018
+Amadora, 35.12°C, 32.0%, Sun Sep 23 16:30:00 CEST 2018
+Valencia, 32.0°C, 35.0%, Sun Sep 23 16:30:00 CEST 2018
+Geneva, 28.36°C, 39.0%, Sun Sep 23 16:30:00 CEST 2018
+Amadora, 35.02°C, 32.0%, Sun Sep 23 17:00:00 CEST 2018
+Seville, 33.54°C, 26.0%, Sun Sep 23 13:00:00 CEST 2018
+Thessaloniki, 30.0°C, 33.0%, Sun Sep 23 13:50:00 CEST 2018
+Thessaloniki, 30.0°C, 30.0%, Sun Sep 23 14:20:00 CEST 2018
+Athens, 30.49°C, 25.0%, Sun Sep 23 13:20:00 CEST 2018
+Plovdiv, 31.0°C, 29.0%, Sun Sep 23 14:00:00 CEST 2018
+Sofia, 29.0°C, 32.0%, Sun Sep 23 14:30:00 CEST 2018
+Skopje, 31.0°C, 33.0%, Sun Sep 23 15:00:00 CEST 2018
+Thessaloniki, 29.0°C, 37.0%, Sun Sep 23 13:20:00 CEST 2018
+Seville, 35.53°C, 24.0%, Sun Sep 23 14:00:00 CEST 2018
+Podgorica, 28.91°C, 33.0%, Sun Sep 23 14:00:00 CEST 2018
+Podgorica, 29.36°C, 31.0%, Sun Sep 23 14:30:00 CEST 2018
+Thessaloniki, 32.0°C, 24.0%, Sun Sep 23 15:20:00 CEST 2018
+Seville, 36.0°C, 23.0%, Sun Sep 23 15:00:00 CEST 2018
+Lisbon, 31.07°C, 33.0%, Sun Sep 23 15:00:00 CEST 2018
+Podgorica, 29.91°C, 35.0%, Sun Sep 23 15:30:00 CEST 2018
+Montpellier, 33.97°C, 30.0%, Sun Sep 23 16:00:00 CEST 2018
+Thessaloniki, 31.0°C, 23.0%, Sun Sep 23 15:50:00 CEST 2018
+Sofia, 29.0°C, 35.0%, Sun Sep 23 16:30:00 CEST 2018
+Montpellier, 33.32°C, 30.0%, Sun Sep 23 17:00:00 CEST 2018
+Thessaloniki, 31.0°C, 25.0%, Sun Sep 23 16:50:00 CEST 2018
+Lyon, 28.24°C, 37.0%, Sun Sep 23 14:00:00 CEST 2018
+Athens, 30.49°C, 31.0%, Sun Sep 23 14:20:00 CEST 2018
+Skopje, 30.0°C, 33.0%, Sun Sep 23 14:30:00 CEST 2018
+Athens, 30.49°C, 25.0%, Sun Sep 23 12:50:00 CEST 2018
+Lyon, 29.24°C, 35.0%, Sun Sep 23 14:30:00 CEST 2018
+Lyon, 29.24°C, 35.0%, Sun Sep 23 14:30:00 CEST 2018
+Marseille, 29.96°C, 38.0%, Sun Sep 23 13:30:00 CEST 2018
+Podgorica, 28.91°C, 33.0%, Sun Sep 23 13:30:00 CEST 2018
+Podgorica, 29.37°C, 31.0%, Sun Sep 23 14:30:00 CEST 2018
+Thessaloniki, 32.0°C, 24.0%, Sun Sep 23 14:50:00 CEST 2018
+Lyon, 28.24°C, 37.0%, Sun Sep 23 13:30:00 CEST 2018
+Athens, 30.49°C, 25.0%, Sun Sep 23 13:20:00 CEST 2018
+Plovdiv, 31.0°C, 29.0%, Sun Sep 23 14:30:00 CEST 2018
+Plovdiv, 31.0°C, 29.0%, Sun Sep 23 15:00:00 CEST 2018
+Lyon, 30.24°C, 33.0%, Sun Sep 23 15:30:00 CEST 2018
+Athens, 30.49°C, 31.0%, Sun Sep 23 14:20:00 CEST 2018
+Sofia, 29.0°C, 32.0%, Sun Sep 23 15:00:00 CEST 2018
+Plovdiv, 31.0°C, 29.0%, Sun Sep 23 16:00:00 CEST 2018
+Sofia, 29.0°C, 35.0%, Sun Sep 23 16:00:00 CEST 2018
+Lyon, 30.23°C, 33.0%, Sun Sep 23 16:00:00 CEST 2018
+Madrid, 33.4°C, 20.0%, Sun Sep 23 16:00:00 CEST 2018
+Sofia, 29.0°C, 35.0%, Sun Sep 23 16:30:00 CEST 2018
+Lyon, 30.21°C, 33.0%, Sun Sep 23 17:00:00 CEST 2018
+Seville, 37.0°C, 18.0%, Sun Sep 23 17:30:00 CEST 2018
+Podgorica, 28.37°C, 37.0%, Sun Sep 23 17:30:00 CEST 2018
+Athens, 28.99°C, 35.0%, Sun Sep 23 16:50:00 CEST 2018
+Skopje, 30.0°C, 33.0%, Sun Sep 23 14:30:00 CEST 2018
+Lyon, 29.24°C, 35.0%, Sun Sep 23 14:30:00 CEST 2018
+Seville, 36.0°C, 23.0%, Sun Sep 23 15:00:00 CEST 2018
+Madrid, 31.97°C, 21.0%, Sun Sep 23 14:30:00 CEST 2018
+Podgorica, 29.92°C, 35.0%, Sun Sep 23 15:30:00 CEST 2018
+Amadora, 33.43°C, 32.0%, Sun Sep 23 15:30:00 CEST 2018
+Plovdiv, 31.0°C, 29.0%, Sun Sep 23 16:00:00 CEST 2018
+Madrid, 33.6°C, 18.0%, Sun Sep 23 17:00:00 CEST 2018
+Lisbon, 30.88°C, 35.0%, Sun Sep 23 14:30:00 CEST 2018
+Amadora, 30.85°C, 35.0%, Sun Sep 23 14:30:00 CEST 2018
+Plovdiv, 32.0°C, 29.0%, Sun Sep 23 15:30:00 CEST 2018
+Thessaloniki, 30.0°C, 30.0%, Sun Sep 23 14:20:00 CEST 2018
+Skopje, 31.0°C, 33.0%, Sun Sep 23 15:30:00 CEST 2018
+Thessaloniki, 32.0°C, 24.0%, Sun Sep 23 15:20:00 CEST 2018
+Athens, 30.49°C, 27.0%, Sun Sep 23 14:50:00 CEST 2018
+Athens, 29.99°C, 31.0%, Sun Sep 23 15:20:00 CEST 2018
+Valencia, 32.0°C, 35.0%, Sun Sep 23 16:00:00 CEST 2018
+Lisbon, 35.11°C, 32.0%, Sun Sep 23 16:30:00 CEST 2018
+Plovdiv, 31.0°C, 29.0%, Sun Sep 23 17:00:00 CEST 2018
+Lisbon, 35.01°C, 32.0%, Sun Sep 23 17:00:00 CEST 2018
+Amadora, 35.02°C, 32.0%, Sun Sep 23 17:00:00 CEST 2018
+Sofia, 29.0°C, 35.0%, Sun Sep 23 16:30:00 CEST 2018
+Plovdiv, 30.0°C, 30.0%, Sun Sep 23 17:30:00 CEST 2018
+Athens, 28.99°C, 35.0%, Sun Sep 23 16:20:00 CEST 2018
+Sofia, 29.0°C, 35.0%, Sun Sep 23 17:00:00 CEST 2018
+Thessaloniki, 31.0°C, 25.0%, Sun Sep 23 16:50:00 CEST 2018
+Plovdiv, 30.0°C, 30.0%, Sun Sep 23 17:30:00 CEST 2018
+Seville, 36.0°C, 20.0%, Sun Sep 23 15:30:00 CEST 2018
+Thessaloniki, 32.0°C, 24.0%, Sun Sep 23 15:20:00 CEST 2018
+Athens, 29.99°C, 31.0%, Sun Sep 23 15:50:00 CEST 2018
+Valencia, 32.0°C, 35.0%, Sun Sep 23 16:30:00 CEST 2018
+Amadora, 35.13°C, 32.0%, Sun Sep 23 16:30:00 CEST 2018
+Plovdiv, 31.0°C, 29.0%, Sun Sep 23 17:00:00 CEST 2018
+Lisbon, 35.01°C, 32.0%, Sun Sep 23 17:00:00 CEST 2018
+Amadora, 34.7°C, 33.0%, Sun Sep 23 17:30:00 CEST 2018
+Plovdiv, 32.0°C, 29.0%, Sun Sep 23 15:30:00 CEST 2018
+Lisbon, 33.43°C, 32.0%, Sun Sep 23 15:30:00 CEST 2018
+Skopje, 32.0°C, 31.0%, Sun Sep 23 16:00:00 CEST 2018
+Seville, 37.0°C, 18.0%, Sun Sep 23 16:30:00 CEST 2018
+Lyon, 29.98°C, 35.0%, Sun Sep 23 16:30:00 CEST 2018
+Madrid, 33.38°C, 20.0%, Sun Sep 23 16:30:00 CEST 2018
+Podgorica, 28.36°C, 37.0%, Sun Sep 23 17:00:00 CEST 2018
+Seville, 37.0°C, 17.0%, Sun Sep 23 18:00:00 CEST 2018
+Amadora, 33.15°C, 31.0%, Sun Sep 23 18:30:00 CEST 2018
+Lisbon, 34.69°C, 33.0%, Sun Sep 23 17:30:00 CEST 2018
+Thessaloniki, 29.0°C, 25.0%, Sun Sep 23 17:50:00 CEST 2018
+Seville, 37.0°C, 18.0%, Sun Sep 23 18:30:00 CEST 2018
+Montpellier, 32.6°C, 32.0%, Sun Sep 23 18:30:00 CEST 2018
+Madrid, 33.6°C, 18.0%, Sun Sep 23 18:30:00 CEST 2018
+Montpellier, 30.62°C, 33.0%, Sun Sep 23 19:30:00 CEST 2018
+Skopje, 31.0°C, 33.0%, Sun Sep 23 17:30:00 CEST 2018
+Thessaloniki, 29.0°C, 25.0%, Sun Sep 23 17:50:00 CEST 2018
+Seville, 37.0°C, 17.0%, Sun Sep 23 18:00:00 CEST 2018
+Amadora, 31.51°C, 33.0%, Sun Sep 23 19:00:00 CEST 2018
+Amadora, 30.93°C, 35.0%, Sun Sep 23 20:00:00 CEST 2018
+Seville, 30.0°C, 27.0%, Sun Sep 23 21:00:00 CEST 2018
+Seville, 37.0°C, 19.0%, Sun Sep 23 16:00:00 CEST 2018
+Lisbon, 33.44°C, 32.0%, Sun Sep 23 15:30:00 CEST 2018
+Lyon, 30.24°C, 33.0%, Sun Sep 23 15:30:00 CEST 2018
+Amadora, 33.42°C, 32.0%, Sun Sep 23 15:30:00 CEST 2018
+Madrid, 33.0°C, 22.0%, Sun Sep 23 15:30:00 CEST 2018
+Plovdiv, 31.0°C, 29.0%, Sun Sep 23 16:00:00 CEST 2018
+Sarajevo, 29.0°C, 39.0%, Sun Sep 23 16:00:00 CEST 2018
+Thessaloniki, 31.0°C, 25.0%, Sun Sep 23 16:20:00 CEST 2018
+Podgorica, 28.92°C, 37.0%, Sun Sep 23 16:00:00 CEST 2018
+Athens, 28.99°C, 35.0%, Sun Sep 23 16:20:00 CEST 2018
+Plovdiv, 31.0°C, 29.0%, Sun Sep 23 16:30:00 CEST 2018
+Sofia, 29.0°C, 35.0%, Sun Sep 23 17:00:00 CEST 2018
+Podgorica, 28.91°C, 37.0%, Sun Sep 23 16:30:00 CEST 2018
+Montpellier, 34.32°C, 28.0%, Sun Sep 23 16:30:00 CEST 2018
+Thessaloniki, 30.0°C, 23.0%, Sun Sep 23 17:20:00 CEST 2018
+Seville, 37.0°C, 18.0%, Sun Sep 23 16:30:00 CEST 2018
+Lyon, 29.49°C, 35.0%, Sun Sep 23 17:30:00 CEST 2018
+Montpellier, 33.32°C, 30.0%, Sun Sep 23 17:00:00 CEST 2018
+Amadora, 33.44°C, 32.0%, Sun Sep 23 15:30:00 CEST 2018
+Madrid, 33.6°C, 18.0%, Sun Sep 23 17:00:00 CEST 2018
+Sofia, 29.0°C, 35.0%, Sun Sep 23 15:30:00 CEST 2018
+Skopje, 31.0°C, 31.0%, Sun Sep 23 17:00:00 CEST 2018
+Seville, 37.0°C, 18.0%, Sun Sep 23 17:30:00 CEST 2018
+Sofia, 29.0°C, 35.0%, Sun Sep 23 15:30:00 CEST 2018
+Lyon, 30.23°C, 33.0%, Sun Sep 23 16:00:00 CEST 2018
+Madrid, 33.4°C, 20.0%, Sun Sep 23 16:00:00 CEST 2018
+Athens, 29.99°C, 31.0%, Sun Sep 23 15:20:00 CEST 2018
+Skopje, 31.0°C, 33.0%, Sun Sep 23 15:30:00 CEST 2018
+Seville, 37.0°C, 19.0%, Sun Sep 23 16:00:00 CEST 2018
+Lyon, 29.98°C, 35.0%, Sun Sep 23 16:30:00 CEST 2018
+Lyon, 30.24°C, 33.0%, Sun Sep 23 15:30:00 CEST 2018
+Madrid, 33.38°C, 20.0%, Sun Sep 23 16:30:00 CEST 2018
+Lisbon, 35.12°C, 32.0%, Sun Sep 23 16:30:00 CEST 2018
+Madrid, 33.0°C, 22.0%, Sun Sep 23 15:30:00 CEST 2018
+Podgorica, 28.37°C, 37.0%, Sun Sep 23 17:00:00 CEST 2018
+Podgorica, 28.91°C, 37.0%, Sun Sep 23 16:00:00 CEST 2018
+Skopje, 31.0°C, 33.0%, Sun Sep 23 16:30:00 CEST 2018
+Skopje, 31.0°C, 33.0%, Sun Sep 23 16:30:00 CEST 2018
+Lyon, 29.49°C, 35.0%, Sun Sep 23 17:30:00 CEST 2018
+Seville, 37.0°C, 18.0%, Sun Sep 23 17:00:00 CEST 2018
+Madrid, 33.99°C, 18.0%, Sun Sep 23 17:30:00 CEST 2018
+Lisbon, 34.68°C, 33.0%, Sun Sep 23 17:30:00 CEST 2018
+Podgorica, 29.92°C, 35.0%, Sun Sep 23 15:30:00 CEST 2018
+Lisbon, 33.12°C, 31.0%, Sun Sep 23 18:30:00 CEST 2018
+Zenica, 29.0°C, 39.0%, Sun Sep 23 16:00:00 CEST 2018
+Seville, 36.46°C, 17.0%, Sun Sep 23 19:00:00 CEST 2018
+Amadora, 35.02°C, 32.0%, Sun Sep 23 16:00:00 CEST 2018
+Lisbon, 33.01°C, 33.0%, Sun Sep 23 18:00:00 CEST 2018
+Montpellier, 34.32°C, 28.0%, Sun Sep 23 16:30:00 CEST 2018
+Amadora, 33.02°C, 33.0%, Sun Sep 23 18:00:00 CEST 2018
+Thessaloniki, 31.0°C, 25.0%, Sun Sep 23 16:20:00 CEST 2018
+Lisbon, 31.5°C, 33.0%, Sun Sep 23 19:00:00 CEST 2018
+Athens, 28.99°C, 35.0%, Sun Sep 23 16:50:00 CEST 2018
+Lyon, 29.23°C, 37.0%, Sun Sep 23 18:30:00 CEST 2018
+Montpellier, 33.32°C, 30.0%, Sun Sep 23 17:30:00 CEST 2018
+Seville, 37.0°C, 18.0%, Sun Sep 23 17:00:00 CEST 2018
+Montpellier, 32.62°C, 32.0%, Sun Sep 23 18:30:00 CEST 2018
+Montpellier, 33.32°C, 30.0%, Sun Sep 23 17:30:00 CEST 2018
+Madrid, 33.6°C, 18.0%, Sun Sep 23 18:30:00 CEST 2018
+Skopje, 31.0°C, 33.0%, Sun Sep 23 17:30:00 CEST 2018
+Montpellier, 33.32°C, 32.0%, Sun Sep 23 18:00:00 CEST 2018
+Madrid, 33.0°C, 22.0%, Sun Sep 23 15:30:00 CEST 2018
+Skopje, 29.0°C, 30.0%, Sun Sep 23 18:00:00 CEST 2018
+Montpellier, 31.62°C, 31.0%, Sun Sep 23 19:00:00 CEST 2018
+Montpellier, 31.63°C, 31.0%, Sun Sep 23 19:00:00 CEST 2018
+Lyon, 29.49°C, 35.0%, Sun Sep 23 17:30:00 CEST 2018
+Lisbon, 33.01°C, 33.0%, Sun Sep 23 18:00:00 CEST 2018
+Montpellier, 33.97°C, 30.0%, Sun Sep 23 16:00:00 CEST 2018
+Seville, 36.47°C, 17.0%, Sun Sep 23 19:00:00 CEST 2018
+Madrid, 33.99°C, 18.0%, Sun Sep 23 17:30:00 CEST 2018
+Lisbon, 31.12°C, 35.0%, Sun Sep 23 19:30:00 CEST 2018
+Thessaloniki, 31.0°C, 23.0%, Sun Sep 23 15:50:00 CEST 2018
+Amadora, 33.02°C, 33.0%, Sun Sep 23 18:00:00 CEST 2018
+Amadora, 34.73°C, 33.0%, Sun Sep 23 17:30:00 CEST 2018
+Athens, 29.99°C, 31.0%, Sun Sep 23 15:50:00 CEST 2018
+Lisbon, 33.14°C, 31.0%, Sun Sep 23 18:30:00 CEST 2018
+Skopje, 29.0°C, 30.0%, Sun Sep 23 18:00:00 CEST 2018
+Montpellier, 30.31°C, 35.0%, Sun Sep 23 20:00:00 CEST 2018
+Geneva, 28.35°C, 39.0%, Sun Sep 23 16:30:00 CEST 2018
+Montpellier, 31.63°C, 31.0%, Sun Sep 23 19:00:00 CEST 2018
+Amadora, 34.91°C, 28.0%, Sun Sep 23 17:00:00 CEST 2018
+Madrid, 33.0°C, 19.0%, Sun Sep 23 19:00:00 CEST 2018
+Seville, 33.59°C, 26.0%, Sun Sep 23 20:30:00 CEST 2018
+Plovdiv, 31.0°C, 29.0%, Sun Sep 23 17:00:00 CEST 2018
+Madrid, 30.8°C, 19.0%, Sun Sep 23 20:00:00 CEST 2018
+Seville, 37.0°C, 17.0%, Sun Sep 23 18:00:00 CEST 2018
+Amadora, 31.51°C, 33.0%, Sun Sep 23 19:00:00 CEST 2018
+Lyon, 29.23°C, 37.0%, Sun Sep 23 18:30:00 CEST 2018
+Lyon, 28.23°C, 39.0%, Sun Sep 23 19:00:00 CEST 2018
+Montpellier, 33.32°C, 30.0%, Sun Sep 23 17:30:00 CEST 2018
+Lyon, 29.23°C, 37.0%, Sun Sep 23 18:30:00 CEST 2018
+Madrid, 33.6°C, 18.0%, Sun Sep 23 18:30:00 CEST 2018
+Podgorica, 28.37°C, 37.0%, Sun Sep 23 17:30:00 CEST 2018
+Amadora, 33.14°C, 31.0%, Sun Sep 23 18:30:00 CEST 2018
+Lisbon, 31.5°C, 33.0%, Sun Sep 23 19:00:00 CEST 2018
+Thessaloniki, 30.0°C, 23.0%, Sun Sep 23 17:20:00 CEST 2018
+Lyon, 29.47°C, 35.0%, Sun Sep 23 18:00:00 CEST 2018
+Madrid, 34.0°C, 20.0%, Sun Sep 23 18:00:00 CEST 2018
+Lyon, 28.23°C, 39.0%, Sun Sep 23 19:00:00 CEST 2018
+Lisbon, 31.13°C, 35.0%, Sun Sep 23 19:30:00 CEST 2018
+Seville, 33.61°C, 26.0%, Sun Sep 23 20:30:00 CEST 2018
+Madrid, 32.81°C, 19.0%, Sun Sep 23 19:30:00 CEST 2018
+Madrid, 32.81°C, 19.0%, Sun Sep 23 19:30:00 CEST 2018
+Montpellier, 29.62°C, 33.0%, Sun Sep 23 20:30:00 CEST 2018
+Montpellier, 29.63°C, 33.0%, Sun Sep 23 20:30:00 CEST 2018
+Madrid, 29.0°C, 19.0%, Sun Sep 23 21:00:00 CEST 2018
+Madrid, 29.0°C, 19.0%, Sun Sep 23 21:00:00 CEST 2018
+Montpellier, 28.63°C, 35.0%, Sun Sep 23 21:00:00 CEST 2018
+Madrid, 32.81°C, 19.0%, Sun Sep 23 19:30:00 CEST 2018
+Montpellier, 28.26°C, 33.0%, Sun Sep 23 21:30:00 CEST 2018
+Seville, 29.08°C, 32.0%, Sun Sep 23 22:00:00 CEST 2018
+Seville, 36.0°C, 19.0%, Sun Sep 23 19:30:00 CEST 2018
+Lisbon, 30.89°C, 35.0%, Sun Sep 23 20:00:00 CEST 2018
+Madrid, 30.8°C, 19.0%, Sun Sep 23 20:00:00 CEST 2018
+Madrid, 30.01°C, 25.0%, Sun Sep 23 20:30:00 CEST 2018
+Seville, 34.47°C, 20.0%, Sun Sep 23 20:00:00 CEST 2018
+Lisbon, 29.12°C, 37.0%, Sun Sep 23 20:30:00 CEST 2018
+Amadora, 31.14°C, 35.0%, Sun Sep 23 19:30:00 CEST 2018
+Amadora, 30.88°C, 35.0%, Sun Sep 23 20:00:00 CEST 2018
+Lisbon, 30.94°C, 35.0%, Sun Sep 23 20:00:00 CEST 2018
+Lisbon, 29.14°C, 37.0%, Sun Sep 23 20:30:00 CEST 2018
+Montpellier, 28.62°C, 35.0%, Sun Sep 23 21:00:00 CEST 2018
+Seville, 36.46°C, 17.0%, Sun Sep 23 19:00:00 CEST 2018
+Seville, 34.46°C, 20.0%, Sun Sep 23 20:00:00 CEST 2018
+Amadora, 29.0°C, 35.0%, Sun Sep 23 20:00:00 CEST 2018
+Seville, 29.07°C, 32.0%, Sun Sep 23 22:00:00 CEST 2018
+Seville, 30.0°C, 27.0%, Sun Sep 23 21:00:00 CEST 2018
+Seville, 30.0°C, 27.0%, Sun Sep 23 21:30:00 CEST 2018
+Montpellier, 30.31°C, 35.0%, Sun Sep 23 20:00:00 CEST 2018
+Varna, 29.0°C, 39.0%, Mon Sep 24 11:30:00 CEST 2018
+Amadora, 29.13°C, 37.0%, Sun Sep 23 20:30:00 CEST 2018
+Athens, 28.01°C, 34.0%, Mon Sep 24 10:20:00 CEST 2018
+Seville, 30.0°C, 27.0%, Sun Sep 23 21:30:00 CEST 2018
+Athens, 29.5°C, 32.0%, Mon Sep 24 11:20:00 CEST 2018
+Seville, 29.21°C, 32.0%, Sun Sep 23 22:30:00 CEST 2018
+Seville, 32.41°C, 26.0%, Mon Sep 24 12:30:00 CEST 2018
+Seville, 28.54°C, 34.0%, Mon Sep 24 11:00:00 CEST 2018
+Varna, 32.0°C, 29.0%, Mon Sep 24 13:00:00 CEST 2018
+Athens, 28.5°C, 34.0%, Mon Sep 24 10:50:00 CEST 2018
+Burgas, 29.0°C, 39.0%, Mon Sep 24 12:00:00 CEST 2018
+Amadora, 28.63°C, 37.0%, Mon Sep 24 13:00:00 CEST 2018
+Sofia, 29.0°C, 26.0%, Mon Sep 24 13:30:00 CEST 2018
+Seville, 32.0°C, 27.0%, Mon Sep 24 12:00:00 CEST 2018
+Seville, 34.54°C, 21.0%, Mon Sep 24 13:00:00 CEST 2018
+Varna, 30.0°C, 35.0%, Mon Sep 24 14:00:00 CEST 2018
+Skopje, 29.0°C, 32.0%, Mon Sep 24 13:00:00 CEST 2018
+Varna, 31.0°C, 33.0%, Mon Sep 24 12:30:00 CEST 2018
+Varna, 32.0°C, 29.0%, Mon Sep 24 13:30:00 CEST 2018
+Porto, 29.39°C, 35.0%, Mon Sep 24 14:00:00 CEST 2018
+Lisbon, 32.31°C, 29.0%, Mon Sep 24 14:30:00 CEST 2018
+Elbasan, 28.01°C, 26.0%, Mon Sep 24 15:00:00 CEST 2018
+Lisbon, 30.01°C, 37.0%, Mon Sep 24 13:30:00 CEST 2018
+Madrid, 28.59°C, 35.0%, Mon Sep 24 13:30:00 CEST 2018
+Plovdiv, 30.0°C, 35.0%, Mon Sep 24 14:30:00 CEST 2018
+Bucharest, 29.0°C, 30.0%, Mon Sep 24 14:30:00 CEST 2018
+Seville, 37.0°C, 18.0%, Mon Sep 24 15:30:00 CEST 2018
+Bucharest, 28.49°C, 32.0%, Mon Sep 24 15:30:00 CEST 2018
+Skopje, 31.0°C, 27.0%, Mon Sep 24 14:00:00 CEST 2018
+Seville, 36.0°C, 19.0%, Mon Sep 24 14:30:00 CEST 2018
+Lisbon, 33.66°C, 23.0%, Mon Sep 24 15:00:00 CEST 2018
+Madrid, 30.8°C, 25.0%, Mon Sep 24 15:00:00 CEST 2018
+Lisbon, 31.68°C, 38.0%, Mon Sep 24 14:00:00 CEST 2018
+Madrid, 30.18°C, 29.0%, Mon Sep 24 14:30:00 CEST 2018
+Vila Nova de Gaia (Santa Marinha), 29.49°C, 33.0%, Mon Sep 24 14:30:00 CEST 2018
+Bucharest, 29.0°C, 30.0%, Mon Sep 24 15:00:00 CEST 2018
+Amadora, 33.65°C, 24.0%, Mon Sep 24 15:30:00 CEST 2018
+Amadora, 34.34°C, 24.0%, Mon Sep 24 16:00:00 CEST 2018
+Plovdiv, 32.0°C, 31.0%, Mon Sep 24 16:00:00 CEST 2018
+Amadora, 34.31°C, 23.0%, Mon Sep 24 16:30:00 CEST 2018
+Madrid, 28.63°C, 20.0%, Sun Sep 23 21:30:00 CEST 2018
+Madrid, 29.0°C, 19.0%, Sun Sep 23 21:00:00 CEST 2018
+Montpellier, 28.27°C, 33.0%, Sun Sep 23 21:30:00 CEST 2018
+Athens, 28.01°C, 34.0%, Mon Sep 24 10:20:00 CEST 2018
+Seville, 32.0°C, 27.0%, Mon Sep 24 12:00:00 CEST 2018
+Seville, 29.41°C, 30.0%, Mon Sep 24 11:30:00 CEST 2018
+Seville, 34.53°C, 21.0%, Mon Sep 24 13:00:00 CEST 2018
+Varna, 31.0°C, 33.0%, Mon Sep 24 12:30:00 CEST 2018
+Amadora, 30.0°C, 37.0%, Mon Sep 24 13:30:00 CEST 2018
+Madrid, 28.6°C, 37.0%, Mon Sep 24 13:00:00 CEST 2018
+Lisbon, 28.64°C, 37.0%, Mon Sep 24 13:00:00 CEST 2018
+Madrid, 28.6°C, 37.0%, Mon Sep 24 13:00:00 CEST 2018
+Lisbon, 29.68°C, 37.0%, Mon Sep 24 13:00:00 CEST 2018
+Seville, 29.18°C, 32.0%, Sun Sep 23 22:30:00 CEST 2018
+Athens, 28.5°C, 34.0%, Mon Sep 24 10:50:00 CEST 2018
+Varna, 30.0°C, 37.0%, Mon Sep 24 12:00:00 CEST 2018
+Seville, 28.53°C, 34.0%, Mon Sep 24 11:00:00 CEST 2018
+Burgas, 29.0°C, 39.0%, Mon Sep 24 12:00:00 CEST 2018
+Varna, 32.0°C, 29.0%, Mon Sep 24 13:00:00 CEST 2018
+Elbasan, 28.03°C, 31.0%, Mon Sep 24 13:00:00 CEST 2018
+Skopje, 30.0°C, 28.0%, Mon Sep 24 13:30:00 CEST 2018
+Seville, 34.54°C, 21.0%, Mon Sep 24 13:00:00 CEST 2018
+Varna, 29.0°C, 39.0%, Mon Sep 24 11:30:00 CEST 2018
+Varna, 30.0°C, 37.0%, Mon Sep 24 12:00:00 CEST 2018
+Varna, 32.0°C, 29.0%, Mon Sep 24 13:00:00 CEST 2018
+Amadora, 29.66°C, 37.0%, Mon Sep 24 13:00:00 CEST 2018
+Madrid, 28.59°C, 35.0%, Mon Sep 24 13:30:00 CEST 2018
+Seville, 32.4°C, 26.0%, Mon Sep 24 12:30:00 CEST 2018
+Bucharest, 28.49°C, 30.0%, Mon Sep 24 13:00:00 CEST 2018
+Seville, 35.0°C, 20.0%, Mon Sep 24 13:30:00 CEST 2018
+Seville, 29.4°C, 30.0%, Mon Sep 24 11:30:00 CEST 2018
+Lisbon, 31.68°C, 38.0%, Mon Sep 24 14:00:00 CEST 2018
+Bucharest, 28.49°C, 30.0%, Mon Sep 24 13:00:00 CEST 2018
+Bucharest, 29.0°C, 30.0%, Mon Sep 24 14:30:00 CEST 2018
+Plovdiv, 31.0°C, 33.0%, Mon Sep 24 14:00:00 CEST 2018
+Plovdiv, 30.0°C, 35.0%, Mon Sep 24 14:30:00 CEST 2018
+Madrid, 30.18°C, 29.0%, Mon Sep 24 14:30:00 CEST 2018
+Plovdiv, 31.0°C, 33.0%, Mon Sep 24 15:30:00 CEST 2018
+Amadora, 29.99°C, 37.0%, Mon Sep 24 13:30:00 CEST 2018
+Seville, 35.54°C, 20.0%, Mon Sep 24 14:00:00 CEST 2018
+Lisbon, 32.31°C, 29.0%, Mon Sep 24 14:30:00 CEST 2018
+Madrid, 30.8°C, 25.0%, Mon Sep 24 15:00:00 CEST 2018
+Lisbon, 33.65°C, 24.0%, Mon Sep 24 15:30:00 CEST 2018
+Bucharest, 28.49°C, 30.0%, Mon Sep 24 13:30:00 CEST 2018
+Vila Nova de Gaia (Santa Marinha), 29.59°C, 33.0%, Mon Sep 24 14:30:00 CEST 2018
+Plovdiv, 31.0°C, 33.0%, Mon Sep 24 15:00:00 CEST 2018
+Amadora, 33.67°C, 23.0%, Mon Sep 24 15:00:00 CEST 2018
+Madrid, 30.97°C, 25.0%, Mon Sep 24 15:30:00 CEST 2018
+Amadora, 31.66°C, 38.0%, Mon Sep 24 14:00:00 CEST 2018
+Madrid, 30.18°C, 29.0%, Mon Sep 24 14:30:00 CEST 2018
+Lisbon, 33.66°C, 23.0%, Mon Sep 24 15:00:00 CEST 2018
+Thessaloniki, 31.0°C, 25.0%, Mon Sep 24 15:20:00 CEST 2018
+Thessaloniki, 30.0°C, 27.0%, Mon Sep 24 15:50:00 CEST 2018
+Seville, 37.0°C, 19.0%, Mon Sep 24 16:00:00 CEST 2018
+Thessaloniki, 30.0°C, 27.0%, Mon Sep 24 16:20:00 CEST 2018
+Seville, 35.0°C, 20.0%, Mon Sep 24 13:30:00 CEST 2018
+Bucharest, 29.0°C, 30.0%, Mon Sep 24 14:00:00 CEST 2018
+Seville, 36.54°C, 19.0%, Mon Sep 24 15:00:00 CEST 2018
+Bucharest, 28.49°C, 30.0%, Mon Sep 24 13:30:00 CEST 2018
+Varna, 30.0°C, 35.0%, Mon Sep 24 14:00:00 CEST 2018
+Amadora, 33.67°C, 23.0%, Mon Sep 24 15:00:00 CEST 2018
+Porto, 29.54°C, 33.0%, Mon Sep 24 14:30:00 CEST 2018
+Plovdiv, 31.0°C, 33.0%, Mon Sep 24 15:00:00 CEST 2018
+Thessaloniki, 30.0°C, 23.0%, Mon Sep 24 14:50:00 CEST 2018
+Skopje, 30.0°C, 28.0%, Mon Sep 24 13:30:00 CEST 2018
+Seville, 37.0°C, 18.0%, Mon Sep 24 15:30:00 CEST 2018
+Vila Nova de Gaia (Santa Marinha), 29.43°C, 35.0%, Mon Sep 24 14:00:00 CEST 2018
+Sofia, 29.0°C, 26.0%, Mon Sep 24 13:30:00 CEST 2018
+Porto, 29.49°C, 33.0%, Mon Sep 24 14:30:00 CEST 2018
+Amadora, 33.67°C, 23.0%, Mon Sep 24 15:00:00 CEST 2018
+Plovdiv, 31.0°C, 33.0%, Mon Sep 24 15:30:00 CEST 2018
+Amadora, 31.66°C, 38.0%, Mon Sep 24 14:00:00 CEST 2018
+Vila Nova de Gaia (Santa Marinha), 29.54°C, 33.0%, Mon Sep 24 14:30:00 CEST 2018
+Bucharest, 29.0°C, 30.0%, Mon Sep 24 15:00:00 CEST 2018
+Thessaloniki, 31.0°C, 25.0%, Mon Sep 24 15:20:00 CEST 2018
+Bucharest, 29.0°C, 30.0%, Mon Sep 24 14:00:00 CEST 2018
+Elbasan, 28.01°C, 26.0%, Mon Sep 24 14:30:00 CEST 2018
+Seville, 36.53°C, 19.0%, Mon Sep 24 15:00:00 CEST 2018
+Lisbon, 33.65°C, 24.0%, Mon Sep 24 15:30:00 CEST 2018
+Madrid, 30.97°C, 25.0%, Mon Sep 24 15:30:00 CEST 2018
+Seville, 37.0°C, 19.0%, Mon Sep 24 16:00:00 CEST 2018
+Lisbon, 34.32°C, 24.0%, Mon Sep 24 16:00:00 CEST 2018
+Lisbon, 30.01°C, 37.0%, Mon Sep 24 13:30:00 CEST 2018
+Madrid, 30.0°C, 30.0%, Mon Sep 24 14:00:00 CEST 2018
+Seville, 36.0°C, 19.0%, Mon Sep 24 14:30:00 CEST 2018
+Thessaloniki, 30.0°C, 23.0%, Mon Sep 24 14:50:00 CEST 2018
+Amadora, 33.65°C, 24.0%, Mon Sep 24 15:30:00 CEST 2018
+Skopje, 31.0°C, 27.0%, Mon Sep 24 14:00:00 CEST 2018
+Amadora, 32.3°C, 29.0%, Mon Sep 24 14:30:00 CEST 2018
+Plovdiv, 31.0°C, 33.0%, Mon Sep 24 15:00:00 CEST 2018
+Bucharest, 28.49°C, 32.0%, Mon Sep 24 15:30:00 CEST 2018
+Lisbon, 34.32°C, 24.0%, Mon Sep 24 16:00:00 CEST 2018
+Plovdiv, 30.0°C, 35.0%, Mon Sep 24 16:30:00 CEST 2018
+Lisbon, 34.29°C, 23.0%, Mon Sep 24 16:30:00 CEST 2018
+Madrid, 31.76°C, 24.0%, Mon Sep 24 16:30:00 CEST 2018
+Nice, 29.52°C, 39.0%, Mon Sep 24 17:30:00 CEST 2018
+Athens, 28.5°C, 37.0%, Mon Sep 24 16:50:00 CEST 2018
+Amadora, 34.31°C, 23.0%, Mon Sep 24 16:30:00 CEST 2018
+Seville, 37.4°C, 17.0%, Mon Sep 24 17:30:00 CEST 2018
+Nice, 29.52°C, 39.0%, Mon Sep 24 17:00:00 CEST 2018
+Nice, 29.52°C, 39.0%, Mon Sep 24 17:30:00 CEST 2018
+Madrid, 31.77°C, 24.0%, Mon Sep 24 16:30:00 CEST 2018
+Madrid, 31.6°C, 25.0%, Mon Sep 24 16:00:00 CEST 2018
+Lisbon, 33.99°C, 22.0%, Mon Sep 24 17:00:00 CEST 2018
+Thessaloniki, 30.0°C, 27.0%, Mon Sep 24 16:20:00 CEST 2018
+Seville, 37.41°C, 17.0%, Mon Sep 24 16:30:00 CEST 2018
+Plovdiv, 30.0°C, 35.0%, Mon Sep 24 17:00:00 CEST 2018
+Nice, 29.52°C, 39.0%, Mon Sep 24 17:00:00 CEST 2018
+Amadora, 34.34°C, 24.0%, Mon Sep 24 16:00:00 CEST 2018
+Madrid, 33.0°C, 27.0%, Mon Sep 24 17:30:00 CEST 2018
+Seville, 37.4°C, 17.0%, Mon Sep 24 16:30:00 CEST 2018
+Amadora, 33.66°C, 17.0%, Mon Sep 24 18:00:00 CEST 2018
+Amadora, 33.99°C, 22.0%, Mon Sep 24 17:00:00 CEST 2018
+Thessaloniki, 30.0°C, 25.0%, Mon Sep 24 16:50:00 CEST 2018
+Amadora, 34.21°C, 18.0%, Mon Sep 24 17:30:00 CEST 2018
+Lisbon, 34.21°C, 18.0%, Mon Sep 24 17:30:00 CEST 2018
+Madrid, 32.4°C, 26.0%, Mon Sep 24 18:00:00 CEST 2018
+Lisbon, 34.28°C, 23.0%, Mon Sep 24 16:30:00 CEST 2018
+Amadora, 33.66°C, 17.0%, Mon Sep 24 18:00:00 CEST 2018
+Athens, 28.5°C, 37.0%, Mon Sep 24 16:50:00 CEST 2018
+Seville, 37.46°C, 17.0%, Mon Sep 24 18:00:00 CEST 2018
+Madrid, 31.18°C, 27.0%, Mon Sep 24 19:30:00 CEST 2018
+Seville, 37.46°C, 17.0%, Mon Sep 24 18:00:00 CEST 2018
+Amadora, 32.29°C, 26.0%, Mon Sep 24 19:00:00 CEST 2018
+Madrid, 31.18°C, 27.0%, Mon Sep 24 19:30:00 CEST 2018
+Seville, 37.0°C, 19.0%, Mon Sep 24 18:30:00 CEST 2018
+Amadora, 30.96°C, 27.0%, Mon Sep 24 20:00:00 CEST 2018
+Plovdiv, 30.0°C, 35.0%, Mon Sep 24 17:00:00 CEST 2018
+Seville, 37.0°C, 18.0%, Mon Sep 24 17:00:00 CEST 2018
+Amadora, 33.99°C, 22.0%, Mon Sep 24 17:00:00 CEST 2018
+Madrid, 31.6°C, 25.0%, Mon Sep 24 16:00:00 CEST 2018
+Lisbon, 34.19°C, 18.0%, Mon Sep 24 17:30:00 CEST 2018
+Seville, 37.39°C, 17.0%, Mon Sep 24 16:30:00 CEST 2018
+Thessaloniki, 30.0°C, 25.0%, Mon Sep 24 16:50:00 CEST 2018
+Thessaloniki, 30.0°C, 27.0%, Mon Sep 24 15:50:00 CEST 2018
+Seville, 37.0°C, 18.0%, Mon Sep 24 17:00:00 CEST 2018
+Plovdiv, 30.0°C, 35.0%, Mon Sep 24 16:30:00 CEST 2018
+Amadora, 34.2°C, 18.0%, Mon Sep 24 17:30:00 CEST 2018
+Lisbon, 33.99°C, 22.0%, Mon Sep 24 17:00:00 CEST 2018
+Lisbon, 33.65°C, 17.0%, Mon Sep 24 18:00:00 CEST 2018
+Thessaloniki, 29.0°C, 30.0%, Mon Sep 24 17:20:00 CEST 2018
+Lisbon, 31.78°C, 28.0%, Mon Sep 24 19:30:00 CEST 2018
+Madrid, 32.4°C, 26.0%, Mon Sep 24 18:00:00 CEST 2018
+Madrid, 32.8°C, 24.0%, Mon Sep 24 17:00:00 CEST 2018
+Amadora, 31.76°C, 28.0%, Mon Sep 24 19:30:00 CEST 2018
+Madrid, 33.0°C, 27.0%, Mon Sep 24 17:30:00 CEST 2018
+Madrid, 31.18°C, 27.0%, Mon Sep 24 19:30:00 CEST 2018
+Seville, 37.39°C, 17.0%, Mon Sep 24 17:30:00 CEST 2018
+Madrid, 31.4°C, 26.0%, Mon Sep 24 19:00:00 CEST 2018
+Madrid, 32.4°C, 26.0%, Mon Sep 24 18:00:00 CEST 2018
+Amadora, 31.73°C, 28.0%, Mon Sep 24 19:30:00 CEST 2018
+Lisbon, 33.19°C, 25.0%, Mon Sep 24 18:30:00 CEST 2018
+Madrid, 32.78°C, 26.0%, Mon Sep 24 18:30:00 CEST 2018
+Lisbon, 31.76°C, 28.0%, Mon Sep 24 19:30:00 CEST 2018
+Lisbon, 30.98°C, 27.0%, Mon Sep 24 20:00:00 CEST 2018
+Lisbon, 33.64°C, 17.0%, Mon Sep 24 18:00:00 CEST 2018
+Madrid, 29.0°C, 35.0%, Mon Sep 24 20:30:00 CEST 2018
+Madrid, 31.4°C, 26.0%, Mon Sep 24 19:00:00 CEST 2018
+Seville, 29.93°C, 31.0%, Mon Sep 24 22:00:00 CEST 2018
+Lisbon, 33.65°C, 17.0%, Mon Sep 24 18:00:00 CEST 2018
+Amadora, 30.97°C, 27.0%, Mon Sep 24 20:00:00 CEST 2018
+Seville, 36.46°C, 19.0%, Mon Sep 24 19:00:00 CEST 2018
+Lisbon, 30.0°C, 33.0%, Mon Sep 24 21:00:00 CEST 2018
+Madrid, 29.8°C, 31.0%, Mon Sep 24 20:00:00 CEST 2018
+Lisbon, 28.5°C, 35.0%, Mon Sep 24 22:00:00 CEST 2018
+Lisbon, 30.0°C, 33.0%, Mon Sep 24 21:00:00 CEST 2018
+Amadora, 30.0°C, 33.0%, Mon Sep 24 21:00:00 CEST 2018
+Thessaloniki, 29.0°C, 30.0%, Mon Sep 24 17:20:00 CEST 2018
+Seville, 29.39°C, 30.0%, Mon Sep 24 22:30:00 CEST 2018
+Nice, 29.53°C, 39.0%, Mon Sep 24 17:30:00 CEST 2018
+Seville, 33.46°C, 24.0%, Mon Sep 24 20:00:00 CEST 2018
+Seville, 37.0°C, 19.0%, Mon Sep 24 18:30:00 CEST 2018
+Madrid, 28.22°C, 37.0%, Mon Sep 24 21:00:00 CEST 2018
+Lisbon, 32.3°C, 26.0%, Mon Sep 24 19:00:00 CEST 2018
+Lisbon, 30.98°C, 27.0%, Mon Sep 24 20:00:00 CEST 2018
+Amadora, 31.69°C, 28.0%, Mon Sep 24 19:30:00 CEST 2018
+Seville, 31.46°C, 25.0%, Mon Sep 24 21:00:00 CEST 2018
+Seville, 33.46°C, 24.0%, Mon Sep 24 20:00:00 CEST 2018
+Seville, 31.41°C, 29.0%, Mon Sep 24 21:30:00 CEST 2018
+Dimos Patras, 29.0°C, 39.0%, Tue Sep 25 12:20:00 CEST 2018
+Seville, 31.61°C, 25.0%, Tue Sep 25 12:30:00 CEST 2018
+Seville, 33.0°C, 22.0%, Tue Sep 25 13:00:00 CEST 2018
+Amadora, 29.74°C, 39.0%, Tue Sep 25 14:00:00 CEST 2018
+Lisbon, 30.24°C, 38.0%, Tue Sep 25 14:30:00 CEST 2018
+Porto, 30.83°C, 21.0%, Tue Sep 25 15:30:00 CEST 2018
+Amadora, 29.74°C, 39.0%, Tue Sep 25 14:00:00 CEST 2018
+Vila Nova de Gaia (Santa Marinha), 29.83°C, 19.0%, Tue Sep 25 14:30:00 CEST 2018
+Madrid, 28.78°C, 37.0%, Tue Sep 25 15:30:00 CEST 2018
+Vila Nova de Gaia (Santa Marinha), 28.83°C, 19.0%, Tue Sep 25 13:30:00 CEST 2018
+Lisbon, 30.24°C, 38.0%, Tue Sep 25 14:30:00 CEST 2018
+Lisbon, 31.49°C, 35.0%, Tue Sep 25 15:30:00 CEST 2018
+Vila Nova de Gaia (Santa Marinha), 29.85°C, 19.0%, Tue Sep 25 14:30:00 CEST 2018
+Seville, 31.47°C, 25.0%, Mon Sep 24 21:00:00 CEST 2018
+Lisbon, 28.5°C, 35.0%, Mon Sep 24 22:00:00 CEST 2018
+Madrid, 29.8°C, 31.0%, Mon Sep 24 20:00:00 CEST 2018
+Amadora, 30.0°C, 33.0%, Mon Sep 24 21:00:00 CEST 2018
+Seville, 33.47°C, 24.0%, Mon Sep 24 20:00:00 CEST 2018
+Madrid, 28.22°C, 37.0%, Mon Sep 24 21:00:00 CEST 2018
+Seville, 29.93°C, 31.0%, Mon Sep 24 22:00:00 CEST 2018
+Madrid, 28.22°C, 37.0%, Mon Sep 24 21:00:00 CEST 2018
+Seville, 29.41°C, 30.0%, Mon Sep 24 22:30:00 CEST 2018
+Seville, 31.59°C, 25.0%, Tue Sep 25 12:30:00 CEST 2018
+Dimos Patras, 29.0°C, 39.0%, Tue Sep 25 11:50:00 CEST 2018
+Seville, 33.0°C, 22.0%, Tue Sep 25 13:30:00 CEST 2018
+Porto, 29.83°C, 19.0%, Tue Sep 25 14:30:00 CEST 2018
+Porto, 30.48°C, 20.0%, Tue Sep 25 15:00:00 CEST 2018
+Porto, 29.48°C, 19.0%, Tue Sep 25 14:00:00 CEST 2018
+Amadora, 30.22°C, 38.0%, Tue Sep 25 14:30:00 CEST 2018
+Amadora, 31.49°C, 35.0%, Tue Sep 25 15:30:00 CEST 2018
+Vila Nova de Gaia (Santa Marinha), 28.85°C, 19.0%, Tue Sep 25 13:30:00 CEST 2018
+Amadora, 30.23°C, 38.0%, Tue Sep 25 14:30:00 CEST 2018
+Lisbon, 31.5°C, 35.0%, Tue Sep 25 15:00:00 CEST 2018
+Porto, 29.48°C, 19.0%, Tue Sep 25 14:00:00 CEST 2018
+Amadora, 28.49°C, 35.0%, Mon Sep 24 22:00:00 CEST 2018
+Amadora, 33.2°C, 25.0%, Mon Sep 24 18:30:00 CEST 2018
+Amadora, 30.0°C, 33.0%, Mon Sep 24 21:00:00 CEST 2018
+Seville, 36.41°C, 20.0%, Mon Sep 24 19:30:00 CEST 2018
+Amadora, 28.49°C, 35.0%, Mon Sep 24 22:00:00 CEST 2018
+Amadora, 33.21°C, 25.0%, Mon Sep 24 18:30:00 CEST 2018
+Vila Nova de Gaia (Santa Marinha), 28.86°C, 19.0%, Tue Sep 25 13:30:00 CEST 2018
+Seville, 36.4°C, 20.0%, Mon Sep 24 19:30:00 CEST 2018
+Seville, 31.07°C, 28.0%, Tue Sep 25 12:00:00 CEST 2018
+Amadora, 29.86°C, 33.0%, Mon Sep 24 20:30:00 CEST 2018
+Porto, 28.85°C, 19.0%, Tue Sep 25 13:30:00 CEST 2018
+Amadora, 30.0°C, 33.0%, Mon Sep 24 21:30:00 CEST 2018
+Lisbon, 29.76°C, 39.0%, Tue Sep 25 14:00:00 CEST 2018
+Lisbon, 31.74°C, 28.0%, Mon Sep 24 19:30:00 CEST 2018
+Seville, 35.0°C, 19.0%, Tue Sep 25 15:00:00 CEST 2018
+Seville, 33.0°C, 22.0%, Tue Sep 25 13:30:00 CEST 2018
+Seville, 34.59°C, 21.0%, Tue Sep 25 14:30:00 CEST 2018
+Lisbon, 31.5°C, 35.0%, Tue Sep 25 15:00:00 CEST 2018
+Madrid, 28.78°C, 37.0%, Tue Sep 25 15:30:00 CEST 2018
+Lisbon, 29.76°C, 39.0%, Tue Sep 25 14:00:00 CEST 2018
+Seville, 32.61°C, 27.0%, Mon Sep 24 20:30:00 CEST 2018
+Porto, 30.48°C, 20.0%, Tue Sep 25 15:00:00 CEST 2018
+Seville, 34.54°C, 21.0%, Tue Sep 25 14:00:00 CEST 2018
+Porto, 29.81°C, 19.0%, Tue Sep 25 14:30:00 CEST 2018
+Seville, 31.39°C, 29.0%, Mon Sep 24 21:30:00 CEST 2018
+Lisbon, 29.88°C, 33.0%, Mon Sep 24 20:30:00 CEST 2018
+Lisbon, 30.0°C, 33.0%, Mon Sep 24 21:30:00 CEST 2018
+Lisbon, 29.87°C, 33.0%, Mon Sep 24 20:30:00 CEST 2018
+Lisbon, 30.0°C, 33.0%, Mon Sep 24 21:30:00 CEST 2018
+Dimos Patras, 29.0°C, 39.0%, Tue Sep 25 12:20:00 CEST 2018
+Seville, 31.07°C, 28.0%, Tue Sep 25 12:00:00 CEST 2018
+Seville, 33.0°C, 22.0%, Tue Sep 25 13:00:00 CEST 2018
+Porto, 29.48°C, 19.0%, Tue Sep 25 14:00:00 CEST 2018
+Vila Nova de Gaia (Santa Marinha), 30.48°C, 20.0%, Tue Sep 25 15:00:00 CEST 2018
+Porto, 28.84°C, 19.0%, Tue Sep 25 13:30:00 CEST 2018
+Vila Nova de Gaia (Santa Marinha), 29.86°C, 19.0%, Tue Sep 25 14:30:00 CEST 2018
+Seville, 35.0°C, 19.0%, Tue Sep 25 15:00:00 CEST 2018
+Amadora, 31.49°C, 35.0%, Tue Sep 25 15:30:00 CEST 2018
+Seville, 34.53°C, 21.0%, Tue Sep 25 14:00:00 CEST 2018
+Amadora, 31.5°C, 35.0%, Tue Sep 25 15:00:00 CEST 2018
+Vila Nova de Gaia (Santa Marinha), 29.48°C, 19.0%, Tue Sep 25 14:00:00 CEST 2018
+Seville, 34.6°C, 21.0%, Tue Sep 25 14:30:00 CEST 2018
+Madrid, 28.6°C, 39.0%, Tue Sep 25 15:00:00 CEST 2018
+Vila Nova de Gaia (Santa Marinha), 30.86°C, 21.0%, Tue Sep 25 15:30:00 CEST 2018
+Lisbon, 31.49°C, 35.0%, Tue Sep 25 15:30:00 CEST 2018
+Seville, 36.0°C, 19.0%, Tue Sep 25 16:30:00 CEST 2018
+Porto, 29.0°C, 28.0%, Tue Sep 25 17:00:00 CEST 2018
+Porto, 29.0°C, 26.0%, Tue Sep 25 17:30:00 CEST 2018
+Lisbon, 30.75°C, 29.0%, Tue Sep 25 16:00:00 CEST 2018
+Amadora, 30.5°C, 31.0%, Tue Sep 25 17:00:00 CEST 2018
+Lisbon, 30.5°C, 31.0%, Tue Sep 25 17:30:00 CEST 2018
+Madrid, 28.78°C, 37.0%, Tue Sep 25 15:30:00 CEST 2018
+Amadora, 30.49°C, 33.0%, Tue Sep 25 16:30:00 CEST 2018
+Lisbon, 30.51°C, 31.0%, Tue Sep 25 17:00:00 CEST 2018
+Lisbon, 30.5°C, 31.0%, Tue Sep 25 17:30:00 CEST 2018
+Madrid, 30.18°C, 35.0%, Tue Sep 25 16:30:00 CEST 2018
+Seville, 36.0°C, 19.0%, Tue Sep 25 17:00:00 CEST 2018
+Vila Nova de Gaia (Santa Marinha), 28.49°C, 26.0%, Tue Sep 25 18:00:00 CEST 2018
+Madrid, 31.0°C, 29.0%, Tue Sep 25 18:00:00 CEST 2018
+Amadora, 30.36°C, 33.0%, Tue Sep 25 19:00:00 CEST 2018
+Amadora, 28.98°C, 33.0%, Tue Sep 25 20:00:00 CEST 2018
+Porto, 28.47°C, 26.0%, Tue Sep 25 18:00:00 CEST 2018
+Lisbon, 28.99°C, 33.0%, Tue Sep 25 19:00:00 CEST 2018
+Lisbon, 28.99°C, 33.0%, Tue Sep 25 20:00:00 CEST 2018
+Seville, 36.0°C, 19.0%, Tue Sep 25 18:30:00 CEST 2018
+Seville, 34.92°C, 19.0%, Tue Sep 25 19:00:00 CEST 2018
+Seville, 32.46°C, 27.0%, Tue Sep 25 20:00:00 CEST 2018
+Lisbon, 30.01°C, 33.0%, Tue Sep 25 18:30:00 CEST 2018
+Seville, 34.39°C, 23.0%, Tue Sep 25 19:30:00 CEST 2018
+Seville, 29.93°C, 38.0%, Tue Sep 25 21:00:00 CEST 2018
+Seville, 30.82°C, 35.0%, Wed Sep 26 12:30:00 CEST 2018
+Seville, 30.79°C, 35.0%, Wed Sep 26 12:30:00 CEST 2018
+Vila Nova de Gaia (Santa Marinha), 30.14°C, 39.0%, Wed Sep 26 14:30:00 CEST 2018
+Vila Nova de Gaia (Santa Marinha), 29.0°C, 32.0%, Wed Sep 26 13:30:00 CEST 2018
+Seville, 32.0°C, 33.0%, Wed Sep 26 14:00:00 CEST 2018
+Seville, 35.41°C, 19.0%, Tue Sep 25 15:30:00 CEST 2018
+Vila Nova de Gaia (Santa Marinha), 30.15°C, 39.0%, Wed Sep 26 14:30:00 CEST 2018
+Amadora, 30.75°C, 29.0%, Tue Sep 25 16:00:00 CEST 2018
+Lisbon, 30.49°C, 33.0%, Tue Sep 25 16:30:00 CEST 2018
+Amadora, 31.5°C, 35.0%, Tue Sep 25 15:00:00 CEST 2018
+Seville, 35.4°C, 19.0%, Tue Sep 25 15:30:00 CEST 2018
+Vila Nova de Gaia (Santa Marinha), 30.84°C, 21.0%, Tue Sep 25 15:30:00 CEST 2018
+Lisbon, 30.51°C, 31.0%, Tue Sep 25 17:00:00 CEST 2018
+Madrid, 29.8°C, 37.0%, Tue Sep 25 16:00:00 CEST 2018
+Seville, 33.39°C, 32.0%, Wed Sep 26 15:30:00 CEST 2018
+Amadora, 30.5°C, 31.0%, Tue Sep 25 17:00:00 CEST 2018
+Porto, 29.57°C, 37.0%, Wed Sep 26 14:00:00 CEST 2018
+Vila Nova de Gaia (Santa Marinha), 29.0°C, 26.0%, Tue Sep 25 17:30:00 CEST 2018
+Vila Nova de Gaia (Santa Marinha), 29.51°C, 28.0%, Tue Sep 25 16:00:00 CEST 2018
+Seville, 36.0°C, 19.0%, Tue Sep 25 16:00:00 CEST 2018
+Seville, 36.0°C, 19.0%, Tue Sep 25 16:30:00 CEST 2018
+Vila Nova de Gaia (Santa Marinha), 29.58°C, 26.0%, Tue Sep 25 16:30:00 CEST 2018
+Vila Nova de Gaia (Santa Marinha), 29.0°C, 28.0%, Tue Sep 25 17:00:00 CEST 2018
+Madrid, 30.52°C, 35.0%, Tue Sep 25 17:00:00 CEST 2018
+Amadora, 30.49°C, 31.0%, Tue Sep 25 17:30:00 CEST 2018
+Vila Nova de Gaia (Santa Marinha), 29.51°C, 28.0%, Tue Sep 25 16:00:00 CEST 2018
+Madrid, 30.18°C, 35.0%, Tue Sep 25 16:30:00 CEST 2018
+Amadora, 30.49°C, 31.0%, Tue Sep 25 17:30:00 CEST 2018
+Porto, 30.81°C, 21.0%, Tue Sep 25 15:30:00 CEST 2018
+Porto, 29.58°C, 26.0%, Tue Sep 25 16:30:00 CEST 2018
+Porto, 29.0°C, 28.0%, Tue Sep 25 17:00:00 CEST 2018
+Seville, 36.0°C, 18.0%, Tue Sep 25 18:00:00 CEST 2018
+Lisbon, 30.01°C, 33.0%, Tue Sep 25 18:30:00 CEST 2018
+Madrid, 30.6°C, 25.0%, Tue Sep 25 19:00:00 CEST 2018
+Madrid, 29.03°C, 32.0%, Tue Sep 25 20:00:00 CEST 2018
+Vila Nova de Gaia (Santa Marinha), 28.42°C, 32.0%, Tue Sep 25 18:30:00 CEST 2018
+Amadora, 28.86°C, 30.0%, Tue Sep 25 19:30:00 CEST 2018
+Amadora, 30.25°C, 33.0%, Tue Sep 25 18:00:00 CEST 2018
+Amadora, 30.0°C, 33.0%, Tue Sep 25 18:30:00 CEST 2018
+Lisbon, 28.88°C, 30.0%, Tue Sep 25 19:30:00 CEST 2018
+Porto, 28.48°C, 26.0%, Tue Sep 25 18:00:00 CEST 2018
+Lisbon, 30.37°C, 33.0%, Tue Sep 25 19:00:00 CEST 2018
+Lisbon, 28.99°C, 33.0%, Tue Sep 25 20:00:00 CEST 2018
+Seville, 29.92°C, 38.0%, Tue Sep 25 21:00:00 CEST 2018
+Seville, 32.0°C, 33.0%, Wed Sep 26 13:00:00 CEST 2018
+Porto, 28.04°C, 39.0%, Wed Sep 26 13:00:00 CEST 2018
+Seville, 32.41°C, 33.0%, Wed Sep 26 14:30:00 CEST 2018
+Seville, 32.0°C, 33.0%, Wed Sep 26 13:30:00 CEST 2018
+Porto, 29.57°C, 37.0%, Wed Sep 26 14:00:00 CEST 2018
+Seville, 32.39°C, 33.0%, Wed Sep 26 14:30:00 CEST 2018
+Porto, 28.05°C, 39.0%, Wed Sep 26 13:00:00 CEST 2018
+Vila Nova de Gaia (Santa Marinha), 30.17°C, 39.0%, Wed Sep 26 14:30:00 CEST 2018
+Lisbon, 32.0°C, 38.0%, Wed Sep 26 15:30:00 CEST 2018
+Amadora, 32.25°C, 33.0%, Wed Sep 26 17:00:00 CEST 2018
+Seville, 33.39°C, 32.0%, Wed Sep 26 17:30:00 CEST 2018
+Seville, 33.0°C, 33.0%, Wed Sep 26 16:30:00 CEST 2018
+Lisbon, 32.25°C, 33.0%, Wed Sep 26 17:00:00 CEST 2018
+Vila Nova de Gaia (Santa Marinha), 29.57°C, 26.0%, Tue Sep 25 16:30:00 CEST 2018
+Madrid, 30.18°C, 35.0%, Tue Sep 25 16:30:00 CEST 2018
+Seville, 36.0°C, 19.0%, Tue Sep 25 17:30:00 CEST 2018
+Porto, 29.52°C, 28.0%, Tue Sep 25 16:00:00 CEST 2018
+Madrid, 31.0°C, 29.0%, Tue Sep 25 18:00:00 CEST 2018
+Amadora, 32.0°C, 38.0%, Wed Sep 26 15:30:00 CEST 2018
+Seville, 36.0°C, 19.0%, Tue Sep 25 16:00:00 CEST 2018
+Lisbon, 32.49°C, 31.0%, Wed Sep 26 16:30:00 CEST 2018
+Vila Nova de Gaia (Santa Marinha), 29.58°C, 26.0%, Tue Sep 25 16:30:00 CEST 2018
+Porto, 29.0°C, 28.0%, Tue Sep 25 17:00:00 CEST 2018
+Madrid, 30.51°C, 35.0%, Tue Sep 25 17:00:00 CEST 2018
+Bordeaux, 28.55°C, 34.0%, Wed Sep 26 17:30:00 CEST 2018
+Seville, 36.0°C, 19.0%, Tue Sep 25 17:30:00 CEST 2018
+Lisbon, 30.75°C, 29.0%, Tue Sep 25 16:00:00 CEST 2018
+Amadora, 30.75°C, 29.0%, Tue Sep 25 16:00:00 CEST 2018
+Porto, 29.52°C, 28.0%, Tue Sep 25 16:00:00 CEST 2018
+Amadora, 32.0°C, 35.0%, Wed Sep 26 16:00:00 CEST 2018
+Seville, 36.0°C, 19.0%, Tue Sep 25 17:00:00 CEST 2018
+Bordeaux, 28.11°C, 34.0%, Wed Sep 26 17:00:00 CEST 2018
+Porto, 29.0°C, 26.0%, Tue Sep 25 17:30:00 CEST 2018
+Amadora, 30.49°C, 33.0%, Tue Sep 25 16:30:00 CEST 2018
+Vila Nova de Gaia (Santa Marinha), 29.0°C, 28.0%, Tue Sep 25 17:00:00 CEST 2018
+Madrid, 30.78°C, 29.0%, Tue Sep 25 17:30:00 CEST 2018
+Amadora, 30.25°C, 33.0%, Tue Sep 25 18:00:00 CEST 2018
+Madrid, 30.6°C, 25.0%, Tue Sep 25 19:00:00 CEST 2018
+Lisbon, 30.49°C, 33.0%, Tue Sep 25 16:30:00 CEST 2018
+Lisbon, 28.87°C, 30.0%, Tue Sep 25 19:30:00 CEST 2018
+Amadora, 30.49°C, 31.0%, Tue Sep 25 17:30:00 CEST 2018
+Seville, 36.0°C, 18.0%, Tue Sep 25 18:00:00 CEST 2018
+Lisbon, 30.26°C, 33.0%, Tue Sep 25 18:00:00 CEST 2018
+Porto, 28.41°C, 32.0%, Tue Sep 25 18:30:00 CEST 2018
+Amadora, 30.35°C, 33.0%, Tue Sep 25 19:00:00 CEST 2018
+Seville, 32.47°C, 27.0%, Tue Sep 25 20:00:00 CEST 2018
+Seville, 34.41°C, 23.0%, Tue Sep 25 19:30:00 CEST 2018
+Vila Nova de Gaia (Santa Marinha), 28.48°C, 26.0%, Tue Sep 25 18:00:00 CEST 2018
+Vila Nova de Gaia (Santa Marinha), 28.48°C, 26.0%, Tue Sep 25 18:00:00 CEST 2018
+Seville, 34.93°C, 19.0%, Tue Sep 25 19:00:00 CEST 2018
+Seville, 36.0°C, 19.0%, Tue Sep 25 18:30:00 CEST 2018
+Madrid, 30.19°C, 29.0%, Tue Sep 25 19:30:00 CEST 2018
+Madrid, 30.19°C, 29.0%, Tue Sep 25 19:30:00 CEST 2018
+Porto, 28.41°C, 32.0%, Tue Sep 25 18:30:00 CEST 2018
+Madrid, 31.0°C, 29.0%, Tue Sep 25 18:00:00 CEST 2018
+Madrid, 30.6°C, 25.0%, Tue Sep 25 19:00:00 CEST 2018
+Madrid, 30.98°C, 29.0%, Tue Sep 25 18:30:00 CEST 2018
+Madrid, 28.02°C, 30.0%, Tue Sep 25 20:30:00 CEST 2018
+Amadora, 28.99°C, 33.0%, Tue Sep 25 20:00:00 CEST 2018
+Madrid, 28.01°C, 30.0%, Tue Sep 25 20:30:00 CEST 2018
+Lisbon, 30.26°C, 33.0%, Tue Sep 25 18:00:00 CEST 2018
+Porto, 28.04°C, 39.0%, Wed Sep 26 13:00:00 CEST 2018
+Amadora, 28.88°C, 30.0%, Tue Sep 25 19:30:00 CEST 2018
+Seville, 32.0°C, 33.0%, Wed Sep 26 13:00:00 CEST 2018
+Seville, 32.0°C, 33.0%, Wed Sep 26 13:30:00 CEST 2018
+Seville, 32.41°C, 27.0%, Tue Sep 25 20:30:00 CEST 2018
+Vila Nova de Gaia (Santa Marinha), 29.55°C, 37.0%, Wed Sep 26 14:00:00 CEST 2018
+Seville, 32.4°C, 27.0%, Tue Sep 25 20:30:00 CEST 2018
+Lisbon, 32.0°C, 38.0%, Wed Sep 26 15:30:00 CEST 2018
+Vila Nova de Gaia (Santa Marinha), 28.03°C, 39.0%, Wed Sep 26 13:00:00 CEST 2018
+Seville, 33.46°C, 32.0%, Wed Sep 26 15:00:00 CEST 2018
+Vila Nova de Gaia (Santa Marinha), 28.03°C, 39.0%, Wed Sep 26 13:00:00 CEST 2018
+Seville, 32.0°C, 33.0%, Wed Sep 26 14:00:00 CEST 2018
+Porto, 30.17°C, 39.0%, Wed Sep 26 14:30:00 CEST 2018
+Seville, 33.41°C, 32.0%, Wed Sep 26 15:30:00 CEST 2018
+Porto, 29.0°C, 32.0%, Wed Sep 26 13:30:00 CEST 2018
+Amadora, 32.49°C, 31.0%, Wed Sep 26 16:30:00 CEST 2018
+Amadora, 32.0°C, 38.0%, Wed Sep 26 15:30:00 CEST 2018
+Bordeaux, 28.55°C, 34.0%, Wed Sep 26 17:30:00 CEST 2018
+Porto, 30.19°C, 39.0%, Wed Sep 26 14:30:00 CEST 2018
+Amadora, 32.0°C, 35.0%, Wed Sep 26 16:00:00 CEST 2018
+Porto, 29.0°C, 32.0%, Wed Sep 26 13:30:00 CEST 2018
+Seville, 33.47°C, 32.0%, Wed Sep 26 17:00:00 CEST 2018
+Seville, 32.39°C, 33.0%, Wed Sep 26 14:30:00 CEST 2018
+Lisbon, 32.0°C, 35.0%, Wed Sep 26 16:00:00 CEST 2018
+Seville, 33.46°C, 32.0%, Wed Sep 26 17:00:00 CEST 2018
+Bordeaux, 28.1°C, 36.0%, Wed Sep 26 18:00:00 CEST 2018
+Amadora, 32.49°C, 31.0%, Wed Sep 26 16:30:00 CEST 2018
+Lisbon, 32.24°C, 33.0%, Wed Sep 26 17:30:00 CEST 2018
+Lisbon, 32.0°C, 35.0%, Wed Sep 26 16:00:00 CEST 2018
+Amadora, 31.01°C, 33.0%, Wed Sep 26 18:00:00 CEST 2018
+Seville, 33.41°C, 32.0%, Wed Sep 26 17:30:00 CEST 2018
+Seville, 33.47°C, 32.0%, Wed Sep 26 16:00:00 CEST 2018
+Bordeaux, 28.1°C, 34.0%, Wed Sep 26 17:00:00 CEST 2018
+Amadora, 32.23°C, 33.0%, Wed Sep 26 17:30:00 CEST 2018
+Amadora, 30.74°C, 35.0%, Wed Sep 26 18:30:00 CEST 2018
+Lisbon, 29.3°C, 38.0%, Wed Sep 26 19:30:00 CEST 2018
+Lisbon, 30.55°C, 33.0%, Wed Sep 26 19:00:00 CEST 2018
+Lisbon, 30.73°C, 35.0%, Wed Sep 26 18:30:00 CEST 2018
+Seville, 32.8°C, 32.0%, Wed Sep 26 18:30:00 CEST 2018
+Bordeaux, 29.0°C, 39.0%, Thu Sep 27 15:00:00 CEST 2018
+Seville, 31.0°C, 38.0%, Thu Sep 27 15:00:00 CEST 2018
+Lisbon, 30.75°C, 38.0%, Thu Sep 27 16:00:00 CEST 2018
+Seville, 31.0°C, 38.0%, Thu Sep 27 15:00:00 CEST 2018
+Lisbon, 30.75°C, 38.0%, Thu Sep 27 16:00:00 CEST 2018
+Lisbon, 30.94°C, 33.0%, Thu Sep 27 17:00:00 CEST 2018
+Lisbon, 30.74°C, 38.0%, Thu Sep 27 16:30:00 CEST 2018
+Bordeaux, 29.45°C, 37.0%, Thu Sep 27 16:30:00 CEST 2018
+Bordeaux, 29.34°C, 35.0%, Thu Sep 27 17:00:00 CEST 2018
+Seville, 31.0°C, 35.0%, Thu Sep 27 18:30:00 CEST 2018
+Seville, 29.93°C, 35.0%, Thu Sep 27 19:00:00 CEST 2018
+Amadora, 32.0°C, 33.0%, Thu Sep 27 17:00:00 CEST 2018
+Seville, 29.79°C, 35.0%, Thu Sep 27 19:30:00 CEST 2018
+Lisbon, 28.69°C, 31.0%, Fri Sep 28 14:30:00 CEST 2018
+Amadora, 28.71°C, 31.0%, Fri Sep 28 14:30:00 CEST 2018
+Lisbon, 29.99°C, 27.0%, Fri Sep 28 15:00:00 CEST 2018
+Amadora, 30.01°C, 27.0%, Fri Sep 28 15:00:00 CEST 2018
+Toulouse, 29.0°C, 35.0%, Fri Sep 28 16:30:00 CEST 2018
+Amadora, 30.51°C, 38.0%, Fri Sep 28 17:00:00 CEST 2018
+Barcelona, 28.49°C, 33.0%, Fri Sep 28 17:30:00 CEST 2018
+Madrid, 28.4°C, 28.0%, Fri Sep 28 16:00:00 CEST 2018
+Toulouse, 29.0°C, 35.0%, Fri Sep 28 17:00:00 CEST 2018
+Seville, 29.79°C, 35.0%, Fri Sep 28 17:30:00 CEST 2018
+Lisbon, 32.49°C, 31.0%, Wed Sep 26 16:30:00 CEST 2018
+Seville, 32.93°C, 32.0%, Wed Sep 26 18:00:00 CEST 2018
+Bordeaux, 28.1°C, 1.0%, Wed Sep 26 16:30:00 CEST 2018
+Amadora, 32.24°C, 33.0%, Wed Sep 26 17:30:00 CEST 2018
+Bordeaux, 28.1°C, 34.0%, Wed Sep 26 18:30:00 CEST 2018
+Amadora, 30.55°C, 33.0%, Wed Sep 26 19:00:00 CEST 2018
+Amadora, 30.73°C, 35.0%, Wed Sep 26 18:30:00 CEST 2018
+Lisbon, 31.0°C, 33.0%, Wed Sep 26 18:00:00 CEST 2018
+Seville, 31.41°C, 35.0%, Wed Sep 26 19:30:00 CEST 2018
+Madrid, 28.4°C, 28.0%, Fri Sep 28 16:00:00 CEST 2018
+Seville, 29.92°C, 38.0%, Fri Sep 28 17:00:00 CEST 2018
+Amadora, 32.25°C, 33.0%, Wed Sep 26 17:00:00 CEST 2018
+Amadora, 29.99°C, 27.0%, Fri Sep 28 15:30:00 CEST 2018
+Bordeaux, 28.11°C, 36.0%, Wed Sep 26 18:00:00 CEST 2018
+Seville, 33.0°C, 33.0%, Wed Sep 26 16:30:00 CEST 2018
+Lisbon, 32.24°C, 33.0%, Wed Sep 26 17:30:00 CEST 2018
+Lisbon, 31.0°C, 33.0%, Wed Sep 26 18:00:00 CEST 2018
+Seville, 31.93°C, 33.0%, Wed Sep 26 19:00:00 CEST 2018
+Seville, 31.93°C, 33.0%, Wed Sep 26 19:00:00 CEST 2018
+Bordeaux, 28.11°C, 34.0%, Wed Sep 26 18:30:00 CEST 2018
+Seville, 31.39°C, 35.0%, Wed Sep 26 19:30:00 CEST 2018
+Amadora, 29.3°C, 38.0%, Wed Sep 26 19:30:00 CEST 2018
+Bordeaux, 29.0°C, 39.0%, Thu Sep 27 15:00:00 CEST 2018
+Bordeaux, 29.45°C, 37.0%, Thu Sep 27 16:00:00 CEST 2018
+Seville, 31.0°C, 38.0%, Thu Sep 27 17:00:00 CEST 2018
+Bordeaux, 29.45°C, 37.0%, Thu Sep 27 16:00:00 CEST 2018
+Bordeaux, 29.36°C, 35.0%, Thu Sep 27 17:00:00 CEST 2018
+Seville, 31.59°C, 38.0%, Thu Sep 27 16:30:00 CEST 2018
+Seville, 32.0°C, 35.0%, Thu Sep 27 16:00:00 CEST 2018
+Seville, 31.0°C, 38.0%, Thu Sep 27 17:00:00 CEST 2018
+Seville, 31.0°C, 35.0%, Thu Sep 27 18:30:00 CEST 2018
+Bordeaux, 28.8°C, 35.0%, Thu Sep 27 18:00:00 CEST 2018
+Seville, 29.82°C, 35.0%, Thu Sep 27 19:30:00 CEST 2018
+Seville, 29.92°C, 35.0%, Thu Sep 27 19:00:00 CEST 2018
+Amadora, 29.99°C, 27.0%, Fri Sep 28 15:30:00 CEST 2018
+Toulouse, 29.0°C, 39.0%, Fri Sep 28 15:30:00 CEST 2018
+Toulouse, 29.0°C, 39.0%, Fri Sep 28 15:30:00 CEST 2018
+Tirana, 29.0°C, 18.0%, Fri Sep 28 14:50:00 CEST 2018
+Madrid, 29.0°C, 28.0%, Fri Sep 28 16:30:00 CEST 2018
+Seville, 29.93°C, 38.0%, Fri Sep 28 17:00:00 CEST 2018
+Seville, 29.82°C, 35.0%, Fri Sep 28 17:30:00 CEST 2018
+Amadora, 31.01°C, 24.0%, Fri Sep 28 16:00:00 CEST 2018
+Barcelona, 28.49°C, 33.0%, Fri Sep 28 16:30:00 CEST 2018
+Lisbon, 30.5°C, 38.0%, Fri Sep 28 17:00:00 CEST 2018
+Amadora, 31.01°C, 24.0%, Fri Sep 28 16:00:00 CEST 2018
+Marseille, 28.71°C, 30.0%, Fri Sep 28 17:00:00 CEST 2018
+Marseille, 28.22°C, 32.0%, Fri Sep 28 18:00:00 CEST 2018
+Lisbon, 30.99°C, 24.0%, Fri Sep 28 16:00:00 CEST 2018
+Madrid, 29.0°C, 28.0%, Fri Sep 28 17:00:00 CEST 2018
+Toulouse, 29.0°C, 32.0%, Fri Sep 28 17:30:00 CEST 2018
+Seville, 28.46°C, 39.0%, Fri Sep 28 20:00:00 CEST 2018
+Seville, 30.0°C, 37.0%, Fri Sep 28 19:30:00 CEST 2018
+Amadora, 29.32°C, 38.0%, Wed Sep 26 19:30:00 CEST 2018
+Bordeaux, 28.55°C, 39.0%, Thu Sep 27 14:30:00 CEST 2018
+Seville, 32.0°C, 35.0%, Thu Sep 27 16:00:00 CEST 2018
+Bordeaux, 28.11°C, 1.0%, Wed Sep 26 16:30:00 CEST 2018
+Amadora, 32.24°C, 33.0%, Wed Sep 26 17:30:00 CEST 2018
+Seville, 33.46°C, 32.0%, Wed Sep 26 16:00:00 CEST 2018
+Lisbon, 32.25°C, 33.0%, Wed Sep 26 17:00:00 CEST 2018
+Seville, 32.92°C, 32.0%, Wed Sep 26 18:00:00 CEST 2018
+Lisbon, 30.73°C, 35.0%, Wed Sep 26 18:30:00 CEST 2018
+Seville, 32.92°C, 32.0%, Wed Sep 26 18:00:00 CEST 2018
+Lisbon, 29.32°C, 38.0%, Wed Sep 26 19:30:00 CEST 2018
+Amadora, 30.56°C, 33.0%, Wed Sep 26 19:00:00 CEST 2018
+Lisbon, 30.55°C, 33.0%, Wed Sep 26 19:00:00 CEST 2018
+Bordeaux, 28.55°C, 39.0%, Thu Sep 27 14:30:00 CEST 2018
+Bordeaux, 29.45°C, 37.0%, Thu Sep 27 15:30:00 CEST 2018
+Bordeaux, 29.45°C, 37.0%, Thu Sep 27 16:30:00 CEST 2018
+Seville, 31.41°C, 35.0%, Thu Sep 27 15:30:00 CEST 2018
+Amadora, 30.75°C, 38.0%, Thu Sep 27 16:30:00 CEST 2018
+Bordeaux, 29.45°C, 37.0%, Thu Sep 27 15:30:00 CEST 2018
+Amadora, 30.95°C, 33.0%, Thu Sep 27 17:00:00 CEST 2018
+Lisbon, 30.74°C, 38.0%, Thu Sep 27 16:30:00 CEST 2018
+Bordeaux, 29.36°C, 35.0%, Thu Sep 27 17:30:00 CEST 2018
+Seville, 31.0°C, 38.0%, Thu Sep 27 17:30:00 CEST 2018
+Lisbon, 32.0°C, 33.0%, Thu Sep 27 17:00:00 CEST 2018
+Seville, 31.0°C, 38.0%, Thu Sep 27 18:00:00 CEST 2018
+Durres, 29.0°C, 18.0%, Fri Sep 28 14:50:00 CEST 2018
+Amadora, 30.01°C, 27.0%, Fri Sep 28 15:00:00 CEST 2018
+Amadora, 28.71°C, 31.0%, Fri Sep 28 14:30:00 CEST 2018
+Durres, 29.0°C, 18.0%, Fri Sep 28 14:50:00 CEST 2018
+Toulouse, 29.0°C, 39.0%, Fri Sep 28 16:00:00 CEST 2018
+Seville, 30.39°C, 38.0%, Fri Sep 28 16:30:00 CEST 2018
+Madrid, 29.0°C, 28.0%, Fri Sep 28 17:00:00 CEST 2018
+Madrid, 29.0°C, 25.0%, Fri Sep 28 18:00:00 CEST 2018
+Marseille, 28.21°C, 32.0%, Fri Sep 28 16:00:00 CEST 2018
+Barcelona, 28.49°C, 33.0%, Fri Sep 28 16:30:00 CEST 2018
+Toulouse, 29.0°C, 39.0%, Fri Sep 28 16:00:00 CEST 2018
+Marseille, 28.71°C, 28.0%, Fri Sep 28 16:30:00 CEST 2018
+Marseille, 28.46°C, 30.0%, Fri Sep 28 17:30:00 CEST 2018
+Marseille, 28.21°C, 32.0%, Fri Sep 28 16:00:00 CEST 2018
+Madrid, 29.0°C, 28.0%, Fri Sep 28 16:30:00 CEST 2018
+Lisbon, 30.5°C, 38.0%, Fri Sep 28 17:00:00 CEST 2018
+Madrid, 28.79°C, 23.0%, Fri Sep 28 18:30:00 CEST 2018
+Seville, 30.41°C, 33.0%, Fri Sep 28 18:30:00 CEST 2018
+Barcelona, 28.49°C, 33.0%, Fri Sep 28 16:30:00 CEST 2018
+Toulouse, 29.0°C, 35.0%, Fri Sep 28 17:00:00 CEST 2018
+Barcelona, 28.49°C, 33.0%, Fri Sep 28 17:30:00 CEST 2018
+Madrid, 29.0°C, 25.0%, Fri Sep 28 18:00:00 CEST 2018
+Amadora, 30.75°C, 38.0%, Thu Sep 27 16:30:00 CEST 2018
+Seville, 31.39°C, 35.0%, Thu Sep 27 15:30:00 CEST 2018
+Seville, 31.61°C, 38.0%, Thu Sep 27 16:30:00 CEST 2018
+Amadora, 30.76°C, 38.0%, Thu Sep 27 16:00:00 CEST 2018
+Amadora, 30.75°C, 38.0%, Thu Sep 27 16:00:00 CEST 2018
+Amadora, 30.96°C, 33.0%, Thu Sep 27 17:00:00 CEST 2018
+Bordeaux, 29.34°C, 35.0%, Thu Sep 27 17:30:00 CEST 2018
+Seville, 31.0°C, 38.0%, Thu Sep 27 17:30:00 CEST 2018
+Seville, 31.0°C, 38.0%, Thu Sep 27 18:00:00 CEST 2018
+Bordeaux, 28.78°C, 35.0%, Thu Sep 27 18:00:00 CEST 2018
+Lisbon, 29.99°C, 27.0%, Fri Sep 28 15:00:00 CEST 2018
+Seville, 30.46°C, 38.0%, Fri Sep 28 15:00:00 CEST 2018
+Seville, 30.47°C, 38.0%, Fri Sep 28 15:00:00 CEST 2018
+Lisbon, 28.68°C, 31.0%, Fri Sep 28 14:30:00 CEST 2018
+Lisbon, 30.99°C, 24.0%, Fri Sep 28 16:00:00 CEST 2018
+Marseille, 28.7°C, 28.0%, Fri Sep 28 16:30:00 CEST 2018
+Marseille, 28.7°C, 30.0%, Fri Sep 28 17:00:00 CEST 2018
+Lisbon, 29.97°C, 27.0%, Fri Sep 28 15:30:00 CEST 2018
+Marseille, 28.71°C, 28.0%, Fri Sep 28 16:30:00 CEST 2018
+Toulouse, 29.0°C, 35.0%, Fri Sep 28 17:00:00 CEST 2018
+Lisbon, 29.97°C, 27.0%, Fri Sep 28 15:30:00 CEST 2018
+Seville, 30.41°C, 38.0%, Fri Sep 28 16:30:00 CEST 2018
+Madrid, 28.48°C, 27.0%, Fri Sep 28 17:30:00 CEST 2018
+Toulouse, 29.0°C, 35.0%, Fri Sep 28 16:30:00 CEST 2018
+Amadora, 30.51°C, 38.0%, Fri Sep 28 17:00:00 CEST 2018
+Madrid, 28.79°C, 27.0%, Fri Sep 28 17:30:00 CEST 2018
+Seville, 30.47°C, 35.0%, Fri Sep 28 19:00:00 CEST 2018
+Seville, 30.0°C, 37.0%, Fri Sep 28 19:30:00 CEST 2018
+Madrid, 28.8°C, 23.0%, Fri Sep 28 18:30:00 CEST 2018
+Seville, 30.47°C, 35.0%, Fri Sep 28 18:00:00 CEST 2018
+Seville, 28.47°C, 39.0%, Fri Sep 28 20:00:00 CEST 2018
+Durres, 29.0°C, 25.0%, Sat Sep 29 12:50:00 CEST 2018
+Valencia, 29.0°C, 28.0%, Sat Sep 29 13:30:00 CEST 2018
+Tirana, 29.0°C, 25.0%, Sat Sep 29 12:50:00 CEST 2018
+Valencia, 29.0°C, 26.0%, Sat Sep 29 12:30:00 CEST 2018
+Podgorica, 28.24°C, 21.0%, Sat Sep 29 14:00:00 CEST 2018
+Durres, 29.0°C, 21.0%, Sat Sep 29 15:20:00 CEST 2018
+Tirana, 29.0°C, 21.0%, Sat Sep 29 14:20:00 CEST 2018
+Elbasan, 29.0°C, 21.0%, Sat Sep 29 15:20:00 CEST 2018
+Podgorica, 28.22°C, 21.0%, Sat Sep 29 14:00:00 CEST 2018
+Podgorica, 28.09°C, 21.0%, Sat Sep 29 14:30:00 CEST 2018
+Seville, 30.4°C, 35.0%, Sat Sep 29 15:30:00 CEST 2018
+Madrid, 28.72°C, 25.0%, Sat Sep 29 16:00:00 CEST 2018
+Seville, 31.0°C, 35.0%, Sat Sep 29 18:00:00 CEST 2018
+Seville, 30.39°C, 35.0%, Sat Sep 29 17:30:00 CEST 2018
+Seville, 30.93°C, 35.0%, Sat Sep 29 17:00:00 CEST 2018
+Seville, 30.41°C, 35.0%, Sat Sep 29 17:30:00 CEST 2018
+Seville, 30.0°C, 35.0%, Sat Sep 29 19:00:00 CEST 2018
+Seville, 30.0°C, 35.0%, Sat Sep 29 19:30:00 CEST 2018
+Seville, 30.0°C, 35.0%, Sat Sep 29 19:00:00 CEST 2018
+Seville, 30.0°C, 37.0%, Sun Sep 30 15:00:00 CEST 2018
+Seville, 29.0°C, 39.0%, Sun Sep 30 14:00:00 CEST 2018
+Tirana, 29.0°C, 26.0%, Sun Sep 30 13:50:00 CEST 2018
+Seville, 31.41°C, 35.0%, Sun Sep 30 16:30:00 CEST 2018
+Seville, 30.41°C, 33.0%, Sun Sep 30 15:30:00 CEST 2018
+Seville, 30.39°C, 33.0%, Sun Sep 30 15:30:00 CEST 2018
+Madrid, 30.0°C, 20.0%, Sun Sep 30 17:00:00 CEST 2018
+Seville, 31.0°C, 38.0%, Sun Sep 30 18:30:00 CEST 2018
+Seville, 31.47°C, 35.0%, Sun Sep 30 18:00:00 CEST 2018
+Madrid, 28.38°C, 21.0%, Sun Sep 30 19:00:00 CEST 2018
+Seville, 30.47°C, 38.0%, Mon Oct 01 15:00:00 CEST 2018
+Seville, 30.81°C, 35.0%, Mon Oct 01 15:30:00 CEST 2018
+Amadora, 28.23°C, 23.0%, Mon Oct 01 15:30:00 CEST 2018
+Seville, 32.0°C, 38.0%, Mon Oct 01 17:30:00 CEST 2018
+Seville, 32.0°C, 35.0%, Mon Oct 01 16:00:00 CEST 2018
+Amadora, 28.54°C, 30.0%, Mon Oct 01 17:00:00 CEST 2018
+Seville, 30.47°C, 28.0%, Tue Oct 02 14:00:00 CEST 2018
+Seville, 30.39°C, 28.0%, Tue Oct 02 14:30:00 CEST 2018
+Lisbon, 30.25°C, 19.0%, Tue Oct 02 16:00:00 CEST 2018
+Lisbon, 29.0°C, 20.0%, Tue Oct 02 15:30:00 CEST 2018
+Seville, 30.4°C, 33.0%, Fri Sep 28 18:30:00 CEST 2018
+Valencia, 29.0°C, 25.0%, Sat Sep 29 13:00:00 CEST 2018
+Podgorica, 28.24°C, 19.0%, Sat Sep 29 13:30:00 CEST 2018
+Durres, 29.0°C, 25.0%, Sat Sep 29 12:50:00 CEST 2018
+Tirana, 29.0°C, 23.0%, Sat Sep 29 13:50:00 CEST 2018
+Valencia, 29.0°C, 25.0%, Sat Sep 29 13:00:00 CEST 2018
+Valencia, 29.0°C, 32.0%, Sat Sep 29 15:00:00 CEST 2018
+Valencia, 29.0°C, 32.0%, Sat Sep 29 16:00:00 CEST 2018
+Durres, 29.0°C, 21.0%, Sat Sep 29 14:20:00 CEST 2018
+Madrid, 28.72°C, 25.0%, Sat Sep 29 16:00:00 CEST 2018
+Tirana, 29.0°C, 21.0%, Sat Sep 29 14:20:00 CEST 2018
+Elbasan, 29.0°C, 21.0%, Sat Sep 29 15:20:00 CEST 2018
+Durres, 29.0°C, 21.0%, Sat Sep 29 15:20:00 CEST 2018
+Madrid, 29.0°C, 23.0%, Sat Sep 29 18:00:00 CEST 2018
+Madrid, 28.54°C, 22.0%, Sat Sep 29 17:00:00 CEST 2018
+Madrid, 29.0°C, 23.0%, Sat Sep 29 16:30:00 CEST 2018
+Madrid, 28.54°C, 22.0%, Sat Sep 29 17:00:00 CEST 2018
+Madrid, 29.0°C, 23.0%, Sat Sep 29 18:30:00 CEST 2018
+Madrid, 28.17°C, 23.0%, Sat Sep 29 19:00:00 CEST 2018
+Madrid, 28.17°C, 23.0%, Sat Sep 29 19:00:00 CEST 2018
+Seville, 30.0°C, 37.0%, Sun Sep 30 15:00:00 CEST 2018
+Madrid, 29.0°C, 25.0%, Sun Sep 30 15:00:00 CEST 2018
+Durres, 29.0°C, 26.0%, Sun Sep 30 13:50:00 CEST 2018
+Madrid, 29.14°C, 22.0%, Sun Sep 30 16:00:00 CEST 2018
+Seville, 31.46°C, 31.0%, Sun Sep 30 16:00:00 CEST 2018
+Madrid, 30.0°C, 20.0%, Sun Sep 30 17:00:00 CEST 2018
+Seville, 31.0°C, 35.0%, Sun Sep 30 17:00:00 CEST 2018
+Madrid, 29.02°C, 22.0%, Sun Sep 30 18:00:00 CEST 2018
+Seville, 31.0°C, 35.0%, Sun Sep 30 17:00:00 CEST 2018
+Seville, 31.0°C, 35.0%, Sun Sep 30 17:00:00 CEST 2018
+Madrid, 28.38°C, 21.0%, Sun Sep 30 19:00:00 CEST 2018
+Seville, 32.0°C, 35.0%, Mon Oct 01 16:00:00 CEST 2018
+Lisbon, 28.2°C, 23.0%, Mon Oct 01 15:30:00 CEST 2018
+Amadora, 28.55°C, 30.0%, Mon Oct 01 17:00:00 CEST 2018
+Seville, 32.47°C, 31.0%, Mon Oct 01 17:00:00 CEST 2018
+Amadora, 28.01°C, 26.0%, Mon Oct 01 17:30:00 CEST 2018
+Seville, 28.41°C, 16.0%, Tue Oct 02 13:30:00 CEST 2018
+Seville, 28.4°C, 16.0%, Tue Oct 02 13:30:00 CEST 2018
+Seville, 31.4°C, 11.0%, Tue Oct 02 15:30:00 CEST 2018
+Seville, 31.46°C, 10.0%, Tue Oct 02 15:00:00 CEST 2018
+Marseille, 28.22°C, 32.0%, Fri Sep 28 18:00:00 CEST 2018
+Seville, 30.46°C, 35.0%, Fri Sep 28 18:00:00 CEST 2018
+Valencia, 29.0°C, 25.0%, Sat Sep 29 13:00:00 CEST 2018
+Tirana, 29.0°C, 23.0%, Sat Sep 29 13:50:00 CEST 2018
+Podgorica, 28.21°C, 19.0%, Sat Sep 29 13:30:00 CEST 2018
+Podgorica, 28.08°C, 21.0%, Sat Sep 29 13:00:00 CEST 2018
+Valencia, 29.0°C, 30.0%, Sat Sep 29 14:00:00 CEST 2018
+Tirana, 29.0°C, 21.0%, Sat Sep 29 15:20:00 CEST 2018
+Podgorica, 28.08°C, 21.0%, Sat Sep 29 14:30:00 CEST 2018
+Seville, 30.41°C, 35.0%, Sat Sep 29 15:30:00 CEST 2018
+Valencia, 29.0°C, 30.0%, Sat Sep 29 14:00:00 CEST 2018
+Valencia, 29.0°C, 30.0%, Sat Sep 29 14:30:00 CEST 2018
+Valencia, 29.0°C, 32.0%, Sat Sep 29 16:00:00 CEST 2018
+Madrid, 28.55°C, 22.0%, Sat Sep 29 17:00:00 CEST 2018
+Seville, 30.0°C, 37.0%, Sat Sep 29 16:30:00 CEST 2018
+Madrid, 29.0°C, 23.0%, Sat Sep 29 18:30:00 CEST 2018
+Madrid, 29.0°C, 23.0%, Sat Sep 29 17:30:00 CEST 2018
+Madrid, 29.0°C, 23.0%, Sat Sep 29 18:00:00 CEST 2018
+Seville, 28.47°C, 37.0%, Sat Sep 29 20:00:00 CEST 2018
+Seville, 31.0°C, 35.0%, Sat Sep 29 18:30:00 CEST 2018
+Durres, 29.0°C, 26.0%, Sun Sep 30 13:50:00 CEST 2018
+Tirana, 29.0°C, 26.0%, Sun Sep 30 13:50:00 CEST 2018
+Madrid, 29.0°C, 25.0%, Sun Sep 30 15:00:00 CEST 2018
+Seville, 29.82°C, 38.0%, Sun Sep 30 14:30:00 CEST 2018
+Seville, 31.39°C, 35.0%, Sun Sep 30 16:30:00 CEST 2018
+Madrid, 29.0°C, 25.0%, Sun Sep 30 15:30:00 CEST 2018
+Madrid, 29.13°C, 22.0%, Sun Sep 30 16:00:00 CEST 2018
+Madrid, 29.4°C, 22.0%, Sun Sep 30 17:30:00 CEST 2018
+Madrid, 28.8°C, 22.0%, Sun Sep 30 18:30:00 CEST 2018
+Seville, 31.46°C, 35.0%, Sun Sep 30 18:00:00 CEST 2018
+Madrid, 28.8°C, 22.0%, Sun Sep 30 18:30:00 CEST 2018
+Lisbon, 30.0°C, 23.0%, Mon Oct 01 15:00:00 CEST 2018
+Lisbon, 28.19°C, 23.0%, Mon Oct 01 15:30:00 CEST 2018
+Seville, 30.79°C, 35.0%, Mon Oct 01 15:30:00 CEST 2018
+Amadora, 28.01°C, 26.0%, Mon Oct 01 17:30:00 CEST 2018
+Seville, 32.4°C, 33.0%, Mon Oct 01 16:30:00 CEST 2018
+Seville, 32.46°C, 31.0%, Mon Oct 01 17:00:00 CEST 2018
+Seville, 28.47°C, 17.0%, Tue Oct 02 13:00:00 CEST 2018
+Lisbon, 28.75°C, 21.0%, Tue Oct 02 15:00:00 CEST 2018
+Seville, 30.41°C, 28.0%, Tue Oct 02 14:30:00 CEST 2018
+Seville, 30.46°C, 35.0%, Fri Sep 28 19:00:00 CEST 2018
+Durres, 29.0°C, 25.0%, Sat Sep 29 12:50:00 CEST 2018
+Valencia, 29.0°C, 26.0%, Sat Sep 29 12:30:00 CEST 2018
+Valencia, 29.0°C, 28.0%, Sat Sep 29 13:30:00 CEST 2018
+Podgorica, 28.09°C, 21.0%, Sat Sep 29 13:00:00 CEST 2018
+Durres, 29.0°C, 21.0%, Sat Sep 29 14:20:00 CEST 2018
+Madrid, 28.24°C, 26.0%, Sat Sep 29 15:30:00 CEST 2018
+Valencia, 29.0°C, 30.0%, Sat Sep 29 14:30:00 CEST 2018
+Valencia, 29.0°C, 28.0%, Sat Sep 29 15:30:00 CEST 2018
+Durres, 29.0°C, 21.0%, Sat Sep 29 14:20:00 CEST 2018
+Tirana, 29.0°C, 21.0%, Sat Sep 29 15:20:00 CEST 2018
+Valencia, 29.0°C, 28.0%, Sat Sep 29 15:30:00 CEST 2018
+Seville, 30.93°C, 35.0%, Sat Sep 29 17:00:00 CEST 2018
+Seville, 30.0°C, 37.0%, Sat Sep 29 16:30:00 CEST 2018
+Madrid, 29.0°C, 23.0%, Sat Sep 29 16:30:00 CEST 2018
+Seville, 31.0°C, 35.0%, Sat Sep 29 18:00:00 CEST 2018
+Seville, 31.0°C, 35.0%, Sat Sep 29 18:30:00 CEST 2018
+Seville, 28.46°C, 37.0%, Sat Sep 29 20:00:00 CEST 2018
+Seville, 30.0°C, 35.0%, Sat Sep 29 19:30:00 CEST 2018
+Tirana, 29.0°C, 26.0%, Sun Sep 30 13:50:00 CEST 2018
+Seville, 29.0°C, 39.0%, Sun Sep 30 14:00:00 CEST 2018
+Madrid, 29.0°C, 25.0%, Sun Sep 30 15:00:00 CEST 2018
+Seville, 29.79°C, 38.0%, Sun Sep 30 14:30:00 CEST 2018
+Madrid, 29.14°C, 22.0%, Sun Sep 30 16:00:00 CEST 2018
+Seville, 31.47°C, 31.0%, Sun Sep 30 16:00:00 CEST 2018
+Madrid, 30.0°C, 22.0%, Sun Sep 30 16:30:00 CEST 2018
+Madrid, 29.4°C, 22.0%, Sun Sep 30 17:30:00 CEST 2018
+Madrid, 30.0°C, 20.0%, Sun Sep 30 17:00:00 CEST 2018
+Seville, 31.0°C, 38.0%, Sun Sep 30 18:30:00 CEST 2018
+Madrid, 28.38°C, 21.0%, Sun Sep 30 19:00:00 CEST 2018
+Amadora, 28.22°C, 23.0%, Mon Oct 01 15:30:00 CEST 2018
+Seville, 30.46°C, 38.0%, Mon Oct 01 15:00:00 CEST 2018
+Lisbon, 29.0°C, 26.0%, Mon Oct 01 16:00:00 CEST 2018
+Seville, 32.41°C, 33.0%, Mon Oct 01 16:30:00 CEST 2018
+Lisbon, 28.52°C, 30.0%, Mon Oct 01 17:00:00 CEST 2018
+Seville, 32.0°C, 38.0%, Mon Oct 01 17:30:00 CEST 2018
+Seville, 28.46°C, 17.0%, Tue Oct 02 13:00:00 CEST 2018
+Amadora, 29.0°C, 20.0%, Tue Oct 02 15:30:00 CEST 2018
+Amadora, 28.75°C, 21.0%, Tue Oct 02 15:00:00 CEST 2018
