@@ -31,7 +31,7 @@ public class CurrentWeatherSource implements SourceFunction<CurrentWeather> {
 	
 	private transient volatile boolean cancel = false;
 
-	public CurrentWeatherSource(String dataFilePath, int servingSpeed, boolean simulation, boolean skip) {
+	public CurrentWeatherSource(int servingSpeed, boolean simulation, boolean skip) {
 		this.servingSpeed = servingSpeed;
 		this.simulation = simulation;
 		this.skip = skip;

@@ -71,13 +71,13 @@ public class StreamingJobPrediction {
 		List<Tuple2<String, Float>> bAvgTPerCountryResult =  bAvgTPerCountry.apply().collect();
 		
 		// predict temperature range for next 24h per country
-//		predictTemperatureRange(streamEnv, bAvgTPerCountryResult, bMinTCityEuResult, bMaxTempEuResult);
+		predictTemperatureRange(streamEnv, bAvgTPerCountryResult, bMinTCityEuResult, bMaxTempEuResult);
 
 		// predict list of countries for hottest temperature
 //		predictHotTempCountries(streamEnv, bAvgTPerCountryResult, bMinTCityEuResult, bMaxTempEuResult);
 		
 		// predict list of countries for coldest temperature
-		predictColdTempCountries(streamEnv, bAvgTPerCountryResult, bMinTCityEuResult, bMaxTempEuResult);
+//		predictColdTempCountries(streamEnv, bAvgTPerCountryResult, bMinTCityEuResult, bMaxTempEuResult);
 	}
 
 	private static void predictTemperatureRange(
@@ -86,7 +86,6 @@ public class StreamingJobPrediction {
 			Tuple3<String, String, Float> min, 
 			Tuple3<String, String, Float> max) throws Exception {
 		CurrentWeatherSource cwSource = new CurrentWeatherSource(
-				DataUtils.pathToCurrentWeatherData, 
 				AvgCountryTempPer24h.SERVING_SPEED, 
 				true,
 				true);
@@ -107,7 +106,6 @@ public class StreamingJobPrediction {
 			Tuple3<String, String, Float> min, 
 			Tuple3<String, String, Float> max) throws Exception {
 		CurrentWeatherSource cwSource = new CurrentWeatherSource(
-				DataUtils.pathToCurrentWeatherData, 
 				HottestCountryPer24h.SERVING_SPEED, 
 				true,
 				true);
@@ -130,7 +128,6 @@ public class StreamingJobPrediction {
 			Tuple3<String, String, Float> min, 
 			Tuple3<String, String, Float> max) throws Exception {
 		CurrentWeatherSource cwSource = new CurrentWeatherSource(
-				DataUtils.pathToCurrentWeatherData, 
 				ColdestCountryPer24h.SERVING_SPEED, 
 				true,
 				true);

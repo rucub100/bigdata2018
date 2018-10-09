@@ -58,7 +58,6 @@ public class StreamingJobCompare {
 			final StreamExecutionEnvironment streamEnv) throws Exception {
 		
 		CurrentWeatherSource cwSource = new CurrentWeatherSource(
-				DataUtils.pathToCurrentWeatherData, 
 				AvgCountryTempPer24h.SERVING_SPEED, 
 				true,
 				true);
@@ -84,7 +83,6 @@ public class StreamingJobCompare {
 			final StreamExecutionEnvironment streamEnv) throws Exception {
 		
 		CurrentWeatherSource cwSource = new CurrentWeatherSource(
-				DataUtils.pathToCurrentWeatherData, 
 				HottestCountryPer24h.SERVING_SPEED, 
 				true,
 				true);
@@ -115,7 +113,6 @@ public class StreamingJobCompare {
 			final StreamExecutionEnvironment streamEnv) throws Exception {
 		
 		CurrentWeatherSource cwSource = new CurrentWeatherSource(
-				DataUtils.pathToCurrentWeatherData, 
 				ColdestCountryPer24h.SERVING_SPEED, 
 				true,
 				true);
