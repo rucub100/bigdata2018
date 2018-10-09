@@ -71,3 +71,6 @@ From this comparison, we can draw further conclusions about the weather on the o
 ### Options for making predictions
 Weather forecasting is a highly complex topic. The resources in this project are not enough for serious results, in particular, we lack sufficient data for this purpose (for example, to approach with machine learning). For that reason, the options shown here are rather to be understood as fun examples. See [StreamingJobPrediction](src/main/java/de/hhu/rucub100/bigdata2018/StreamingJobPrediction.java).
 ### Visualization
+You can find the results here (copied from console):
+   - [batch results](test/batchResults.txt)
+   - [streaming results](test/streamingResults.txt)
