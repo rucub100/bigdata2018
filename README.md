@@ -74,3 +74,9 @@ Weather forecasting is a highly complex topic. The resources in this project are
 You can find the results here (copied from console):
    - [batch results](test/batchResults.txt)
    - [streaming results](test/streamingResults.txt)
+#### Average Temperature per Country
+![Average Temperature per Country](test/avgTempPerCountry.png)
+![Average Temperature per Country 2](test/avgTempPerCountry2.png)
+
+#### Excel
+See [Excel-Visualization](test/visualization.xlsx).
