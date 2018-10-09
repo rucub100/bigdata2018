@@ -12,7 +12,7 @@ You can find the hand-crafted structure in the [europe.json](europe.json) file.
 - Apache Flink
 ## Setup
 1. Clone the project with `git clone ...`
-2. Create an `appid.txt` text-file (with the API KEY) in the project root directory; this is mandatory only for
+2. Create an `appids.txt` text-file (with the API KEY) in the project root directory; this is mandatory only for
    - data collection and
    - stream processing (not the simulation)
 3. Build the project with `mvn clean package`
