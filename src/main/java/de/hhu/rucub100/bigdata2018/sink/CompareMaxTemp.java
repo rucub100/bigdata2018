@@ -8,7 +8,8 @@ import java.util.List;
 import java.util.function.Predicate;
 
 import org.apache.flink.api.java.tuple.Tuple3;
-import org.apache.flink.streaming.api.functions.sink.SinkFunction;
+import org.apache.flink.configuration.Configuration;
+import org.apache.flink.streaming.api.functions.sink.RichSinkFunction;
 
 import de.hhu.rucub100.bigdata2018.source.data.Country;
 import de.hhu.rucub100.bigdata2018.source.data.Neighbors;
@@ -21,23 +22,21 @@ import de.hhu.rucub100.bigdata2018.utils.GeoUtils;
  * Sink function to compare hottest country from batch computation with streaming results for each 24 hours.
  * Comparison will take spatial relation into count.
  */
-public class CompareMaxTemp implements SinkFunction<Tuple3<String,Float,Date>> {
+public class CompareMaxTemp extends RichSinkFunction<Tuple3<String,Float,Date>> {
 	
 	private static final long serialVersionUID = 1L;
 
-	private final Tuple3<String, String, Float> batchResult;
-	private final Country bCountry;
-	private final List<Neighbors> neighbors;
+	private Tuple3<String, String, Float> batchResult;
+	private Country bCountry;
+	private List<Neighbors> neighbors;
 	
-	public CompareMaxTemp(
-			Tuple3<String, String, Float> batchResult,
-			Country bCountry,
-			List<Neighbors> neighbors) {
-		this.batchResult = batchResult;
-		this.bCountry = bCountry;
-		this.neighbors = neighbors;
+	@Override
+	public void open(Configuration parameters) throws Exception {
+		batchResult = DataUtils.readMaxTemperatureEuropeResult();
+		bCountry = DataUtils.getCountry(batchResult.f0);
+		neighbors = DataUtils.getNeighbors();
 	}
-	
+
 	@Override
 	public void invoke(Tuple3<String, Float, Date> value, Context context) throws Exception {
 		Country sCountry = DataUtils.getCountry(value.f0);

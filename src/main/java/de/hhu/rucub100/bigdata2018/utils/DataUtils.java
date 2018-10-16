@@ -4,10 +4,14 @@
 package de.hhu.rucub100.bigdata2018.utils;
 
 import java.io.BufferedReader;
+import java.io.File;
 import java.io.FileInputStream;
+import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.nio.file.Files;
+import java.nio.file.LinkOption;
+import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -16,6 +20,10 @@ import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
 import java.util.zip.GZIPInputStream;
+
+import org.apache.commons.lang3.NotImplementedException;
+import org.apache.flink.api.java.tuple.Tuple2;
+import org.apache.flink.api.java.tuple.Tuple3;
 
 import com.google.gson.Gson;
 
@@ -69,6 +77,143 @@ public class DataUtils {
 	
 	public static final String pathToCurrentWeatherData = "./test/currentWeatherCollection.txt.gz";
 	public static final String pathToForecastData = "./test/forecastCollection.txt.gz";
+	
+	public static final String pathToMaxTemperatureEuropeResult = "./test/batch_1.txt";
+	public static final String pathToMaxTemperatureDiffEuropeResult = "./test/batch_2.txt";
+	public static final String pathToColdestCityInEuropeResult = "./test/batch_3.txt";
+	public static final String pathToMinTemperatureDiffCountriesResult = "./test/batch_4.txt";
+	public static final String pathToAvgTemperaturePerCountryResult = "./test/batch_5.txt";
+	
+	public static float readMaxTemperatureDiffEuropeResult() throws IOException {
+		Path p = Paths.get(pathToMaxTemperatureDiffEuropeResult);
+		
+		if (Files.exists(p)) {
+			String asText = new String(Files.readAllBytes(p));
+			
+			return Float.parseFloat(asText);
+			
+		} else {
+			throw new FileNotFoundException(p.toString());
+		}
+	}
+	
+	public static Tuple3<String, String, Float> readMaxTemperatureEuropeResult() throws IOException {
+		Path p = Paths.get(pathToMaxTemperatureEuropeResult);
+		
+		if (Files.exists(p)) {
+			String asText = new String(Files.readAllBytes(p));
+			
+			String[] tmp = asText.substring(1, asText.length() - 2).split(",");
+			
+			String country = tmp[0];
+			String city = tmp[1];
+			float temp = Float.parseFloat(tmp[2]);
+			
+			return new Tuple3<String, String, Float>(country, city, temp);
+		} else {
+			throw new FileNotFoundException(p.toString());
+		}
+	}
+	
+	public static Tuple3<String, String, Float> readColdestCityInEuropeResult() throws IOException {
+		Path p = Paths.get(pathToColdestCityInEuropeResult);
+		
+		if (Files.exists(p)) {
+			String asText = new String(Files.readAllBytes(p));
+			
+			String[] tmp = asText.substring(1, asText.length() - 2).split(",");
+			
+			String country = tmp[0];
+			String city = tmp[1];
+			float temp = Float.parseFloat(tmp[2]);
+			
+			return new Tuple3<String, String, Float>(country, city, temp);
+		} else {
+			throw new FileNotFoundException(p.toString());
+		}
+	}
+	
+	public static List<Tuple2<String, Float>> readMinTemperatureDiffCountriesResult() throws IOException {
+		Path p = Paths.get(pathToMinTemperatureDiffCountriesResult);
+		List<Tuple2<String, Float>> result = new ArrayList<Tuple2<String, Float>>();
+		
+		if (Files.isDirectory(p)) {
+			for (int i = 0; i < 4; i++) {
+				p = Paths.get(pathToMinTemperatureDiffCountriesResult + File.separator + String.valueOf(i));
+				
+				if (Files.exists(p)) {
+					List<String> asText = Files.readAllLines(p);
+					
+					for (String line : asText) {
+						String[] tmp = line.substring(1, line.length() - 2).split(",");
+						
+						String country = tmp[0];
+						float temp = Float.parseFloat(tmp[1]);
+						
+						result.add(new Tuple2<String, Float>(country, temp));
+					}
+					
+				}
+			}
+		} else if (Files.exists(p)) {
+			List<String> asText = Files.readAllLines(p);
+			
+			for (String line : asText) {
+				String[] tmp = line.substring(1, line.length() - 2).split(",");
+				
+				String country = tmp[0];
+				float temp = Float.parseFloat(tmp[1]);
+				
+				result.add(new Tuple2<String, Float>(country, temp));
+			}
+			
+		} else {
+			throw new FileNotFoundException(p.toString());
+		}
+		
+		return result;
+	}
+	
+	public static List<Tuple2<String, Float>> readAvgTemperaturePerCountryResult() throws IOException {
+		Path p = Paths.get(pathToAvgTemperaturePerCountryResult);
+		List<Tuple2<String, Float>> result = new ArrayList<Tuple2<String, Float>>();
+		
+		if (Files.isDirectory(p)) {
+			for (int i = 0; i < 4; i++) {
+				p = Paths.get(pathToAvgTemperaturePerCountryResult + File.separator + String.valueOf(i));
+				
+				if (Files.exists(p)) {
+					List<String> asText = Files.readAllLines(p);
+					
+					for (String line : asText) {
+						String[] tmp = line.substring(1, line.length() - 2).split(",");
+						
+						String country = tmp[0];
+						float temp = Float.parseFloat(tmp[1]);
+						
+						result.add(new Tuple2<String, Float>(country, temp));
+					}
+					
+				}
+			}
+		} else if (Files.exists(p)) {
+			List<String> asText = Files.readAllLines(p);
+			
+			for (String line : asText) {
+				String[] tmp = line.substring(1, line.length() - 2).split(",");
+				
+				String country = tmp[0];
+				float temp = Float.parseFloat(tmp[1]);
+				
+				result.add(new Tuple2<String, Float>(country, temp));
+			}
+			
+		} else {
+			throw new FileNotFoundException(p.toString());
+		}
+		
+		return result;
+	}
 	
 	public static List<CurrentWeather> getCurrentWeatherData() {
 		if (current == null) {
