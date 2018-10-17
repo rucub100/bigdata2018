@@ -1,0 +1,5 @@
+(Malta,11.0)
+(Estonia,12.0)
+(Denmark,15.46)
+(Finland,15.7)
+(Sweden,16.31)

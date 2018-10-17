@@ -48,7 +48,7 @@ public class BatchJob2 {
 		final ExecutionEnvironment env = ExecutionEnvironment.getExecutionEnvironment();
 		env.setParallelism(PARALLELISM);
 		
-		DataSet<CurrentWeather> current = env.fromCollection(DataUtils.getCurrentWeatherData());
+		DataSet<CurrentWeather> current = env.fromCollection(DataUtils.getOfflineCurrentWeather());
 		
 		// save data to store it offline
 		saveMaxTemperatureEurope(MaxTemperatureEurope.fromDataSet(current).apply());

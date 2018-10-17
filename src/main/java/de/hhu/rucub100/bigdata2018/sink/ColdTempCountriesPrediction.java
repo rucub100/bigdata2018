@@ -10,7 +10,8 @@ import java.util.Set;
 
 import org.apache.flink.api.java.tuple.Tuple2;
 import org.apache.flink.api.java.tuple.Tuple3;
-import org.apache.flink.streaming.api.functions.sink.SinkFunction;
+import org.apache.flink.configuration.Configuration;
+import org.apache.flink.streaming.api.functions.sink.RichSinkFunction;
 
 import de.hhu.rucub100.bigdata2018.source.data.Neighbors;
 import de.hhu.rucub100.bigdata2018.utils.DataUtils;
@@ -22,25 +23,22 @@ import de.hhu.rucub100.bigdata2018.utils.GeoUtils;
  *
  * Sink function to predict list of countries with cold temperature in the next 24 hours.
  */
-public class ColdTempCountriesPrediction implements SinkFunction<Tuple3<String,Float,Date>> {
+public class ColdTempCountriesPrediction extends RichSinkFunction<Tuple3<String,Float,Date>> {
 
 
 	private static final long serialVersionUID = 1L;
 	
-	private final List<Tuple2<String, Float>> avg;
-	private final Tuple3<String, String, Float> min;
-	private final Tuple3<String, String, Float> max;
-	private final List<Neighbors> neighbors;
+	private List<Tuple2<String, Float>> avg;
+	private Tuple3<String, String, Float> min;
+	private Tuple3<String, String, Float> max;
+	private List<Neighbors> neighbors;
 	
-	public ColdTempCountriesPrediction(
-			List<Tuple2<String, Float>> avg, 
-			Tuple3<String, String, Float> min,
-			Tuple3<String, String, Float> max,
-			List<Neighbors> neighbors) {
-		this.avg = avg;
-		this.min = min;
-		this.max = max;
-		this.neighbors = neighbors;
+	@Override
+	public void open(Configuration parameters) throws Exception {
+		avg = DataUtils.readAvgTemperaturePerCountryResult();
+		min = DataUtils.readColdestCityInEuropeResult();
+		max = DataUtils.readMaxTemperatureEuropeResult();
+		neighbors = DataUtils.getNeighbors();
 	}
 
 	/* (non-Javadoc)
